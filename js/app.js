@@ -205,7 +205,7 @@
     var highs = rows.filter(function (x) { return x.score === "high"; }).length;
     $("resultline").innerHTML = "<b>" + rows.length + "</b> signal" + (rows.length === 1 ? "" : "s") + (highs ? " · <b>" + highs + "</b> high" : "");
     if (!rows.length) {
-      $("list").innerHTML = "<div class='card empty'>" + (state.items.length ? "Nothing matches these filters." : "No signals yet. The daily run fills this at about 06:00 Dubai.") + "</div>";
+      $("list").innerHTML = "<div class='card empty'>" + (state.items.length ? "Nothing matches these filters.<br><br><button class='btn ghost' id='clearf'>Clear filters</button>" : "No signals yet. The daily run fills this at about 06:00 Dubai.") + "</div>";
       $("more").hidden = true; return;
     }
     var page = rows.slice(0, state.shown), html = "", last = "";
@@ -221,6 +221,11 @@
     $("more").textContent = "Show more (" + (rows.length - state.shown) + " left)";
   }
   $("more").addEventListener("click", function () { state.shown += PAGE; renderSignals(); });
+  $("list").addEventListener("click", function (e) {
+    if (e.target.id !== "clearf") return;
+    ["f-section", "f-country", "f-score", "f-q"].forEach(function (id) { $(id).value = ""; });
+    F.fresh = false; readFilters();
+  });
 
   function removeCard(el, done) {
     el.style.maxHeight = el.offsetHeight + "px";
