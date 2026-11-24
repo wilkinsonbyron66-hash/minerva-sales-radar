@@ -488,6 +488,8 @@ def main():
         import preview
         preview.enrich(items, os.path.join(os.path.dirname(args.out), "previews.json"),
                        max_items=st.get("preview_lookups_per_run", 150), budget_s=st.get("preview_time_budget_s", 300))
+        preview.enrich_events(os.path.join(os.path.dirname(args.out), "events.json"),
+                              os.path.join(os.path.dirname(args.out), "event_previews.json"))
     if not args.no_contacts and not args.sample_dir:
         sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
         import contacts

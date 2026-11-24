@@ -57,7 +57,7 @@ Each entry in `feeds` is either a Google News search or a direct RSS link:
 
 ## Events
 
-Edit `data/events.json`. Fields: `name, start, end, location, venue, sectors, why, book_by, confirmed, note, url`. Past events hide themselves. Set `confirmed` to `true` once you've checked the organiser's site.
+Edit `data/events.json`. fields: `name, start, end, location, venue, sectors, why, book_by, confirmed, note, url` (optional: `image` to set your own picture, `about` to replace the description). Past events hide themselves. Set `confirmed` to `true` once you've checked the organiser's site.
 
 ## Running it
 

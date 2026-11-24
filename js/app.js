@@ -68,8 +68,10 @@
   }
   Promise.all([
     getJSON("data/items.json").catch(function () { return { items: [] }; }),
-    getJSON("data/events.json").catch(function () { return { events: [] }; })
+    getJSON("data/events.json").catch(function () { return { events: [] }; }),
+    getJSON("data/event_previews.json").catch(function () { return {}; })
   ]).then(function (res) {
+    state.evp = res[2] || {};
     state.items = res[0].items || [];
     state.generated = res[0].generated;
     state.events = res[1].events || [];
@@ -302,6 +304,13 @@
   });
 
   // ---------- events ----------
+  var EV_ILL = [["security", "security"], ["police", "security"], ["hospitality", "hotel"], ["oil & gas", "oil"],
+                ["energy", "oil"], ["construction", "construction"], ["utilities", "utilities"], ["transport", "transport"]];
+  function eventIll(e) {
+    var sec = e.sectors || [];
+    for (var k = 0; k < EV_ILL.length; k++) if (sec.indexOf(EV_ILL[k][0]) !== -1) return EV_ILL[k][1];
+    return "events";
+  }
   function renderEvents() {
     var today = new Date(dubaiDay(Date.now()));
     var evs = state.events.filter(function (e) { return new Date(e.end) >= today; })
@@ -316,20 +325,29 @@
       var btxt = fmtDate(e.book_by + "T08:00:00Z", true) + (bdays < 0 ? " · passed" : bdays <= 14 ? " · " + bdays + " days" : "");
       var range = start.toLocaleDateString("en-GB", { day: "numeric", month: "short", timeZone: "UTC" }) + " – " +
                   end.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
-      return "<article class='card item' style='--i:" + i + "'>" +
+      var pv = (state.evp || {})[e.url] || {};
+      var img = e.image || pv.image || "";
+      var ill = "img/sectors/" + eventIll(e) + ".svg";
+      var about = e.about || pv.excerpt || "";
+      var media = "<a class='media' href='" + esc(e.url || "#") + "' target='_blank' rel='noopener' tabindex='-1' aria-hidden='true'>" +
+        "<img src='" + esc(img || ill) + "' alt='' loading='lazy' decoding='async' referrerpolicy='no-referrer'" + (img ? "" : " class='ill'") +
+        " onload=\"this.classList.add('ok')\" onerror=\"this.onerror=null;this.className='ill';this.src='" + ill + "'\"></a>";
+      return "<article class='card item has-media ev' style='--i:" + i + "'>" + media + "<div class='body'>" +
         "<div class='ev-head'><h3>" + (e.url ? "<a href='" + esc(e.url) + "' target='_blank' rel='noopener'>" + esc(e.name) + "</a>" : esc(e.name)) + "</h3>" +
         "<span class='ev-date'>" + range + "</span></div>" +
         "<div class='badges'><span class='badge " + (days <= 0 ? "new" : "sec") + "'>" + when + "</span>" +
           (e.confirmed ? "<span class='badge high'>Dates confirmed</span>" : "<span class='badge medium'>Unconfirmed</span>") +
           (e.sectors || []).map(function (s) { return "<span class='badge'>" + esc(s) + "</span>"; }).join("") + "</div>" +
-        "<p class='why'>" + esc(e.why) + "</p>" +
+        (about ? "<blockquote class='excerpt'>“" + esc(about) + "”<cite>" + esc(host(e.url || "")) + "</cite></blockquote>" : "") +
+        "<p class='why'><b>Why go:</b> " + esc(e.why) + "</p>" +
         "<div class='ev-facts'>" +
           "<div class='fact'><div class='k'>Location</div><div class='v'>" + esc(e.location) + "</div></div>" +
           "<div class='fact'><div class='k'>Venue</div><div class='v'>" + esc(e.venue) + "</div></div>" +
           "<div class='fact " + bcls + "'><div class='k'>Book meetings by</div><div class='v'>" + btxt + "</div></div>" +
         "</div>" +
         (e.note ? "<p class='ev-note'>" + esc(e.note) + "</p>" : "") +
-      "</article>";
+        (e.url ? "<a class='ev-link' href='" + esc(e.url) + "' target='_blank' rel='noopener'>Visit event website ↗</a>" : "") +
+      "</div></article>";
     }).join("") : "<div class='card empty'>No upcoming events. Add some to data/events.json.</div>";
   }
 

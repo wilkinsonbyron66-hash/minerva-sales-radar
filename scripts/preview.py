@@ -22,6 +22,7 @@ import urllib.request
 UA = "Mozilla/5.0 (compatible; MinervaSalesRadar/1.0; +https://github.com/wilkinsonbyron66-hash/minerva-sales-radar)"
 TIMEOUT = 12
 MAX_EXCERPT = 200
+CACHE_V = 2
 
 
 def _get(url, data=None, headers=None, limit=400_000):
@@ -117,13 +118,20 @@ def bing_lookup(title, source="", fetch=_get):
 # --------------------------------------------------------------------------- #
 # Share metadata
 # --------------------------------------------------------------------------- #
+_TAG = re.compile(r"<meta\b(?:[^>\"']|\"[^\"]*\"|'[^']*')*>", re.I)
+_ATTR = re.compile(r"""([\w:-]+)\s*=\s*(?:"([^"]*)"|'([^']*)'|([^\s>]+))""")
+
+
 def _meta(page, *names):
+    tags = {}
+    for t in _TAG.findall(page):
+        at = {k.lower(): (v1 or v2 or v3) for k, v1, v2, v3 in _ATTR.findall(t)}
+        key = (at.get("property") or at.get("name") or "").lower()
+        if key and key not in tags and at.get("content", "").strip():
+            tags[key] = html.unescape(at["content"]).strip()
     for n in names:
-        for pat in (r'<meta[^>]+(?:property|name)=["\']%s["\'][^>]*content=["\']([^"\']+)["\']',
-                    r'<meta[^>]+content=["\']([^"\']+)["\'][^>]*(?:property|name)=["\']%s["\']'):
-            m = re.search(pat % re.escape(n), page, re.I)
-            if m:
-                return html.unescape(m.group(1)).strip()
+        if n.lower() in tags:
+            return tags[n.lower()]
     return ""
 
 
@@ -161,6 +169,8 @@ def enrich(items, cache_path, max_items=150, budget_s=300, fetch=_get, log=print
     rank = {"high": 0, "medium": 1, "low": 2}
     for it in sorted(items, key=lambda x: (rank.get(x.get("score"), 3), x.get("published", "")), reverse=False):
         p = cache.get(it["id"])
+        if p is not None and p.get("v") != CACHE_V:
+            p = None  # older format (excerpts could be cut at an apostrophe) - look up again
         direct = it.get("direct_url") or ("" if gn_id(it["link"]) else it["link"])
         retry = p is not None and not p.get("url") and (
             p.get("tries", 0) < 2 or (direct and not p.get("d")) or (not direct and not p.get("b")))
@@ -187,6 +197,7 @@ def enrich(items, cache_path, max_items=150, budget_s=300, fetch=_get, log=print
             if direct:
                 p["d"] = 1
             p.update(extra)
+            p["v"] = CACHE_V
             if not p.get("url") and direct:
                 p["url"] = direct
             cache[it["id"]] = p
@@ -213,3 +224,47 @@ def enrich(items, cache_path, max_items=150, budget_s=300, fetch=_get, log=print
     exc = sum(1 for it in items if it.get("preview", {}).get("excerpt"))
     log(f"Previews: {done} new lookups, {img}/{len(items)} with image, {exc} with excerpt")
     return items
+
+
+# --------------------------------------------------------------------------- #
+# Events: picture + organiser's own short description from each event website
+# --------------------------------------------------------------------------- #
+def enrich_events(events_path, out_path, fetch=_get, log=print, refresh_days=14):
+    """Writes data/event_previews.json: {url: {image, excerpt, checked}}.
+    The board reads it next to events.json, so events.json stays hand-edited."""
+    try:
+        events = json.load(open(events_path, encoding="utf-8")).get("events", [])
+    except (OSError, ValueError):
+        return
+    try:
+        cache = json.load(open(out_path, encoding="utf-8"))
+    except (OSError, ValueError):
+        cache = {}
+    now = time.time()
+    urls = []
+    for e in events:
+        u = (e.get("url") or "").strip()
+        if u.startswith("http") and u not in urls:
+            urls.append((u, e.get("name", "")))
+    done = 0
+    for u, name in urls:
+        c = cache.get(u) or {}
+        fresh = now - c.get("checked", 0) < refresh_days * 86400
+        if fresh and (c.get("image") or c.get("excerpt") or c.get("tries", 0) >= 3):
+            continue
+        done += 1
+        try:
+            m = share_meta(u, name, fetch)
+            cache[u] = {"image": m["image"], "excerpt": m["excerpt"], "checked": now}
+        except Exception as ex:
+            c = dict(c)
+            c.update({"checked": now, "tries": c.get("tries", 0) + 1, "error": str(ex)[:80]})
+            cache[u] = c
+        time.sleep(0.5)
+    keep = {u for u, _ in urls}
+    cache = {k: v for k, v in cache.items() if k in keep}
+    with open(out_path, "w", encoding="utf-8") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=1, sort_keys=True)
+    img = sum(1 for v in cache.values() if v.get("image"))
+    exc = sum(1 for v in cache.values() if v.get("excerpt"))
+    log(f"Event previews: {done} checked, {img}/{len(keep)} with image, {exc} with description")

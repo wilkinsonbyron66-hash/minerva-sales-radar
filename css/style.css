@@ -259,6 +259,9 @@ select:focus { outline: 0; border-color: var(--cyan); box-shadow: 0 0 0 3px rgba
 .fact.overdue .v { color: var(--bad); }
 .fact.soon .v { color: var(--med); }
 .ev-note { margin: 0; font-size: 14px; color: var(--muted); }
+.ev-link { color: var(--navy); font-weight: 600; font-size: 14px; text-decoration: none; justify-self: start; }
+.ev-link:hover { text-decoration: underline; }
+.ev.has-media .media { height: 180px; }
 
 /* ---------- Call list ---------- */
 .calls-head { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
