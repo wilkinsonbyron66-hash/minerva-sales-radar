@@ -141,7 +141,7 @@ def share_meta(url, title, fetch=_get):
     img = _meta(head, "og:image:secure_url", "og:image", "twitter:image", "twitter:image:src")
     if img:
         img = urllib.parse.urljoin(final, img)
-        if not img.startswith("http") or re.search(r"logo|favicon|default|placeholder|sprite", img, re.I):
+        if not img.startswith("http") or re.search(r"logo|favicon|(?<![a-z])icons?(?![a-z])|default|placeholder|sprite", img, re.I):
             img = ""
     desc = _meta(head, "og:description", "twitter:description", "description")
     desc = re.sub(r"\s+", " ", desc).strip()

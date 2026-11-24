@@ -326,7 +326,7 @@
       var range = start.toLocaleDateString("en-GB", { day: "numeric", month: "short", timeZone: "UTC" }) + " – " +
                   end.toLocaleDateString("en-GB", { day: "numeric", month: "short", year: "numeric", timeZone: "UTC" });
       var pv = (state.evp || {})[e.url] || {};
-      var img = e.image || pv.image || "";
+      var img = e.image || (pv.image && !/favicon|logo|sprite|(^|[^a-z])icons?([^a-z]|$)/i.test(pv.image) ? pv.image : "");
       var ill = "img/sectors/" + eventIll(e) + ".svg";
       var about = e.about || pv.excerpt || "";
       var media = "<a class='media' href='" + esc(e.url || "#") + "' target='_blank' rel='noopener' tabindex='-1' aria-hidden='true'>" +
