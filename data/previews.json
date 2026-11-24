@@ -4,7 +4,8 @@
   "tries": 2
  },
  "00ed99b93e92": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "012e109cb039": {
   "d": 1,
@@ -25,19 +26,35 @@
   "tries": 2
  },
  "075306972dd8": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "0d02bdf43fdb": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "The scope covers potential new process units, utilities, sulfur recovery facilities and associated infrastructure",
+  "image": "",
+  "snippet": "Worley has been selected by Petro Rabigh to provide engineering and project management services for future refining and petrochemicals projects at the company’s integrated complex in Rabigh, Saudi ...",
+  "url": "https://www.zawya.com/en/projects/worley-wins-petro-rabigh-engineering-services-contract-in-saudi-arabia-1856192"
  },
  "0dd596983f34": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "0e70324cc7aa": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Phase 3 contracts involve constructing and extending about 100 km of main stormwater drainage lines",
+  "image": "",
+  "snippet": "Dubai Municipality has awarded contracts worth 3 billion UAE dirhams for four new projects under phase 3 of its ‘Tasreef’ Programme to develop the emirate’s stormwater drainage network, the Dubai ...",
+  "url": "https://www.zawya.com/en/projects/dubai-awards-817mln-in-stormwater-infra-contracts-raising-tasreef-total-to-1.9bln-1851093"
  },
  "0f21fab5bd96": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "snippet": "Motorola Solutions, Inc. (NYSE: MSI) today announced that its board of directors has increased its regular quarterly dividend by 11 percent to $1.34 per share. The next quarterly dividend will be ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.Nsxudf-nGp4uqSzNI-dIZA&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.marketscreener.com/news/motorola-solutions-increases-quarterly-dividend-11-percent-ce785edcdc8af624"
  },
  "0ff4d819a5b8": {
   "d": 1,
@@ -54,17 +71,29 @@
   "tries": 2
  },
  "17d11c119d39": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "The contract also covers the associated 400kV LILO from the Suwaihat - Duqm Industrial Grid Station line in Al Wusta Governorate",
+  "image": "",
+  "snippet": "The contract also covers the associated 400kV LILO from the Suwaihat - Duqm Industrial Grid Station line in Al Wusta Governorate ...",
+  "url": "https://www.zawya.com/en/business/utilities/egyptian-group-madkour-wins-contract-to-build-400kv-grid-station-in-oman-2127798"
  },
  "17fa059ed581": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "1971261bac4f": {
   "d": 1,
   "tries": 2
  },
  "1d4073abaa0f": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Yieh Corp. strived to let you one step ahead of the market.",
+  "image": "",
+  "snippet": "Saudi Arabian steel pipe manufacturer Arabian Pipes Company signed a contract worth approximately SAR 104 million with Saudi Aramco on November 15, 2026. The contract covers the manufacturing and ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.wnMEhqkojCa4fVsc3W6hCw&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.yieh.com/en/News/arabian-pipes-secures-sar-104-million-steel-pipe-order-from-saudi-aramco/163432"
  },
  "2076740de0d1": {
   "d": 1,
@@ -77,10 +106,17 @@
   "url": "https://gulfnews.com/business/tourism/dubais-jumeirah-to-open-luxury-lake-como-hotel-in-italy-in-2027-1.500757781"
  },
  "27b3dd212db5": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "281609e3a59d": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Parkway International Contracting appointed to deliver eight buildings across two phases on Dubai Islands",
+  "image": "https://media.zawya.com/prod/images/gm_preview/f0f8b91df910-bay-grove-residences.jpg",
+  "snippet": "Dubai, UAE – Nakheel, a member of Dubai Holding Real Estate, has awarded Parkway International Contracting LLC a construction contract valued at more than AED 950 million for Phases 2 and 4 of Bay ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.RahF926pYyAtPThbVKpgJw&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.zawya.com/en/press-release/nakheel-awards-over-aed-950mln-main-construction-contract-for-617-homes-at-bay-grove-residences-on-dubai-islands-1850867"
  },
  "2954b6a776d8": {
   "d": 1,
@@ -93,44 +129,83 @@
   "tries": 2
  },
  "2bcdb9c79fae": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "2c1537f25299": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "snippet": "The project scope covers the design, procurement, construction, testing, commissioning and handover of a 33kV network. Altec Secures Major $96 M Power EPC Contract by Jadco in Saudi Arabia. Altec, ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.FQ8oI94pMza2fDYUoGBv1w&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.mepmiddleeast.com/business/contracts/altec-secures-epc-contract"
  },
  "2fa13bc9f79b": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Saij Mountain Lodge by Mantis is among new hospitality developments planned in the emirate, which aims to double its hotel room capacity by 2030",
+  "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2025-02-04/hde6z6dv/7b03fe6e_4f8e_45e4_8224_7bfd006395b6_org.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=110,0,981,654",
+  "snippet": "Saij Mountain Lodge by Mantis is among new hospitality developments planned in the emirate, which aims to double its hotel room capacity by 2030 ...",
+  "url": "https://www.khaleejtimes.com/uae/ras-al-khaimah-open-saij-mountain-lodge-by-mantis-jebel-jais-2026-end"
  },
  "31e58f0d0b6c": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "3211632806cf": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "376003666f5f": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "The 127th session of the UN Tourism Executive Council is set to open in Abu Dhabi, United Arab Emirates (UAE) on November 23,",
+  "image": "https://newtelegraphng.com/wp-content/uploads/2026/11/UN-Tourism-Executive-Council-127th-Session-Opens-In-Abu-Dhabi-November-23.png",
+  "snippet": "The 127th session of the UN Tourism Executive Council is set to open in Abu Dhabi, United Arab Emirates (UAE) on November 23, ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.JReyatf6K7qHW7QmPpbTrQ&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://newtelegraphng.com/un-tourism-executive-council-127th-session-opens-in-abu-dhabi-november-23/"
  },
  "39b04acc93fc": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "",
+  "image": "https://shabiba.eu-central-1.linodeobjects.com/2026/11/1793767508-1793767506-ikl8u0bj3knx-700x400.jpg",
+  "snippet": "As part of its efforts to support the sustainable development of Oman’s economy, foster local business growth and develop national capabilities, bp Oman has awarded Truckoman a five-year contract for ...",
+  "url": "https://timesofoman.com/article/178757-bp-oman-awards-five-year-contract-to-truckoman-for-warehousing-and-materials-management-services"
  },
  "3e16f9247878": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "apella Hotel Group has announced plans to open Capella",
+  "image": "https://www.gdnonline.com/gdnimages/20261101\\TA_20261101100952.jpg",
+  "snippet": "Capella Hotel Group has announced plans to open Capella Dubai in 2030, introducing its luxury hospitality brand to the UAE with a 115-key hotel at Dubai Peninsula, a major waterfront development along ...",
+  "url": "https://www.gdnonline.com/Details/1411483/Capella-Hotel-Group-to-open-115-key-luxury-hotel-at-Dubai-Peninsula-in-2030"
  },
  "3efe5c66bd4d": {
   "d": 1,
   "tries": 2
  },
  "3f43989a3d75": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "snippet": "Six Senses will make its UAE debut with the opening of Six Senses The Palm in the second half of 2026, it's been revealed.",
+  "url": "https://www.timeoutdubai.com/news/six-senses-palm-jumeirah-opening-date-2026"
  },
  "4515f2f5a0f9": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "By Mohammad S NMDC Dredging & Marine, a subsidiary of Abu Dhabi-listed NMDC Group, has signed a contract with Megha Engineering & Infrastructure Limited (MEIL) for capital dredging at the…",
+  "image": "https://dredgewire.com/wp-content/uploads/2026/11/nmdc.jpg",
+  "snippet": "By Mohammad S NMDC Dredging & Marine, a subsidiary of Abu Dhabi-listed NMDC Group, has signed a contract with Megha Engineering & Infrastructure Limited (MEIL) for capital dredging at the ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.sTEhFm9_WTB_lOs7XZIY4Q&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://dredgewire.com/uaes-nmdc-wins-112-million-machilipatnam-port-dredging-contract-in-india/"
  },
  "4593a518610c": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "45cbf8651f36": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "46d7985584bd": {
   "d": 1,
@@ -139,7 +214,13 @@
   "url": "https://www.zawya.com/en/business/wison-breaks-ground-on-key-adnoc-gas-facility-in-abu-dhabi-2277459"
  },
  "47240dc2c521": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Six Senses The Palm, Dubai opens on Palm Jumeirah Six Senses’ first UAE property brings balance, community and escape to an all-suite beachfront resort on the West Crescent",
+  "image": "",
+  "snippet": "United Arab Emirates, November 23, 2026: Six Senses The Palm, Dubai has opened on the West Crescent of Palm Jumeirah, marking the brand’s debut in the United Arab Emirates in one of the city’s most ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.TBapfyggog8M-8zPuoYhcg&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.ihgplc.com/en/news-and-media/news-releases/2026/six-senses-the-palm-dubai-opens-on-palm-jumeirah"
  },
  "4a418d9b9aa4": {
   "d": 1,
@@ -150,38 +231,65 @@
   "tries": 2
  },
  "4c84f4108547": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Tabuk, October 31, 2026, SPA -- Red Sea Global (RSG) has announced the opening of Grand Hyatt The Red Sea, a landmark premium resort on Shura Island that expands the destination's hospitality…",
+  "image": "https://portalcdn.spa.gov.sa/backend/original/202610/M11121342.jpeg",
+  "snippet": "Tabuk, October 31, 2026, SPA -- Red Sea Global (RSG) has announced the opening of Grand Hyatt The Red Sea, a landmark premium resort on Shura Island that expands the destination's hospitality offering ...",
+  "url": "https://www.spa.gov.sa/en/N2714569"
  },
  "4cf2c3e659f1": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "4ebd872c4bc3": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "50bee628405c": {
   "d": 1,
   "tries": 2
  },
  "50cc5626d070": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "514ff3c96244": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Contracts soar to $6.5bln",
+  "image": "",
+  "snippet": "Public projects awarded by Saudi Arabia in October more than tripled after the awarding of large contracts by the state oil operator Saudi Aramco.",
+  "url": "https://www.zawya.com/en/projects/awarded-saudi-projects-triple-in-october-2142865"
  },
  "52cc68667e43": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "561d172501a6": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Four clubs have secured direct entry into the final stage",
+  "image": "https://shabiba.eu-central-1.linodeobjects.com/2026/11/1795453438-1795453437-ez5fpn8zladt-700x400.jpg",
+  "snippet": "MUSCAT: Defending champions Al Amerat face a demanding test in their bid for a third successive His Majesty the Sultan’s Cup hockey title after being drawn alongside Quriyat, Salalah and Sohar in the ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.cB1oOggup-LGby187JmLRg&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://timesofoman.com/article/179526-al-amerat-face-elite-test-in-bid-for-third-straight-hms-the-sultans-cup-hockey-title"
  },
  "567447cc79ff": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Cheval South Bay is scheduled to open in 2030 and will include 98 serviced hotel apartments and 95 branded residences in Dubai South’s Residential District.",
+  "image": "https://www.hotelnewsresource.com/ul/4/2026/11/11/tn_1794419174.webp",
+  "snippet": "Cheval South Bay is scheduled to open in 2030 and will include 98 serviced hotel apartments and 95 branded residences in Dubai South’s Residential District.",
+  "url": "https://www.hotelnewsresource.com/article143725.html"
  },
  "57f2886a0432": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "59995b843700": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "5bd9f804abda": {
   "d": 1,
@@ -190,58 +298,92 @@
   "url": "https://www.wam.ae/en/article/c3c1pqv-cleveland-clinic-abu-dhabi-charts-course-towards"
  },
  "5cf30e07df00": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "",
+  "image": "https://www.africa-newsroom.com/files/large/66cf3ddd9b765ec",
+  "snippet": "RVMC provides independent implementation support to help regional partners strengthen manufacturing ecosystems and sustain production over the long term.",
+  "thumb": "https://www.bing.com/th?id=ONUT.3OTsI8KNDZv_iUTI7LE4cQ&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.zawya.com/en/press-release/africa-press-releases/regionalized-vaccine-manufacturing-collaborative-rvmc-launches-five-year-strategy-to-optimise-regionalised-vaccine-manufacturing-ecosystems-2475991"
  },
  "5f107850ce9e": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "6265677cfde6": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "On Friday, 23rd October 2026, Rocambolesco’s first floor officially opened as the Piano Room. Part of the Rocambolesco experience, the",
+  "image": "https://hotelandcatering.com/wp-content/uploads/2026/11/Piano-Room-Interiors-5-1-1-1024x678-1.jpg",
+  "snippet": "On Friday, 23rd October 2026, Rocambolesco’s first floor officially opened as the Piano Room. Part of the Rocambolesco experience, the ...",
+  "thumb": "https://www.bing.com/th?id=ONUT._TcZxa4zk7jxBrr7KMqCtg&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://hotelandcatering.com/news/rocambolesco-opens-the-piano-room-its-after-dark-hideaway-in-uptown-dubai"
  },
  "656b9843abb8": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "685b5a804209": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "A US$3.5 billion fertiliser complex in Saudi Arabia and Dubai Holding's largest construction contract to date headline a month of major awards across",
+  "image": "https://www.cbnme.com/wp-content/uploads/2026/11/catalog-1024x755.jpg",
+  "snippet": "Construction Business News is an original title by media production house BNC Publishing, covering the Middle East’s lucrative construction market.",
+  "thumb": "https://www.bing.com/th?id=ONUT.vTLhXeIPWSndrNR3bqpZSA&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.cbnme.com/news/al-maktoum-airport-and-rabigh-2-lead-octobers-top-10-contract-awards/"
  },
  "69445d7b7c84": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "69ec4f9159d8": {
-  "tries": 2
- },
- "6a83b7f73eb8": {
+  "b": 1,
   "d": 1,
-  "tries": 1
+  "excerpt": "Hytera Communications, a leading global provider of critical communications technologies and solutions, concluded its participation at the World Polic ...",
+  "image": "https://www.criticalcommunicationsreview.com/afbeelding/resize/120396/hytera-world-police-summit-2026-1",
+  "snippet": "Hytera Communications, a leading global provider of critical communications technologies and solutions, concluded its participation at the World Polic ...",
+  "url": "https://www.criticalcommunicationsreview.com/ccr/other-news/120395/hytera-gives-dib-r6-smart-tetra-base-station-its-middle-east-debut-at-world-police-summit-in-dubai"
  },
  "6acbf89bb187": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "74dc2dacf2da": {
   "d": 1,
   "tries": 2
  },
  "7578ab548ddb": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "75d75e9faabd": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "789c38cc47da": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "78aa60e8dfbe": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "",
+  "image": "",
+  "snippet": "The Ministry of Petroleum and Energy has awarded a contract to an international bidder for a major renewable energy facility that would be Gambia’s largest-ever power plant.",
+  "thumb": "https://www.bing.com/th?id=ONUT.SUNoMast04fG2JiWpjWDzg&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.africa-energy.com/news-centre/article/gambia-contract-awarded-large-renewable-plant"
  },
  "7919fbc3af38": {
   "d": 1,
   "tries": 2
  },
  "7c4e8e325be7": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "7fb73d41a578": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "82ce4f0dffbf": {
   "d": 1,
@@ -252,31 +394,43 @@
   "tries": 2
  },
  "88038a589175": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "88b0e93c9b80": {
   "d": 1,
-  "tries": 1
+  "tries": 2,
+  "url": "https://www.hoteliermiddleeast.com/news/armani-hotels-resorts-targets-2030-opening-for-first-hotel-in-egypt"
  },
  "88b1854d5847": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "89f0019110ee": {
   "d": 1,
   "tries": 2
  },
  "8dffcd337c43": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "snippet": "AL KHOBAR, Saudi Arabia, October 29, 2026 (EZ Newswire) -- Eng. Saud bin Khalid Al Shubaily, Chief Executive Officer of Arabian AlEsaar, has announced the phased soft opening of Al Shubaily Grand Mall ...",
+  "url": "https://www.reuters.com/press-releases/al-shubaily-grand-mall-announces-phased-soft-opening-2026-10-29/"
  },
  "8e514c870cb6": {
   "d": 1,
   "tries": 2
  },
  "92c846a497bc": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "",
+  "image": "",
+  "snippet": "FUJAIRAH, 20th November, 2026 (WAM) -- The Fujairah International Airport (FIA) has been awarded 'Most Promising Airport for Cargo Services' at the Arabian Cargo Awards 2026, recognising its growing ...",
+  "url": "https://www.msn.com/en-ae/money/general/fujairah-international-airport-wins-most-promising-airport-for-cargo-services-at-arabian-cargo-awards-2026/ar-AA2hRUzO"
  },
  "9744a416a7e7": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "9a4aa5b7868b": {
   "d": 1,
@@ -289,17 +443,20 @@
   "tries": 2
  },
  "9fb383392779": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "a17d802f9dc2": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "a2f9c5c47b9c": {
   "d": 1,
   "tries": 2
  },
  "a4b2bbfc040c": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "a4d4a2cde9c6": {
   "d": 1,
@@ -307,19 +464,36 @@
  },
  "a60ae4dcd466": {
   "d": 1,
-  "tries": 1
+  "tries": 2,
+  "url": "https://www.hoteliermiddleeast.com/people/appointments/destination-mina-seyahi-appoints-elisabet-macia-as-fb-director"
  },
  "a70d0a5e6e24": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Jumeirah will open Jumeirah Lake Como, a 40-suite hotel in the village of Torno, in spring 2027, adding a second Italian property to its European portfolio",
+  "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-11-23/34ae896t/Photo-1Jumeirah-Lake-Como.jpg.jpeg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=1,0,1653,1102",
+  "snippet": "Jumeirah will open Jumeirah Lake Como, a 40-suite hotel in the village of Torno, in spring 2027, adding a second Italian property to its European portfolio ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.rBgUZNhmX6_dtv6CyPqs2g&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.khaleejtimes.com/business/dubais-jumeirah-to-open-40-suite-hotel-on-lake-como"
  },
  "a72601d7b11e": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "snippet": "The 115-room Capella Dubai will debut as part of Dubai Peninsula, a 210-acre complex currently under development along the city's Jumeirah coastline.",
+  "thumb": "https://www.bing.com/th?id=ONUT.IqWb32eSAlApJY7AxD9cJA&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.travelweekly.com/Travel-News/Hotel-News/capella-hotel-group-to-open-a-property-in-dubai-in-2030"
  },
  "a8ed37983a4a": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "The Saudi group said the project marks its first venture into the alternative mobility sector",
+  "image": "https://media.zawya.com/prod/images/gm_preview/6c969f072ab0-2026-10-11t113610z1499269554rc2v0oal4m4srtrmadp3iran-crisis-saudi-riyadh.jpg",
+  "snippet": "Remat Al-Riyadh Development Company, the development arm of Riyadh Municipality, has signed a contract with International Modern Industries Company for the development and operation of the first phase ...",
+  "url": "https://www.zawya.com/en/business/robust-project-partnerships/riyadh-awards-contract-for-first-alternative-mobility-network-phase-1855278"
  },
  "ab7f64b0c573": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "afc562ea47e8": {
   "d": 1,
@@ -330,16 +504,29 @@
   "tries": 2
  },
  "b73b40bb3210": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Six Senses The Palm Dubai officially opens on November 23 with 61 beachfront suites, 172 private residences and a 5,500-square-metre spa and longevity clinic.The Palm Dubai officially opens on…",
+  "image": "https://www.rustourismnews.com/wp-content/uploads/2026/11/Six-Senses-The-Palm-1.jpg",
+  "snippet": "Six Senses The Palm Dubai officially opens on November 23 with 61 beachfront suites, 172 private residences and a 5,500-square-metre spa and longevity clinic.The Palm Dubai officially opens on ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.1SpKcDIANIVPtz9vwE826g&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.rustourismnews.com/2026/11/23/six-senses-the-palm-dubai-opens-with-61-luxury-suites-and-5500-square-metre-spa/"
  },
  "b8c5448cb68a": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Development pipeline includes more than 51,000 residential units.",
+  "image": "",
+  "snippet": "Dubai-listed Emaar Development awarded construction and infrastructure contracts worth a combined 17.8 billion UAE dirhams ($4.85 billion) during the first nine months of 2026, as it accelerated ...",
+  "url": "https://www.zawya.com/en/projects/construction/dubais-emaar-development-awards-nearly-5bln-in-construction-infrastructure-contracts-in-9m-2026-2018062"
  },
  "b9152d93370c": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "bee8ff1c2634": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "c3253f32cec0": {
   "d": 1,
@@ -370,23 +557,40 @@
   "tries": 2
  },
  "d20708085cd4": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "",
+  "image": "",
+  "snippet": "There’s an exciting line-up of new properties set to open in the UAE in the coming years. Among them are a seriously wow-worthy array of luxury hotels, complete with a range of exciting dining ...",
+  "url": "https://www.msn.com/en-ae/lifestyle/other/55-incredible-hotels-opening-soon-in-the-uae/ar-AA1WSaC6"
  },
  "d225ef9c8bbc": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "d29ad217238b": {
   "d": 1,
   "tries": 2
  },
  "d4f0fe85b8ba": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Five contractors are competing for the design-and-build contract",
+  "image": "",
+  "snippet": "Oman's Muscat Municipality is evaluating bids for a design-and-build contract to develop and rehabilitate stormwater drainage infrastructure at multiple locations in Wilayat Seeb, Muscat Governorate.",
+  "url": "https://www.zawya.com/en/projects/construction/omans-muscat-municipality-expected-to-award-stormwater-drain-works-contract-in-q4-2026-1858414"
  },
  "d5b69f4a9432": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "d8f9975c2236": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
+ },
+ "d9052ca3935b": {
+  "d": 1,
+  "url": "https://www.constructionweekonline.com/people/appointments/c-quest-appointed-cost-consultant-for-gulf-coast-developments-new-destination-in-khafji-governorate"
  },
  "dacc6dc5df01": {
   "d": 1,
@@ -395,56 +599,115 @@
   "url": "https://www.zawya.com/en/press-release/companies-news/global-partners-awards-aed-100mln-contract-as-dubai-creek-gardens-moves-into-construction-2395330"
  },
  "dd9c411ce4dc": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "dfc9d3d794f2": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "e8aafded5da3": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "e8f094e10fe9": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Conceived as an integrated hospitality and residential destination, Mallside Hotel is designed to complement the ongoing development of Dubai Hills Es...",
+  "image": "",
+  "snippet": "Conceived as an integrated hospitality and residential destination, Mallside Hotel is designed to complement the ongoing development of Dubai Hills Estate Royal Development Holding, a boutique premium ...",
+  "url": "https://www.zawya.com/en/business/uae-realty-market/mallside-hotel-curio-collection-by-hilton-set-to-open-in-dubai-q1-2027-1851083"
  },
  "eb637c194a1d": {
   "d": 1,
-  "tries": 1
+  "tries": 2,
+  "url": "https://www.hoteliermiddleeast.com/news/the-hoxton-to-open-its-first-abu-dhabi-hotel-and-debut-branded-residences"
  },
  "ec098bf52071": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "The project is part of Basrah Gas Company’s (BGC) multi-billion-dollar programme to expand gas capture infrastructure and reduce flaring across southe...",
+  "image": "",
+  "snippet": "The project is part of Basrah Gas Company’s (BGC) multi-billion-dollar programme to expand gas capture infrastructure and reduce flaring across southern Iraq KBR, a leading provider of technology and ...",
+  "url": "https://www.zawya.com/en/projects/kbr-wins-engineering-design-contract-for-major-iraq-gas-capture-project-2006466"
  },
  "ec7a4d0f653b": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "ed41f13e0694": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "eea3cc1c6de4": {
   "d": 1,
   "tries": 2
  },
  "f23ccedc70a9": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Petroleum Development Oman plans to build a gas-oil gravity drainage facility to handle increased oil output from the Al-Ghubar field in Qarn Alam, within its Block 6 concession area in the sultanate",
+  "image": "https://www.meed.com//Uploads/NewsArticle/21345337/main2647.jpg",
+  "snippet": "Petroleum Development Oman plans to build a gas-oil gravity drainage facility to handle increased oil output from the Al-Ghubar field in Qarn Alam, within its Block 6 concession area in the sultanate ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.v6ZzIzkg7FEpoa_ZjEC0_g&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.meed.com/pdo-awards-contract-for-al-ghubar-oil-field-project"
  },
  "f2c76ffcacfb": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "The contract covers copper ore extraction, waste rock removal, ore handling and transportation to the concentrator plan",
+  "image": "",
+  "snippet": "Muscat – Minerals Development Oman (MDO) has awarded a $416mn contract to China’s Hongda International to manage mining operations at the Mazoon Copper Project under a 10-year agreement, marking a key ...",
+  "url": "https://www.zawya.com/en/projects/belt-road-initiative-bri/omans-mdo-awards-416mn-contract-for-mazoon-copper-project-to-chinas-hongda-international-1985298"
  },
  "f7cac5eba264": {
-  "tries": 2
+  "b": 1,
+  "tries": 3
  },
  "f87e82d2c5f6": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Lulu opens its 127th UAE hypermarket at Moopans Mall, Dubai, expanding its global footprint with new projects in the US and India.",
+  "image": "https://media.assettype.com/gulfnews%2F2026-11-09%2Ffwtj33sj%2F70408bc2-ed94-4c78-a715-39e9e869baff.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+  "snippet": "Lulu opens its 127th UAE hypermarket at Moopans Mall, Dubai, expanding its global footprint with new projects in the US and India.",
+  "url": "https://gulfnews.com/uae/dubai/lulu-opens-127th-uae-hypermarket-at-moopans-mall-expands-global-projects-in-us-and-india-1.500741559"
  },
  "fad82432f576": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Parkway International Contracting appointed to deliver eight buildings across two phases on Dubai Islands",
+  "image": "https://media.zawya.com/prod/images/gm_preview/f0f8b91df910-bay-grove-residences.jpg",
+  "snippet": "Dubai, UAE – Nakheel, a member of Dubai Holding Real Estate, has awarded Parkway International Contracting LLC a construction contract valued at more than AED 950 million for Phases 2 and 4 of Bay ...",
+  "url": "https://www.zawya.com/en/press-release/nakheel-awards-over-aed-950mln-main-construction-contract-for-617-homes-at-bay-grove-residences-on-dubai-islands-1850867"
  },
  "fb406a895af1": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "The contract covers the supply and installation of three 132/11kV main substations",
+  "image": "",
+  "snippet": "Kuwait's Ministry of Electricity, Water and Renewable Energy (MEWRE) is expected to award a construction contract for three main substations serving a cloud data centre project in the first quarter of ...",
+  "url": "https://www.zawya.com/en/projects/kuwait-likely-to-award-cloud-data-centre-substations-contract-in-q1-2027-1561703"
  },
  "fca7a8a05ce7": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "snippet": "GAS Arabian has signed a unit-rate pipeline installation contract with Saudi Aramco, with a three-year term and a 24-month extension option.",
+  "thumb": "https://www.bing.com/th?id=ONUT.YO8OQ7TTcuCAT-yQwNbIyQ&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.oilandgasmiddleeast.com/news/gas-arabian-aramco-unit-rate"
+ },
+ "fe288958fffa": {
+  "d": 1,
+  "excerpt": "Free community initiative is now open for registrations, with health assessments scheduled for 21 and 22 November",
+  "image": "https://media.zawya.com/prod/images/gm_preview/af05cd943d60-rak-hospital-in-ras-al-khaimah.jpg",
+  "url": "https://www.zawya.com/en/press-release/companies-news/rak-hospital-launches-a-90-day-metabolic-challenge-to-help-uae-residents-take-charge-of-their-health-2290680"
  },
  "ff02a2073210": {
-  "tries": 2
+  "b": 1,
+  "d": 1,
+  "excerpt": "Agreement provides beIN subscribers with access to theatrical releases, new series, original content, and a large collection of popular library films ...",
+  "image": "https://media.zawya.com/prod/images/gm_preview/19cbc80c4e9f-bein-x-nbcuniversal.png",
+  "snippet": "Agreement provides beIN subscribers with access to theatrical releases, new series, original content, and a large collection of popular library films ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.Ou13yFeuMZhUdfzxpxnSZQ&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.zawya.com/en/press-release/companies-news/bein-media-group-signs-multi-year-content-deal-with-nbcuniversal-across-middle-east-and-north-africa-2395147"
  }
 }

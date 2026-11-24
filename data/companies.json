@@ -436,6 +436,16 @@
   "v": 2,
   "website": "https://www.radissonhotelgroup.com"
  },
+ "rak hospital": {
+  "checked": "2026-11-24T10:43:07Z",
+  "contact_page": "https://rakhospital.com/contact-us/",
+  "guessed": true,
+  "name": "RAK Hospital",
+  "phone": "+971 7 207 4444",
+  "phone_source": "https://rakhospital.com/",
+  "v": 2,
+  "website": "https://rakhospital.com/"
+ },
  "ras al khaimah": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "Ras Al Khaimah",
