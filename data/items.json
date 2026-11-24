@@ -1,8 +1,42 @@
 {
- "generated": "2026-11-24T08:32:32Z",
- "count": 119,
- "feeds_checked": 21,
+ "generated": "2026-11-24T08:44:46Z",
+ "count": 120,
+ "feeds_checked": 20,
  "items": [
+  {
+   "id": "b2d09c329e50",
+   "title": "Armani Hotels & Resorts targets 2030 opening for first hotel in Egypt",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQaFhzS0V2ZWhxRENzc0NzdVlNdXlJYU5PU0R0U2dXY2YzUTktZGlvRTNtZEdVcXRhaEtaeHNfeGI0Y0t1ZjA4Y3J4VWtqY0tVaHpoLUpCTlZNeGUtSjRkRUoxWm84SXRJU2JKcEFyUU9KeEM0cDl4UVltZUJabnlseU9zQTcyN3g4NUl1ck1Xak5GM1BEMTlja0hCZlBSeG9GbDNsNU1QZ0lIMGs?oc=5",
+   "source": "Hotelier Middle East",
+   "feed": "GN via Hotelier ME: openings",
+   "summary": "Armani Hotels & Resorts targets 2030 opening for first hotel in Egypt Hotelier Middle East",
+   "published": "2026-11-24T08:42:07Z",
+   "first_seen": "2026-11-24T08:44:46Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Other",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opening"
+    ]
+   },
+   "compliance": [],
+   "lead": "Armani Hotels",
+   "client": "",
+   "why": "New project in the region: hotel ops, security and housekeeping teams run on two-way radios. Reach Armani Hotels while they are still buying.",
+   "contact": {
+    "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Armani%20Hotels%20Pre-opening%20General%20Manager",
+    "website": "https://www.armanihotels.com/en",
+    "guessed": true,
+    "phone": "+971 4 888 3888",
+    "phone_source": "https://www.armanihotels.com/en"
+   }
+  },
   {
    "id": "5cf30e07df00",
    "title": "Regionalized Vaccine Manufacturing Collaborative (RVMC) Launches Five-Year Strategy to Optimise Regionalised Vaccine Manufacturing Ecosystems",
@@ -393,7 +427,7 @@
     "website": "http://www.nakheel.com",
     "phone": "+971 800 625 4335",
     "phone_source": "https://www.nakheel.com/",
-    "email": "collections@nakheel.com",
+    "email": "wecare@nakheel.com",
     "email_source": "https://www.nakheel.com/en/contact-us",
     "contact_page": "https://www.nakheel.com/en/contact-us"
    }
@@ -671,8 +705,7 @@
    "why": "NMDC just won work in UAE: operations and maintenance teams need radio/TETRA coverage and wireless links. Call before they lock in suppliers.",
    "contact": {
     "ask_for": "Operations Manager or Procurement Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=NMDC%20Operations%20Manager",
-    "website": "https://econtent.unm.edu/"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=NMDC%20Operations%20Manager"
    }
   },
   {
@@ -797,9 +830,7 @@
    "why": "David Russell just won work in the region: hotel ops, security and housekeeping teams run on two-way radios. Call before they lock in suppliers.",
    "contact": {
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=David%20Russell%20Pre-opening%20General%20Manager",
-    "website": "http://www.davidrussellguitar.com/",
-    "contact_page": "https://www.davidrussellguitar.com/index.php/home/contact"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=David%20Russell%20Pre-opening%20General%20Manager"
    }
   },
   {
@@ -830,12 +861,7 @@
    "why": "Ashoka Buildcon just won work in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Call before they lock in suppliers.",
    "contact": {
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Ashoka%20Buildcon%20Pre-opening%20General%20Manager",
-    "website": "https://www.ashokabuildcon.com/",
-    "guessed": true,
-    "phone": "+91 20 67070700",
-    "phone_source": "https://www.ashokabuildcon.com/contact-us.php",
-    "contact_page": "https://www.ashokabuildcon.com/contact-us.php"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Ashoka%20Buildcon%20Pre-opening%20General%20Manager"
    }
   },
   {
@@ -955,17 +981,20 @@
    }
   },
   {
-   "id": "6a83b7f73eb8",
+   "id": "d9052ca3935b",
    "title": "C-Quest appointed Cost Consultant for Gulf Coast Development’s new destination in Khafji Governorate",
-   "link": "https://www.constructionweekonline.com/people/appointments/c-quest-appointed-cost-consultant-for-gulf-coast-developments-new-destination-in-khafji-governorate",
-   "source": "Construction Week (direct RSS)",
-   "feed": "Construction Week (direct RSS)",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWHVRSUxaWjR4MkhfSmlPUDR2QXhmMGV5bUVSelJUWS00ZEI5elpqaURxd0lreW91VzBpVkwyNVZ0TDVyYU5PcDZLS3NLY2tmZU9XOGlKR2hkR1BWSEtTdGYtaGx1ZE9WV1l6cGZXelFOMHVnNDIxcHFnRE5IR1lIbXJXZmJ4cG5tX3VXVmt6c0pkTGlsMG1MU2Y4WDNfSUlVZGIwU2dVNFpzYklpek05VU9fUFpxMlB2U1NJeXdKVTVhS0RBMXZSNk9hamJER2NLY05od3dPVU5TRGc1RW9uUm9KQ0VkMlRaSU1Md3RITQ?oc=5",
+   "source": "Construction Week Online",
+   "feed": "GN via Construction Week: awards",
+   "summary": "C-Quest appointed Cost Consultant for Gulf Coast Development’s new destination in Khafji Governorate Construction Week Online",
    "published": "2026-11-19T07:05:07Z",
-   "first_seen": "2026-11-24T07:49:29Z",
+   "first_seen": "2026-11-24T08:44:46Z",
    "section": "awards",
    "score": "low",
    "country": "Other",
-   "sectors": [],
+   "sectors": [
+    "construction"
+   ],
    "matched": {
     "product": [],
     "trigger": [
@@ -976,12 +1005,17 @@
    "compliance": [],
    "lead": "C-Quest",
    "client": "",
-   "why": "C-Quest just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers.",
+   "why": "C-Quest just won work in the region: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers.",
    "contact": {
-    "ask_for": "Procurement Manager or Operations Manager",
+    "ask_for": "Procurement Manager or Project Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=C-Quest%20Procurement%20Manager",
-    "website": "https://cquest.ai/",
-    "guessed": true
+    "website": "https://www.c-quest.com/",
+    "guessed": true,
+    "phone": "+971 4 306 9888",
+    "phone_source": "https://www.c-quest.com/contact",
+    "email": "info@c-quest.com",
+    "email_source": "https://www.c-quest.com/",
+    "contact_page": "https://www.c-quest.com/contact"
    }
   },
   {
@@ -1011,12 +1045,7 @@
    "why": "Altec just won work in Saudi Arabia: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers.",
    "contact": {
     "ask_for": "Procurement Manager or Project Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Altec%20Procurement%20Manager",
-    "website": "https://www.altec.com/",
-    "guessed": true,
-    "phone": "001-5000 5001-10",
-    "phone_source": "https://www.altec.com/about-altec/contact-us",
-    "contact_page": "https://www.altec.com/about-altec/contact-us"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Altec%20Procurement%20Manager"
    }
   },
   {
@@ -1047,10 +1076,12 @@
    "contact": {
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Capella%20Pre-opening%20General%20Manager",
-    "website": "http://www.cappella.tv",
-    "email": "contact@cappella.app",
-    "email_source": "https://www.cappella.app/contact.html",
-    "contact_page": "https://www.cappella.app/contact.html"
+    "website": "https://www.capella.ae/",
+    "guessed": true,
+    "phone": "+971 4 342 2169",
+    "phone_source": "https://www.capella.ae/",
+    "email": "info@capella.ae",
+    "email_source": "https://www.capella.ae/"
    }
   },
   {
@@ -1309,9 +1340,7 @@
    "why": "New project in the region: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Reach Al Maktoum Airport while they are still buying.",
    "contact": {
     "ask_for": "Procurement Manager or Project Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Al%20Maktoum%20Airport%20Procurement%20Manager",
-    "website": "https://forsale.dynadot.com/al-maktoum-airport.com",
-    "guessed": true
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Al%20Maktoum%20Airport%20Procurement%20Manager"
    }
   },
   {
@@ -1434,6 +1463,7 @@
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY2psUmpJMU8zQWNlRjdaNG1jVE4yOHZOU0lDaGNhRUREcTlaTTByd2RzVkZaTFhNeDJMN19Qbi1rUy1JbVlvYmkxM3NMU2NzM2NmZ2hfbU8yZTBjUXNvZWZ5b0JSR0dpYUJzVFJDcFRqbl9wX3A2ZUxvUmVqRmFSNjR1cmtiTXlLNHhmaFlfN0FUdVVrN0dZUnpiQklzX3QyQXVISmhwZXJ6RkNuNFVnZ1kyWXc2aXYxazdsOQ?oc=5",
    "source": "Zawya",
    "feed": "GN via Zawya: contracts",
+   "summary": "Kuwait likely to award secondary substations EPC contract in Q1 2027 Zawya",
    "published": "2026-11-14T04:56:31Z",
    "first_seen": "2026-11-24T07:49:29Z",
    "section": "awards",
@@ -1516,6 +1546,41 @@
    }
   },
   {
+   "id": "27b3dd212db5",
+   "title": "Mered awards main contract for Riviera Residences Phase I",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV0YtTkd3c2tKRW9WOTZTVkFqd2d2Y1Z1M3FYdEMyTFh2Sm5oZmNwSXZPOFRrMnBOWVNmeGVjdThXT2xOX2Z6WUs0dVR1N3ZZa2lINU01N2MxTS1XZlVucVBsdHhKMG9iWmxqVlVRTXNsbTZHWS1jVkRoMDZNaVVWbTlEUkJMbldZdFd0VWxULXFWRnd4Y0JYZmdOZ01MbkVOS0tiT0tIRzhELUZLRnNwc3U1dUctbDBO?oc=5",
+   "source": "Zawya",
+   "feed": "GN via Zawya: contracts",
+   "summary": "Mered awards main contract for Riviera Residences Phase I Zawya",
+   "published": "2026-11-13T04:34:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Other",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "contract win"
+    ]
+   },
+   "compliance": [],
+   "lead": "Mered",
+   "client": "",
+   "why": "Mered just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers.",
+   "contact": {
+    "ask_for": "Procurement Manager or Operations Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Mered%20Procurement%20Manager",
+    "website": "https://mered.ae/",
+    "guessed": true,
+    "phone": "+971 4 879 7271",
+    "phone_source": "https://mered.ae/",
+    "email": "office@mered.ae",
+    "email_source": "https://mered.ae/",
+    "contact_page": "https://mered.ae/contacts"
+   }
+  },
+  {
    "id": "a2f9c5c47b9c",
    "title": "Palma Development unveils Phase II of Serenia District in Jumeirah Islands",
    "link": "https://www.constructionweekonline.com/projects-tenders/palma-development-unveils-phase-ii-of-serenia-district-in-jumeirah-islands",
@@ -1578,43 +1643,7 @@
    "why": "PDO just won work in Oman: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers.",
    "contact": {
     "ask_for": "Procurement Manager or Project Manager (site communications)",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=PDO%20Procurement%20Manager",
-    "website": "http://www.pdo.co.om/pdo/"
-   }
-  },
-  {
-   "id": "27b3dd212db5",
-   "title": "Mered awards main contract for Riviera Residences Phase I",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV0YtTkd3c2tKRW9WOTZTVkFqd2d2Y1Z1M3FYdEMyTFh2Sm5oZmNwSXZPOFRrMnBOWVNmeGVjdThXT2xOX2Z6WUs0dVR1N3ZZa2lINU01N2MxTS1XZlVucVBsdHhKMG9iWmxqVlVRTXNsbTZHWS1jVkRoMDZNaVVWbTlEUkJMbldZdFd0VWxULXFWRnd4Y0JYZmdOZ01MbkVOS0tiT0tIRzhELUZLRnNwc3U1dUctbDBO?oc=5",
-   "source": "Zawya",
-   "feed": "GN via Zawya: contracts",
-   "summary": "Mered awards main contract for Riviera Residences Phase I Zawya",
-   "published": "2026-11-12T08:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "low",
-   "country": "Other",
-   "sectors": [],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "contract win"
-    ]
-   },
-   "compliance": [],
-   "lead": "Mered",
-   "client": "",
-   "why": "Mered just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers.",
-   "contact": {
-    "ask_for": "Procurement Manager or Operations Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Mered%20Procurement%20Manager",
-    "website": "https://mered.ae/",
-    "guessed": true,
-    "phone": "+971 4 879 7271",
-    "phone_source": "https://mered.ae/",
-    "email": "office@mered.ae",
-    "email_source": "https://mered.ae/",
-    "contact_page": "https://mered.ae/contacts"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=PDO%20Procurement%20Manager"
    }
   },
   {
@@ -1786,11 +1815,7 @@
    "why": "New project in UAE: operations and maintenance teams need radio/TETRA coverage and wireless links. Reach Al Maktoum International Airport while they are still buying.",
    "contact": {
     "ask_for": "Operations Manager or Procurement Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Al%20Maktoum%20International%20Airport%20Operations%20Manager",
-    "website": "https://www.dubaiairports.ae/",
-    "phone": "+971 4 224 5555",
-    "phone_source": "https://dubaiairports.ae/contact-information",
-    "contact_page": "https://dubaiairports.ae/contact-information"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Al%20Maktoum%20International%20Airport%20Operations%20Manager"
    }
   },
   {
@@ -1817,9 +1842,7 @@
    "why": "New project in the region: a new site will need communications. Reach Muharraq City Development while they are still buying.",
    "contact": {
     "ask_for": "Procurement Manager or Operations Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Muharraq%20City%20Development%20Procurement%20Manager",
-    "website": "https://muharraq.com/",
-    "guessed": true
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Muharraq%20City%20Development%20Procurement%20Manager"
    }
   },
   {
@@ -2009,9 +2032,7 @@
    "why": "New project in UAE: mall security, facilities and car-park teams use radios and bodycams. Reach Lulu while they are still buying.",
    "contact": {
     "ask_for": "Facilities Manager or Security Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Lulu%20Facilities%20Manager",
-    "website": "https://www.lulu.com/",
-    "guessed": true
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Lulu%20Facilities%20Manager"
    }
   },
   {
@@ -2211,31 +2232,39 @@
    }
   },
   {
-   "id": "656b9843abb8",
-   "title": "JP Morgan maintains Motorola Solutions at Overweight, raises price target to $570 from $545",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQX1lnc25TWjVycFo3T3FmX3otcHhFaExSdjdZZ1dxUEhiQ2FTRm9USGpvcU15MHEwUmJ4SUVqT0ZKT2M4V2FmN19qb2IxX0VKZ0RsUHRTLU9HT3F0d2pSRDY2UXR3QmlJaGtrWGhIRHNUZEl6YktkbU1wekwweEUzMVR0a0F2Yy1OdFBSWEhBOW1SdG5lQmJhWGdsVmJTY3NNcDBlVk9QWE9XTDdYb0JETWtnWWhfbE1uVEZQQkhwaHJYZkpDaVVhb3JjZmtLeENQVDJDMHE5aHBLaXM1MnoxaEhSaFk?oc=5",
-   "source": "TradingView",
-   "feed": "GN: Motorola Solutions Gulf",
-   "summary": "JP Morgan maintains Motorola Solutions at Overweight, raises price target to $570 from $545 TradingView",
+   "id": "59995b843700",
+   "title": "Energy Oman opens Category I subscriptions for Sukuk Series 2 Institutional investors can bid until 12 November",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRFJNZ1IxSk1CaTVfdGcyRVc0dmdwTnk2QVpuNnJMR0dfb3pRdGlJUm1DdEdYVENUUkhqZWpaMUpjY3lCMElULWhqNFRYcEltNFh5WnJzT0FWUXdhNGJ4bngxUHZiZloyN0M4OFRVNjl5cEZSU3J1Y29hbXNZV1Z4OVc0LWowX0xwLVotTFlTdGY2bnpJLUFNd3dXX0djUjhDb0dTVkNsbjJIR1RPalFObGxhSTRFVEdndy0ySjhRMEZkYThGeURYLU9yZmVaaXJDZW9ZQ0UtVFVVVTR3d1d6MkRQOTQ?oc=5",
+   "source": "Times of Oman",
+   "feed": "GN: Radio/TETRA tenders Oman",
+   "summary": "Energy Oman opens Category I subscriptions for Sukuk Series 2 Institutional investors can bid until 12 November Times of Oman",
    "published": "2026-11-05T08:00:00Z",
    "first_seen": "2026-11-24T07:45:27Z",
    "section": "tenders",
    "score": "low",
-   "country": "Other",
+   "country": "Oman",
    "sectors": [],
    "matched": {
-    "product": [
-     "Motorola Solutions"
-    ],
-    "trigger": []
+    "product": [],
+    "trigger": [
+     "bid",
+     "opens"
+    ]
    },
    "compliance": [],
-   "lead": "Overweight",
+   "lead": "Energy Oman",
    "client": "",
-   "why": "Live tender mentioning Motorola Solutions in the region - get the documents and quote before the deadline.",
+   "why": "Tender in Oman: check if comms/radios are in scope. Ask who handles communications packages.",
    "contact": {
     "ask_for": "Procurement / Tenders department (quote the tender reference)",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Overweight%20Procurement"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Energy%20Oman%20Procurement",
+    "website": "https://energyoman.com/",
+    "guessed": true,
+    "phone": "+968 22574425",
+    "phone_source": "https://energyoman.com/",
+    "email": "sales@energyoman.com",
+    "email_source": "https://energyoman.com/",
+    "contact_page": "https://energyoman.com/index.php/contact/"
    }
   },
   {
@@ -2244,6 +2273,7 @@
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbE1WZzFaNTNJNEpDMnlGc0hQdnRVNVFFX0ZpdGZYVHVRNGNCWVhqV3lNbnJnN0NrYlpDN2tiUXBNRDZDSVFKdVZuZDZ6RGFhdE15ZTBmRW9qRmxSS1FVWUpLcEZhbk5JZVMzS2NLd3h3eEY5MXZUWWNGSHIxME9BZ1R2Z1NqbkFpRUJrc0xZOGsxWUVGQ1dpaDZZSzJBMjgzUUFiNEE1VmhBZU91bzktUm1kbw?oc=5",
    "source": "Zawya",
    "feed": "GN via Zawya: contracts",
+   "summary": "KBR wins engineering design contract for major Iraq gas capture project Zawya",
    "published": "2026-11-05T08:00:00Z",
    "first_seen": "2026-11-24T07:49:29Z",
    "section": "awards",
@@ -2274,38 +2304,31 @@
    }
   },
   {
-   "id": "59995b843700",
-   "title": "Energy Oman opens Category I subscriptions for Sukuk Series 2 Institutional investors can bid until 12 November",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNRFJNZ1IxSk1CaTVfdGcyRVc0dmdwTnk2QVpuNnJMR0dfb3pRdGlJUm1DdEdYVENUUkhqZWpaMUpjY3lCMElULWhqNFRYcEltNFh5WnJzT0FWUXdhNGJ4bngxUHZiZloyN0M4OFRVNjl5cEZSU3J1Y29hbXNZV1Z4OVc0LWowX0xwLVotTFlTdGY2bnpJLUFNd3dXX0djUjhDb0dTVkNsbjJIR1RPalFObGxhSTRFVEdndy0ySjhRMEZkYThGeURYLU9yZmVaaXJDZW9ZQ0UtVFVVVTR3d1d6MkRQOTQ?oc=5",
-   "source": "Times of Oman",
-   "feed": "GN: Radio/TETRA tenders Oman",
+   "id": "656b9843abb8",
+   "title": "JP Morgan maintains Motorola Solutions at Overweight, raises price target to $570 from $545",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQX1lnc25TWjVycFo3T3FmX3otcHhFaExSdjdZZ1dxUEhiQ2FTRm9USGpvcU15MHEwUmJ4SUVqT0ZKT2M4V2FmN19qb2IxX0VKZ0RsUHRTLU9HT3F0d2pSRDY2UXR3QmlJaGtrWGhIRHNUZEl6YktkbU1wekwweEUzMVR0a0F2Yy1OdFBSWEhBOW1SdG5lQmJhWGdsVmJTY3NNcDBlVk9QWE9XTDdYb0JETWtnWWhfbE1uVEZQQkhwaHJYZkpDaVVhb3JjZmtLeENQVDJDMHE5aHBLaXM1MnoxaEhSaFk?oc=5",
+   "source": "TradingView",
+   "feed": "GN: Motorola Solutions Gulf",
+   "summary": "JP Morgan maintains Motorola Solutions at Overweight, raises price target to $570 from $545 TradingView",
    "published": "2026-11-05T08:00:00Z",
    "first_seen": "2026-11-24T07:45:27Z",
    "section": "tenders",
    "score": "low",
-   "country": "Oman",
+   "country": "Other",
    "sectors": [],
    "matched": {
-    "product": [],
-    "trigger": [
-     "bid",
-     "opens"
-    ]
+    "product": [
+     "Motorola Solutions"
+    ],
+    "trigger": []
    },
    "compliance": [],
-   "lead": "Energy Oman",
+   "lead": "Overweight",
    "client": "",
-   "why": "Tender in Oman: check if comms/radios are in scope. Ask who handles communications packages.",
+   "why": "Live tender mentioning Motorola Solutions in the region - get the documents and quote before the deadline.",
    "contact": {
     "ask_for": "Procurement / Tenders department (quote the tender reference)",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Energy%20Oman%20Procurement",
-    "website": "https://energyoman.com/",
-    "guessed": true,
-    "phone": "+968 22574425",
-    "phone_source": "https://energyoman.com/",
-    "email": "sales@energyoman.com",
-    "email_source": "https://energyoman.com/",
-    "contact_page": "https://energyoman.com/index.php/contact/"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Overweight%20Procurement"
    }
   },
   {
@@ -2399,11 +2422,7 @@
    "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Capella Hotel Group while they are still buying.",
    "contact": {
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Capella%20Hotel%20Group%20Pre-opening%20General%20Manager",
-    "website": "https://capellahotelgroup.com/",
-    "phone": "+65 6887 9385",
-    "phone_source": "https://capellahotelgroup.com/contacts/",
-    "contact_page": "https://capellahotelgroup.com/contacts/"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Capella%20Hotel%20Group%20Pre-opening%20General%20Manager"
    }
   },
   {
@@ -2493,35 +2512,6 @@
    }
   },
   {
-   "id": "45cbf8651f36",
-   "title": "Oman’s MDO awards $600 million Mazoon copper contract",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmRW44ZjZqcDZmQmNpYjJPd3h5bzJXWGE0SXpZMkZ5bUljWVJ2ZFFHaGhRdm9XRGd5NHQ5dWVMLU5jb1V6ekVFNEhYaV82ZWpIUzZTcW5fOEx4SVdyVUpyb2I0VG1Ecm8yYXI2aXRnRTRZazZEdm9SWHFLSDdibjA?oc=5",
-   "source": "Mining.com.au",
-   "feed": "GN: Oman contracts awarded",
-   "summary": "Oman’s MDO awards $600 million Mazoon copper contract Mining.com.au",
-   "published": "2026-11-04T08:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "low",
-   "country": "Oman",
-   "sectors": [],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "awards $"
-    ]
-   },
-   "compliance": [],
-   "lead": "MDO",
-   "client": "",
-   "why": "MDO just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers.",
-   "contact": {
-    "ask_for": "Procurement Manager or Operations Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=MDO%20Procurement%20Manager",
-    "website": "http://www.mcgillismusic.com"
-   }
-  },
-  {
    "id": "39b04acc93fc",
    "title": "bp Oman awards five-year contract to Truckoman for warehousing and materials management services",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOajd0d0VqTE1uMHlyYUtwb0NZSGJtNzZuYXFPN1dyY2VqVUpmRWRqMGx1dGlha2xmOVo1RHBVazVyWjg2SUoxSU56TFVSVnFUT1BXZU44US1ZNjF6Tkx4OUlpdU9sOFZkVldMd1NlSE9YUW5LTWZSYV84Qng3eUptX3hNc2lFbTJZdzYtS2xxZjVlNGl2T0xocGNhQnZFbnRpV3NNdnJYcDBKMFBnTHFwNGdwNHJPZ2FSWkwxSmo5MmpGdURjTVk1Z1N3cEIyVW1D?oc=5",
@@ -2547,35 +2537,6 @@
    "contact": {
     "ask_for": "Procurement Manager or Operations Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Truckoman%20Procurement%20Manager"
-   }
-  },
-  {
-   "id": "f2c76ffcacfb",
-   "title": "MDO awards $416mn contract for Mazoon Copper Project to China’s Hongda International",
-   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEVtVktnMzdObnhHMXB3UWhIQzJybzhuVVZNVzJPTEFvck9iWnhLaWlsTW9EbWtybHBKVHpxZ2hPekpLQ0RFZVhiaWhjZHJpNWZiSlgyeTBMYlNnRC1xN2V6THNubXY1N0poSkRwN28zbmQ1VkVLcVB6QXBQWWJMaXZNRElENlVFMmlIdnlpU2QxZE81bE5XRV9qclRYNXBuOGpZTW9tbUdhWU1vT3N1ekFtdGJ5X1E5M0JqNmxHSQ?oc=5",
-   "source": "Muscat Daily",
-   "feed": "GN: Oman contracts awarded",
-   "summary": "MDO awards $416mn contract for Mazoon Copper Project to China’s Hongda International Muscat Daily",
-   "published": "2026-11-04T08:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "low",
-   "country": "Oman",
-   "sectors": [],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "awards $"
-    ]
-   },
-   "compliance": [],
-   "lead": "MDO",
-   "client": "",
-   "why": "MDO just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers.",
-   "contact": {
-    "ask_for": "Procurement Manager or Operations Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=MDO%20Procurement%20Manager",
-    "website": "http://www.mcgillismusic.com"
    }
   },
   {
@@ -2631,6 +2592,64 @@
    "why": "New project in UAE: a new site will need communications. Reach the company while they are still buying.",
    "contact": {
     "ask_for": "Procurement Manager or Operations Manager"
+   }
+  },
+  {
+   "id": "45cbf8651f36",
+   "title": "Oman’s MDO awards $600 million Mazoon copper contract",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmRW44ZjZqcDZmQmNpYjJPd3h5bzJXWGE0SXpZMkZ5bUljWVJ2ZFFHaGhRdm9XRGd5NHQ5dWVMLU5jb1V6ekVFNEhYaV82ZWpIUzZTcW5fOEx4SVdyVUpyb2I0VG1Ecm8yYXI2aXRnRTRZazZEdm9SWHFLSDdibjA?oc=5",
+   "source": "Mining.com.au",
+   "feed": "GN: Oman contracts awarded",
+   "summary": "Oman’s MDO awards $600 million Mazoon copper contract Mining.com.au",
+   "published": "2026-11-04T08:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Oman",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "awards $"
+    ]
+   },
+   "compliance": [],
+   "lead": "MDO",
+   "client": "",
+   "why": "MDO just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers.",
+   "contact": {
+    "ask_for": "Procurement Manager or Operations Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=MDO%20Procurement%20Manager",
+    "website": "http://www.mcgillismusic.com"
+   }
+  },
+  {
+   "id": "f2c76ffcacfb",
+   "title": "MDO awards $416mn contract for Mazoon Copper Project to China’s Hongda International",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEVtVktnMzdObnhHMXB3UWhIQzJybzhuVVZNVzJPTEFvck9iWnhLaWlsTW9EbWtybHBKVHpxZ2hPekpLQ0RFZVhiaWhjZHJpNWZiSlgyeTBMYlNnRC1xN2V6THNubXY1N0poSkRwN28zbmQ1VkVLcVB6QXBQWWJMaXZNRElENlVFMmlIdnlpU2QxZE81bE5XRV9qclRYNXBuOGpZTW9tbUdhWU1vT3N1ekFtdGJ5X1E5M0JqNmxHSQ?oc=5",
+   "source": "Muscat Daily",
+   "feed": "GN: Oman contracts awarded",
+   "summary": "MDO awards $416mn contract for Mazoon Copper Project to China’s Hongda International Muscat Daily",
+   "published": "2026-11-04T08:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Oman",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "awards $"
+    ]
+   },
+   "compliance": [],
+   "lead": "MDO",
+   "client": "",
+   "why": "MDO just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers.",
+   "contact": {
+    "ask_for": "Procurement Manager or Operations Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=MDO%20Procurement%20Manager",
+    "website": "http://www.mcgillismusic.com"
    }
   },
   {
@@ -2780,11 +2799,41 @@
    "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Capella Hotel Group while they are still buying.",
    "contact": {
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Capella%20Hotel%20Group%20Pre-opening%20General%20Manager",
-    "website": "https://capellahotelgroup.com/",
-    "phone": "+65 6887 9385",
-    "phone_source": "https://capellahotelgroup.com/contacts/",
-    "contact_page": "https://capellahotelgroup.com/contacts/"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Capella%20Hotel%20Group%20Pre-opening%20General%20Manager"
+   }
+  },
+  {
+   "id": "e8aafded5da3",
+   "title": "Capella to open at Dubai Peninsula in 2030",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTVZpOFVyYmhQeVRGQ0lUUVRpallvSHZvZFBBVWREX2JLcmxWQWlRMm01dzVHcmNjZERwN3p0dVdWaWFXNVVVVmlnak5la3R1NTBNRTBDbkpyVDhFcmhVdU5sVHphQnd1eGZyLTRuSzVwYTRRNXd6U0NYVFJaQWdmc0dMOVpsQ3Eyak5UME9GbDhKUy1pOU9B?oc=5",
+   "source": "Sleeper Magazine",
+   "feed": "GN: Hotel openings UAE",
+   "summary": "Capella to open at Dubai Peninsula in 2030 Sleeper Magazine",
+   "published": "2026-11-02T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "UAE",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "to open"
+    ]
+   },
+   "compliance": [],
+   "lead": "Capella",
+   "client": "",
+   "why": "New project in UAE: a new site will need communications. Reach Capella while they are still buying.",
+   "contact": {
+    "ask_for": "Procurement Manager or Operations Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Capella%20Procurement%20Manager",
+    "website": "https://www.capella.ae/",
+    "guessed": true,
+    "phone": "+971 4 342 2169",
+    "phone_source": "https://www.capella.ae/",
+    "email": "info@capella.ae",
+    "email_source": "https://www.capella.ae/"
    }
   },
   {
@@ -2814,38 +2863,6 @@
     "ask_for": "Procurement Manager or Operations Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=MDO%20Procurement%20Manager",
     "website": "http://www.mcgillismusic.com"
-   }
-  },
-  {
-   "id": "e8aafded5da3",
-   "title": "Capella to open at Dubai Peninsula in 2030",
-   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTVZpOFVyYmhQeVRGQ0lUUVRpallvSHZvZFBBVWREX2JLcmxWQWlRMm01dzVHcmNjZERwN3p0dVdWaWFXNVVVVmlnak5la3R1NTBNRTBDbkpyVDhFcmhVdU5sVHphQnd1eGZyLTRuSzVwYTRRNXd6U0NYVFJaQWdmc0dMOVpsQ3Eyak5UME9GbDhKUy1pOU9B?oc=5",
-   "source": "Sleeper Magazine",
-   "feed": "GN: Hotel openings UAE",
-   "summary": "Capella to open at Dubai Peninsula in 2030 Sleeper Magazine",
-   "published": "2026-11-02T08:00:00Z",
-   "first_seen": "2026-11-24T07:49:29Z",
-   "section": "awards",
-   "score": "low",
-   "country": "UAE",
-   "sectors": [],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "to open"
-    ]
-   },
-   "compliance": [],
-   "lead": "Capella",
-   "client": "",
-   "why": "New project in UAE: a new site will need communications. Reach Capella while they are still buying.",
-   "contact": {
-    "ask_for": "Procurement Manager or Operations Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Capella%20Procurement%20Manager",
-    "website": "http://www.cappella.tv",
-    "email": "contact@cappella.app",
-    "email_source": "https://www.cappella.app/contact.html",
-    "contact_page": "https://www.cappella.app/contact.html"
    }
   },
   {
@@ -2909,36 +2926,6 @@
    }
   },
   {
-   "id": "00ed99b93e92",
-   "title": "Cenomi Centers Awards $220 Million Madinah Downtown Mall and Office Contract to Lynx Contracting",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM0ltS2lZR0hfUnpkUmJOQm0ta2dhWnJUQ3V1bTVJU2lUVmxYWUxRaGxUUzJ5WXVYeXhaR0xiQm4xN3FuNlY2YU1jWS1ZT01IWDJsaWw1Nm5wX1NfMTMwSWJXdU81YTFIR1dFRWtxSG9reVJlOHZCcU1sTi1nRk5qZzJSWkVMdXVZZHRrc0FCRXdRUHNFbnI3ZlZqaGExeFY0eVI3eld6S0dwWG4tM3puQXdwbm1OUQ?oc=5",
-   "source": "SaudiGulf Projects",
-   "feed": "GN: Malls, stadiums, arenas",
-   "summary": "Cenomi Centers Awards $220 Million Madinah Downtown Mall and Office Contract to Lynx Contracting SaudiGulf Projects",
-   "published": "2026-11-01T07:00:00Z",
-   "first_seen": "2026-11-24T07:49:29Z",
-   "section": "awards",
-   "score": "medium",
-   "country": "Saudi Arabia",
-   "sectors": [
-    "retail"
-   ],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "awards $"
-    ]
-   },
-   "compliance": [],
-   "lead": "Cenomi Centers",
-   "client": "",
-   "why": "Cenomi Centers just won work in Saudi Arabia: mall security, facilities and car-park teams use radios and bodycams. Call before they lock in suppliers.",
-   "contact": {
-    "ask_for": "Facilities Manager or Security Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Cenomi%20Centers%20Facilities%20Manager"
-   }
-  },
-  {
    "id": "789c38cc47da",
    "title": "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract",
    "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMktmMXdhZjQwcUx2NlNfYnAtQUlYU3BScl9Ob0hBQmp0eW5Gam04SndjUW5EaFlFLWhtU2kxQThFSE9BZk5DRzJwdl9uNUkxb21RZWlQRGpNWHhEVzNLcm1BSlM2amxvVWdxMDVWLXM3RmlVRU5LYzNvN3pJb1dIeFV6WEZKLTFyNFFkTXRlRVJ6cGdjLW1GejcxdG5UVk5zVm4yQXR2NG5PRTMwemxiTVJGSWZmbWxtRWN5ZA?oc=5",
@@ -2966,6 +2953,36 @@
    "contact": {
     "ask_for": "Procurement Manager or Project Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=GO%20Telecom%20Procurement%20Manager"
+   }
+  },
+  {
+   "id": "00ed99b93e92",
+   "title": "Cenomi Centers Awards $220 Million Madinah Downtown Mall and Office Contract to Lynx Contracting",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM0ltS2lZR0hfUnpkUmJOQm0ta2dhWnJUQ3V1bTVJU2lUVmxYWUxRaGxUUzJ5WXVYeXhaR0xiQm4xN3FuNlY2YU1jWS1ZT01IWDJsaWw1Nm5wX1NfMTMwSWJXdU81YTFIR1dFRWtxSG9reVJlOHZCcU1sTi1nRk5qZzJSWkVMdXVZZHRrc0FCRXdRUHNFbnI3ZlZqaGExeFY0eVI3eld6S0dwWG4tM3puQXdwbm1OUQ?oc=5",
+   "source": "SaudiGulf Projects",
+   "feed": "GN: Malls, stadiums, arenas",
+   "summary": "Cenomi Centers Awards $220 Million Madinah Downtown Mall and Office Contract to Lynx Contracting SaudiGulf Projects",
+   "published": "2026-11-01T07:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "retail"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "awards $"
+    ]
+   },
+   "compliance": [],
+   "lead": "Cenomi Centers",
+   "client": "",
+   "why": "Cenomi Centers just won work in Saudi Arabia: mall security, facilities and car-park teams use radios and bodycams. Call before they lock in suppliers.",
+   "contact": {
+    "ask_for": "Facilities Manager or Security Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Cenomi%20Centers%20Facilities%20Manager"
    }
   },
   {
@@ -3231,7 +3248,8 @@
    "contact": {
     "ask_for": "Procurement Manager or Operations Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Riyadh%20Procurement%20Manager",
-    "website": "https://riyadh.sa/en/"
+    "website": "https://riyadh.om/",
+    "guessed": true
    }
   },
   {
@@ -3288,10 +3306,7 @@
    "why": "SLB just won work in Oman: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers.",
    "contact": {
     "ask_for": "Procurement Manager or Project Manager (site communications)",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=SLB%20Procurement%20Manager",
-    "website": "https://www.slb.com/",
-    "guessed": true,
-    "contact_page": "https://www.slb.com/contact-us"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=SLB%20Procurement%20Manager"
    }
   },
   {
@@ -3417,35 +3432,6 @@
    }
   },
   {
-   "id": "075306972dd8",
-   "title": "Saudi Arabia's bold £1bn ‘Sky Stadium’ for the 2034 World Cup - is it real? Here’s what we know",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNW1nZ0VyU0MwN3hHSjZMaFNYU1ZQQ192QmEtSUZtdmxJTDlrbFIwZlJzalZUQlh3VXJweDVlMmp2aUR3c1lHVlV1czZFRGc0cl91RS1sd2plSER4RzdZU21ETzloa0NVaXJQSzA5dFQwdTZYdGN3VUxDRnliNWpqQVRwclFpZV93OWNfNGphVDNweEsteW1iUnE2Z0tsZEJFaEU5RmhIX25lNGJsQ2U4eU05SXdJMkZLczJia3dOUUhVVXh3MmxtaQ?oc=5",
-   "source": "Football Ground Guide",
-   "feed": "GN: Malls, stadiums, arenas",
-   "summary": "",
-   "published": "2026-10-26T07:00:00Z",
-   "first_seen": "2026-11-24T07:49:29Z",
-   "section": "awards",
-   "score": "medium",
-   "country": "Saudi Arabia",
-   "sectors": [
-    "events"
-   ],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "stadium"
-    ]
-   },
-   "compliance": [],
-   "lead": "",
-   "client": "",
-   "why": "New project in Saudi Arabia: event operations, stewards and security need radio fleets (rental or purchase). Reach the company while they are still buying.",
-   "contact": {
-    "ask_for": "Operations Manager or Event Production Manager"
-   }
-  },
-  {
    "id": "281609e3a59d",
    "title": "Nakheel awards over AED 950mln main construction contract for 617 homes at Bay Grove Residences on Dubai Islands",
    "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOQ1pST0pabjRXZnQ2QWdVMFg4NG8yUG1QVE1BckpPNUx2R3dVdjhQU21oUjhXQ1ljbkNDeGgzbTczb25TUUM1VTRyeTRrbW0tU2NhMzBDVml3bUE1VGtBM28tTmlNcGl4SkpzQTEwc21KUE1aZmZSZmw3MFU5SjVqMVFMODJKdnFwSzlmVzlsdHYyM1lGbHp2bTljRGdVdXJoekhnZnZlSnU1WUFRVlNVTGMwN2szaGdUSkVSVXBOQ05wR2hYTFlLODBUazZEZF9LX1RhVkpmbVl4NktIZy15VFZoLW1hUTB6TXJqMnB0UUo?oc=5",
@@ -3476,9 +3462,38 @@
     "website": "http://www.nakheel.com",
     "phone": "+971 800 625 4335",
     "phone_source": "https://www.nakheel.com/",
-    "email": "collections@nakheel.com",
+    "email": "wecare@nakheel.com",
     "email_source": "https://www.nakheel.com/en/contact-us",
     "contact_page": "https://www.nakheel.com/en/contact-us"
+   }
+  },
+  {
+   "id": "075306972dd8",
+   "title": "Saudi Arabia's bold £1bn ‘Sky Stadium’ for the 2034 World Cup - is it real? Here’s what we know",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNW1nZ0VyU0MwN3hHSjZMaFNYU1ZQQ192QmEtSUZtdmxJTDlrbFIwZlJzalZUQlh3VXJweDVlMmp2aUR3c1lHVlV1czZFRGc0cl91RS1sd2plSER4RzdZU21ETzloa0NVaXJQSzA5dFQwdTZYdGN3VUxDRnliNWpqQVRwclFpZV93OWNfNGphVDNweEsteW1iUnE2Z0tsZEJFaEU5RmhIX25lNGJsQ2U4eU05SXdJMkZLczJia3dOUUhVVXh3MmxtaQ?oc=5",
+   "source": "Football Ground Guide",
+   "feed": "GN: Malls, stadiums, arenas",
+   "summary": "",
+   "published": "2026-10-26T07:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "events"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "stadium"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in Saudi Arabia: event operations, stewards and security need radio fleets (rental or purchase). Reach the company while they are still buying.",
+   "contact": {
+    "ask_for": "Operations Manager or Event Production Manager"
    }
   },
   {
@@ -3579,7 +3594,7 @@
     "website": "http://www.nakheel.com",
     "phone": "+971 800 625 4335",
     "phone_source": "https://www.nakheel.com/",
-    "email": "collections@nakheel.com",
+    "email": "wecare@nakheel.com",
     "email_source": "https://www.nakheel.com/en/contact-us",
     "contact_page": "https://www.nakheel.com/en/contact-us"
    }
@@ -3610,11 +3625,7 @@
    "why": "New project in the region: operations and maintenance teams need radio/TETRA coverage and wireless links. Reach Airport while they are still buying.",
    "contact": {
     "ask_for": "Operations Manager or Procurement Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Airport%20Operations%20Manager",
-    "website": "https://www.apple.com/compare-wifi-models/",
-    "phone": "1-800-692-7753",
-    "phone_source": "https://www.apple.com/mac/",
-    "contact_page": "https://www.apple.com/contact/"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Airport%20Operations%20Manager"
    }
   },
   {

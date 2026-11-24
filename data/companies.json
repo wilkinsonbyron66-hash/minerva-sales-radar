@@ -1,147 +1,161 @@
 {
  "airport": {
-  "checked": "2026-11-24T08:32:32Z",
-  "contact_page": "https://www.apple.com/contact/",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Airport",
-  "phone": "1-800-692-7753",
-  "phone_source": "https://www.apple.com/mac/",
-  "website": "https://www.apple.com/compare-wifi-models/"
+  "v": 2
  },
  "al maktoum airport": {
-  "checked": "2026-11-24T08:32:32Z",
-  "guessed": true,
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Al Maktoum Airport",
-  "website": "https://forsale.dynadot.com/al-maktoum-airport.com"
+  "v": 2
  },
  "al maktoum international airport": {
-  "checked": "2026-11-24T08:32:32Z",
-  "contact_page": "https://dubaiairports.ae/contact-information",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Al Maktoum International Airport",
-  "phone": "+971 4 224 5555",
-  "phone_source": "https://dubaiairports.ae/contact-information",
-  "website": "https://www.dubaiairports.ae/"
+  "v": 2
  },
  "altec": {
-  "checked": "2026-11-24T08:32:32Z",
-  "contact_page": "https://www.altec.com/about-altec/contact-us",
-  "guessed": true,
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Altec",
-  "phone": "001-5000 5001-10",
-  "phone_source": "https://www.altec.com/about-altec/contact-us",
-  "website": "https://www.altec.com/"
+  "v": 2
  },
  "arabia": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Arabia"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Arabia",
+  "v": 2
  },
  "arabian pipes": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Arabian Pipes"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Arabian Pipes",
+  "v": 2
+ },
+ "armani hotels": {
+  "checked": "2026-11-24T08:44:46Z",
+  "guessed": true,
+  "name": "Armani Hotels",
+  "phone": "+971 4 888 3888",
+  "phone_source": "https://www.armanihotels.com/en",
+  "v": 2,
+  "website": "https://www.armanihotels.com/en"
  },
  "ashoka buildcon": {
-  "checked": "2026-11-24T08:32:32Z",
-  "contact_page": "https://www.ashokabuildcon.com/contact-us.php",
-  "guessed": true,
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Ashoka Buildcon",
-  "phone": "+91 20 67070700",
-  "phone_source": "https://www.ashokabuildcon.com/contact-us.php",
-  "website": "https://www.ashokabuildcon.com/"
+  "v": 2
  },
  "bein media group": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://www.beinmediagroup.com/contact/",
   "name": "BeIN MEDIA GROUP",
   "phone": "+974 4457 7777",
   "phone_source": "https://www.beinmediagroup.com/contact/",
+  "v": 2,
   "website": "https://beinmediagroup.com"
  },
  "beyond developments": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "BEYOND Developments"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "BEYOND Developments",
+  "v": 2
  },
  "big 5 global": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://www.big5global.com/sponsorship-enquiry/",
   "email": "info@big5global.com",
   "email_source": "https://www.big5global.com/",
   "guessed": true,
   "name": "Big 5 Global",
+  "v": 2,
   "website": "https://www.big5global.com/"
  },
  "c quest": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
+  "contact_page": "https://www.c-quest.com/contact",
+  "email": "info@c-quest.com",
+  "email_source": "https://www.c-quest.com/",
   "guessed": true,
   "name": "C-Quest",
-  "website": "https://cquest.ai/"
+  "phone": "+971 4 306 9888",
+  "phone_source": "https://www.c-quest.com/contact",
+  "v": 2,
+  "website": "https://www.c-quest.com/"
  },
  "capella": {
-  "checked": "2026-11-24T08:32:32Z",
-  "contact_page": "https://www.cappella.app/contact.html",
-  "email": "contact@cappella.app",
-  "email_source": "https://www.cappella.app/contact.html",
+  "checked": "2026-11-24T08:44:46Z",
+  "email": "info@capella.ae",
+  "email_source": "https://www.capella.ae/",
+  "guessed": true,
   "name": "Capella",
-  "website": "http://www.cappella.tv"
+  "phone": "+971 4 342 2169",
+  "phone_source": "https://www.capella.ae/",
+  "v": 2,
+  "website": "https://www.capella.ae/"
  },
  "capella dubai": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Capella Dubai"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Capella Dubai",
+  "v": 2
  },
  "capella hotel group": {
-  "checked": "2026-11-24T08:32:32Z",
-  "contact_page": "https://capellahotelgroup.com/contacts/",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Capella Hotel Group",
-  "phone": "+65 6887 9385",
-  "phone_source": "https://capellahotelgroup.com/contacts/",
-  "website": "https://capellahotelgroup.com/"
+  "v": 2
  },
  "cenomi centers": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Cenomi Centers"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Cenomi Centers",
+  "v": 2
  },
  "cheval south bay scheduled": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Cheval South Bay Scheduled"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Cheval South Bay Scheduled",
+  "v": 2
  },
  "ciel dubai marina": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Ciel Dubai Marina"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Ciel Dubai Marina",
+  "v": 2
  },
  "critical communications market forecast": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Critical Communications Market Forecast"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Critical Communications Market Forecast",
+  "v": 2
  },
  "d mind dubai municipality": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "D.Mind: Dubai Municipality"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "D.Mind: Dubai Municipality",
+  "v": 2
  },
  "david russell": {
-  "checked": "2026-11-24T08:32:32Z",
-  "contact_page": "https://www.davidrussellguitar.com/index.php/home/contact",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "David Russell",
-  "website": "http://www.davidrussellguitar.com/"
+  "v": 2
  },
  "dream of the desert luxury train": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Dream of the Desert luxury train"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Dream of the Desert luxury train",
+  "v": 2
  },
  "dubai": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://dubaiairports.ae/contact-information",
   "name": "Dubai",
   "phone": "+971 4 224 5555",
   "phone_source": "https://dubaiairports.ae/contact-information",
+  "v": 2,
   "website": "https://www.dubaiairports.ae/en"
  },
  "egyptian group madkour": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Egyptian group Madkour"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Egyptian group Madkour",
+  "v": 2
  },
  "emaar development": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Emaar Development"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Emaar Development",
+  "v": 2
  },
  "energy oman": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://energyoman.com/index.php/contact/",
   "email": "sales@energyoman.com",
   "email_source": "https://energyoman.com/",
@@ -149,28 +163,32 @@
   "name": "Energy Oman",
   "phone": "+968 22574425",
   "phone_source": "https://energyoman.com/",
+  "v": 2,
   "website": "https://energyoman.com/"
  },
  "ennismore": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://ennismore.com/contact/",
   "email": "info@ennismore.com",
   "email_source": "https://ennismore.com/contact/",
   "guessed": true,
   "name": "Ennismore",
+  "v": 2,
   "website": "https://ennismore.com/"
  },
  "fujairah international airport": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Fujairah International Airport",
+  "v": 2,
   "website": "http://fujairah-airport.com/"
  },
  "gambia contract": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Gambia: Contract"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Gambia: Contract",
+  "v": 2
  },
  "gas arabian": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://www.gasarabian.com/contact-us.html",
   "email": "sales@gasarabian.com",
   "email_source": "https://www.gasarabian.com/",
@@ -178,72 +196,83 @@
   "name": "GAS Arabian",
   "phone": "+966 13 835 1500",
   "phone_source": "https://www.gasarabian.com/",
+  "v": 2,
   "website": "https://www.gasarabian.com/"
  },
  "global": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Global",
+  "v": 2,
   "website": "https://www.gbif.org"
  },
  "go telecom": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "GO Telecom"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "GO Telecom",
+  "v": 2
  },
  "grand hyatt the red sea": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Grand Hyatt The Red Sea",
+  "v": 2,
   "website": "https://www.hyatt.com/grand-hyatt/en-US/rsigh-grand-hyatt-the-red-sea"
  },
  "hoxton": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Hoxton"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Hoxton",
+  "v": 2
  },
  "j1 hotel dubai": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "J1 Hotel Dubai"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "J1 Hotel Dubai",
+  "v": 2
  },
  "jumeirah": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://www.jumeirah.com/en/jumeirah-group/contact-us",
   "email": "info@jumeirah.com",
   "email_source": "https://www.jumeirah.com/en/jumeirah-group/contact-us/faq",
   "name": "Jumeirah",
   "phone": "+971 4 364 7555",
   "phone_source": "https://www.jumeirah.com/en",
+  "v": 2,
   "website": "http://www.jumeirah.com/"
  },
  "kbr": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://www.kbr.com/en/contact-us",
   "name": "KBR",
   "phone": "+1 713.753.2000",
   "phone_source": "https://www.kbr.com/en/locations",
+  "v": 2,
   "website": "http://www.kbr.com/"
  },
  "longevity and wellness clinic shookra": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Longevity and wellness clinic Shookra"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Longevity and wellness clinic Shookra",
+  "v": 2
  },
  "lpm sur mer beach venue": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "LPM-Sur-Mer beach venue"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "LPM-Sur-Mer beach venue",
+  "v": 2
  },
  "lulu": {
-  "checked": "2026-11-24T08:32:32Z",
-  "guessed": true,
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Lulu",
-  "website": "https://www.lulu.com/"
+  "v": 2
  },
  "luxury dining guide gaya": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Luxury dining guide GAYA"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Luxury dining guide GAYA",
+  "v": 2
  },
  "mallside hotel curio collection by hilton": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Mallside Hotel, Curio Collection by Hilton"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Mallside Hotel, Curio Collection by Hilton",
+  "v": 2
  },
  "mannai": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://mannai.com/contact/",
   "email": "info@mannai.com.qa",
   "email_source": "https://mannai.com/contact/",
@@ -251,20 +280,23 @@
   "name": "Mannai",
   "phone": "+974) 4455 8888",
   "phone_source": "https://mannai.com/",
+  "v": 2,
   "website": "https://mannai.com/"
  },
  "marriott": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Marriott",
+  "v": 2,
   "website": "https://www.marriott.com/"
  },
  "mdo": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "MDO",
+  "v": 2,
   "website": "http://www.mcgillismusic.com"
  },
  "mered": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://mered.ae/contacts",
   "email": "office@mered.ae",
   "email_source": "https://mered.ae/",
@@ -272,62 +304,68 @@
   "name": "Mered",
   "phone": "+971 4 879 7271",
   "phone_source": "https://mered.ae/",
+  "v": 2,
   "website": "https://mered.ae/"
  },
  "motorola solutions": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://support.motorolasolutions.com/s/contact-us?language=en_US&region=NA",
   "name": "Motorola Solutions",
+  "v": 2,
   "website": "https://www.motorolasolutions.com/en_us/about/motorola-solutions-foundation.html"
  },
  "muharraq city development": {
-  "checked": "2026-11-24T08:32:32Z",
-  "guessed": true,
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Muharraq City Development",
-  "website": "https://muharraq.com/"
+  "v": 2
  },
  "muscat municipality": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Muscat Municipality"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Muscat Municipality",
+  "v": 2
  },
  "nakheel": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://www.nakheel.com/en/contact-us",
-  "email": "collections@nakheel.com",
+  "email": "wecare@nakheel.com",
   "email_source": "https://www.nakheel.com/en/contact-us",
   "name": "Nakheel",
   "phone": "+971 800 625 4335",
   "phone_source": "https://www.nakheel.com/",
+  "v": 2,
   "website": "http://www.nakheel.com"
  },
  "nmdc": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "NMDC",
-  "website": "https://econtent.unm.edu/"
+  "v": 2
  },
  "nmdc energy": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://www.nmdc-energy.com/en/contact-us/",
   "guessed": true,
   "name": "NMDC Energy",
   "phone": "+966 -3- 882 0494",
   "phone_source": "https://www.nmdc-energy.com/en/contact-us/",
+  "v": 2,
   "website": "https://www.nmdc-energy.com/en/"
  },
  "overweight": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Overweight"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Overweight",
+  "v": 2
  },
  "pablo air": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://www.pabloair.com/kr/contact/inquiry.php",
   "email": "pabloair@pabloair.com",
   "email_source": "https://www.pabloair.com/kr/index.php",
   "name": "Pablo Air",
+  "v": 2,
   "website": "http://www.pabloair.com/"
  },
  "palma development": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://palmadevelopment.ae/contact-us/",
   "email": "info@palmaholding.com",
   "email_source": "https://palmadevelopment.ae/",
@@ -335,102 +373,119 @@
   "name": "Palma Development",
   "phone": "+971 4 452 2202",
   "phone_source": "https://palmadevelopment.ae/",
+  "v": 2,
   "website": "https://palmadevelopment.ae/"
  },
  "pdo": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "PDO",
-  "website": "http://www.pdo.co.om/pdo/"
+  "v": 2
  },
  "petro rabigh awards worley engineering": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Petro Rabigh Awards Worley Engineering"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Petro Rabigh Awards Worley Engineering",
+  "v": 2
  },
  "pieter liebenberg": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Pieter Liebenberg"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Pieter Liebenberg",
+  "v": 2
  },
  "qiddiya": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Qiddiya",
+  "v": 2,
   "website": "https://www.qiddiya.com"
  },
  "radisson": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Radisson",
+  "v": 2,
   "website": "https://www.radissonhotelgroup.com"
  },
  "ras al khaimah": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Ras Al Khaimah",
+  "v": 2,
   "website": "http://www.rakairport.com/"
  },
  "red sea global": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Red Sea Global"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Red Sea Global",
+  "v": 2
  },
  "ritz carlton": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://www.ritzcarlton.com/en/contact/",
   "name": "Ritz-Carlton",
   "phone": "00-800-2413-3333",
   "phone_source": "https://www.ritzcarlton.com/en/contact/",
+  "v": 2,
   "website": "http://www.ritzcarlton.com/"
  },
  "ritz carlton amaala": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Ritz-Carlton, AMAALA"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Ritz-Carlton, AMAALA",
+  "v": 2
  },
  "riyadh": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
+  "guessed": true,
   "name": "Riyadh",
-  "website": "https://riyadh.sa/en/"
+  "v": 2,
+  "website": "https://riyadh.om/"
  },
  "rocambolesco": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "ROCAMBOLESCO"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "ROCAMBOLESCO",
+  "v": 2
  },
  "rotana": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://rotana.net/en/contactus",
   "name": "Rotana",
+  "v": 2,
   "website": "https://rotana.net/"
  },
  "saudi aramco": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Saudi Aramco",
+  "v": 2,
   "website": "https://www.aramco.com//"
  },
  "six senses": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "name": "Six Senses",
+  "v": 2,
   "website": "https://www.sixsenses.com"
  },
  "six senses the palm": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Six Senses The Palm"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Six Senses The Palm",
+  "v": 2
  },
  "six senses the palm dubai": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Six Senses The Palm, Dubai"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Six Senses The Palm, Dubai",
+  "v": 2
  },
  "slb": {
-  "checked": "2026-11-24T08:32:32Z",
-  "contact_page": "https://www.slb.com/contact-us",
-  "guessed": true,
+  "checked": "2026-11-24T08:44:46Z",
   "name": "SLB",
-  "website": "https://www.slb.com/"
+  "v": 2
  },
  "truckoman": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "Truckoman"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "Truckoman",
+  "v": 2
  },
  "uae business capella hotel group": {
-  "checked": "2026-11-24T08:32:32Z",
-  "name": "UAE Business: Capella Hotel Group"
+  "checked": "2026-11-24T08:44:46Z",
+  "name": "UAE Business: Capella Hotel Group",
+  "v": 2
  },
  "world police summit": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://worldpolicesummit.com/contact-us/",
   "email": "info@worldpolicesummit.com",
   "email_source": "https://worldpolicesummit.com/",
@@ -438,14 +493,16 @@
   "name": "World Police Summit",
   "phone": "800 3982",
   "phone_source": "https://worldpolicesummit.com/contact-us/",
+  "v": 2,
   "website": "https://worldpolicesummit.com/"
  },
  "worley": {
-  "checked": "2026-11-24T08:32:32Z",
+  "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://www.worley.com/en/contact-us",
   "name": "Worley",
   "phone": "+61 2 8923 6866",
   "phone_source": "https://www.worley.com/en/investor-relations/ir-contacts",
+  "v": 2,
   "website": "https://www.worley.com/"
  }
 }
