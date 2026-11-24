@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-24T10:43:07Z",
+ "generated": "2026-11-24T10:59:51Z",
  "count": 129,
- "feeds_checked": 44,
+ "feeds_checked": 42,
  "items": [
   {
    "id": "5cf30e07df00",
@@ -61,8 +61,8 @@
    "client": "",
    "why": "New project in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Reach Ritz-Carlton while they are still buying.",
    "preview": {
-    "image": "https://www.bing.com/th?id=ONUT.mfDp4JEP5mUE64N1EeZRmw&w=640&h=360&c=7&rs=1&pid=News",
     "url": "https://www.hoteliermiddleeast.com/news/the-ritz-carlton-opens-at-amaala-on-saudi-arabias-red-sea-coast",
+    "image": "https://www.bing.com/th?id=ONUT.mfDp4JEP5mUE64N1EeZRmw&w=640&h=360&c=7&rs=1&pid=News",
     "excerpt": "The resort overlooks the Triple Bay marina and has a 1,225 sq m spa and a ballroom that can host up to 1,200 guests. The Ritz-Carlton opens at AMAALA on Saudi Arabia’s Red Sea coast. Amaala, hotel…"
    },
    "contact": {
@@ -163,7 +163,7 @@
    "why": "Gambia: Contract just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers.",
    "preview": {
     "url": "https://www.africa-energy.com/news-centre/article/gambia-contract-awarded-large-renewable-plant",
-    "image": "https://www.bing.com/th?id=ONUT.SUNoMast04fG2JiWpjWDzg&w=640&h=360&c=7&rs=1&pid=News",
+    "image": "https://www.africa-energy.com/storage/94044/Soma-substation--Eiffage.jpg",
     "excerpt": "The Ministry of Petroleum and Energy has awarded a contract to an international bidder for a major renewable energy facility that would be Gambia’s largest-ever power plant."
    },
    "contact": {
@@ -482,9 +482,9 @@
    "client": "",
    "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Jumeirah while they are still buying.",
    "preview": {
-    "excerpt": "Jumeirah unveils plans for a luxury 40-suite hotel on Italy's Lake Como, set to open in 2027, expanding its European portfolio with stunning waterfront views.",
+    "url": "https://gulfnews.com/business/tourism/dubais-jumeirah-to-open-luxury-lake-como-hotel-in-italy-in-2027-1.500757781",
     "image": "https://media.assettype.com/gulfnews%2F2026-11-23%2Fzcumamtp%2FPhoto-1Jumeirah-Lake-Como.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-    "url": "https://gulfnews.com/business/tourism/dubais-jumeirah-to-open-luxury-lake-como-hotel-in-italy-in-2027-1.500757781"
+    "excerpt": "Jumeirah unveils plans for a luxury 40-suite hotel on Italy's Lake Como, set to open in 2027, expanding its European portfolio with stunning waterfront views."
    },
    "contact": {
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
@@ -564,9 +564,9 @@
    "client": "",
    "why": "Emiratisation just won work in UAE: a new contract means new teams to equip. Call before they lock in suppliers.",
    "preview": {
-    "excerpt": "The award received more than 33,000 applications this year, an increase of 85% on the previous edition",
+    "url": "https://www.zawya.com/en/press-release/companies-news/al-ghurair-foods-honoured-for-emiratisation-and-workforce-excellence-at-the-emirates-labour-market-award-2026-2452627",
     "image": "https://media.zawya.com/prod/images/gm_preview/cde3bde19686-cb668b02-be6a-4c4f-845f-c037dd7481bd.jpg",
-    "url": "https://www.zawya.com/en/press-release/companies-news/al-ghurair-foods-honoured-for-emiratisation-and-workforce-excellence-at-the-emirates-labour-market-award-2026-2452627"
+    "excerpt": "The award received more than 33,000 applications this year, an increase of 85% on the previous edition"
    },
    "contact": {
     "ask_for": "Procurement Manager or Operations Manager",
@@ -607,7 +607,7 @@
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQczEtaGtUbE5hdExUTEpqRmVOLWw0NjFvdVR3U0tOUF9vRnJoNi1KWVJWX1FKYlNwMnExUTVTSzd2THJITGJ2LWVvWm0wYk42a3VpT3ljYjRWMWJ6LVFDVUkzZnpHOVFJMC00bUM5b1gtbzVUbGlobGtIamljMmlvY1JXSDdWeGFtQVRsLVoxT1lpamQzRUFhOEJwaWo?oc=5",
    "source": "Hotelier Middle East",
    "feed": "GN: Hotel openings UAE",
-   "summary": "The 216-key Abu Dhabi property is scheduled to open next to Dalma Mall in Musaffah in 2027",
+   "summary": "The 216-key Abu Dhabi property is scheduled to open next to Dalma Mall in Musaffah in 2027. Marriott signs deal for first Fairfield hotel in the UAE. Fairfield by Marriott, marriott international.",
    "published": "2026-11-22T05:00:00Z",
    "first_seen": "2026-11-24T07:45:27Z",
    "section": "awards",
@@ -626,12 +626,12 @@
    "lead": "Marriott",
    "client": "",
    "why": "Marriott just won work in UAE: hotel ops, security and housekeeping teams run on two-way radios. Call before they lock in suppliers.",
-   "direct_url": "https://www.hoteliermiddleeast.com/news/marriott-signs-deal-for-first-fairfield-hotel-in-the-uae",
    "image": "https://www.bing.com/th?id=ONUT.60u-6EvsvDwe9PTX0ySfhw&w=640&h=360&c=7&rs=1&pid=News",
+   "direct_url": "https://www.hoteliermiddleeast.com/news/marriott-signs-deal-for-first-fairfield-hotel-in-the-uae",
    "preview": {
     "url": "https://www.hoteliermiddleeast.com/news/marriott-signs-deal-for-first-fairfield-hotel-in-the-uae",
     "image": "https://www.bing.com/th?id=ONUT.60u-6EvsvDwe9PTX0ySfhw&w=640&h=360&c=7&rs=1&pid=News",
-    "excerpt": "The 216-key Abu Dhabi property is scheduled to open next to Dalma Mall in Musaffah in 2027"
+    "excerpt": "The 216-key Abu Dhabi property is scheduled to open next to Dalma Mall in Musaffah in 2027. Marriott signs deal for first Fairfield hotel in the UAE. Fairfield by Marriott, marriott international."
    },
    "contact": {
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
@@ -664,14 +664,14 @@
    "lead": "Fujairah International Airport",
    "client": "",
    "why": "New project in UAE: operations and maintenance teams need radio/TETRA coverage and wireless links. Reach Fujairah International Airport while they are still buying.",
+   "preview": {
+    "url": "https://www.msn.com/en-ae/money/general/fujairah-international-airport-wins-most-promising-airport-for-cargo-services-at-arabian-cargo-awards-2026/ar-AA2hRUzO",
+    "excerpt": "FUJAIRAH, 20th November, 2026 (WAM) -- The Fujairah International Airport (FIA) has been awarded 'Most Promising Airport for Cargo Services' at the Arabian Cargo Awards 2026, recognising its growing…"
+   },
    "contact": {
     "ask_for": "Operations Manager or Procurement Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Fujairah%20International%20Airport%20Operations%20Manager",
     "website": "http://fujairah-airport.com/"
-   },
-   "preview": {
-    "url": "https://www.msn.com/en-ae/money/general/fujairah-international-airport-wins-most-promising-airport-for-cargo-services-at-arabian-cargo-awards-2026/ar-AA2hRUzO",
-    "excerpt": "FUJAIRAH, 20th November, 2026 (WAM) -- The Fujairah International Airport (FIA) has been awarded 'Most Promising Airport for Cargo Services' at the Arabian Cargo Awards 2026, recognising its growing…"
    }
   },
   {
@@ -880,7 +880,7 @@
    "source": "Arabian Gulf Business Insight",
    "feed": "Bing: Saudi giga-project contracts",
    "summary": "Diriyah Company has cancelled the main construction contract awarded to a Saudi-Indian JV for a hotel at the giga-project in Riyadh ...",
-   "image": "https://www.bing.com/th?id=ONUT.WuCEOEMnPyce9R-q3KzMyw&w=640&h=360&c=7&rs=1&pid=News",
+   "image": "https://www.bing.com/th?id=ONUT.wJzjsWRmc7A8gC55FVX1iA&w=640&h=360&c=7&rs=1&pid=News",
    "published": "2026-11-20T06:26:00Z",
    "first_seen": "2026-11-24T10:35:58Z",
    "section": "awards",
@@ -902,9 +902,9 @@
    "client": "",
    "why": "the company just won work in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Call before they lock in suppliers.",
    "preview": {
-    "excerpt": "Diriyah Company has cancelled the main construction contract awarded to a Saudi-Indian JV for a hotel at the giga-project in Riyadh",
+    "url": "https://www.agbi.com/giga-projects/2026/11/diriyah-cancels-200m-hotel-construction-contract/",
     "image": "https://www.agbi.com/tachyon/sites/4/2026/11/Diriyah-hotel.jpg",
-    "url": "https://www.agbi.com/giga-projects/2026/11/diriyah-cancels-200m-hotel-construction-contract/"
+    "excerpt": "Diriyah Company has cancelled the main construction contract awarded to a Saudi-Indian JV for a hotel at the giga-project in Riyadh"
    },
    "contact": {
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager"
@@ -1171,9 +1171,9 @@
    "client": "",
    "why": "New project in UAE: hospital security, porters and facilities teams use radios. Reach the company while they are still buying.",
    "preview": {
-    "excerpt": "Cleveland Clinic Abu Dhabi has unveiled its plans to develop an “autonomous hospital” model by 2030, leveraging ambient and vision artificial intelligence (AI) technologies to automate medical ...",
+    "url": "https://www.wam.ae/en/article/c3c1pqv-cleveland-clinic-abu-dhabi-charts-course-towards",
     "image": "https://www.bing.com/th?id=ONUT.k1aZonkgrvcgRYeYbvA-gw&w=640&h=360&c=7&rs=1&pid=News",
-    "url": "https://www.wam.ae/en/article/c3c1pqv-cleveland-clinic-abu-dhabi-charts-course-towards"
+    "excerpt": "Cleveland Clinic Abu Dhabi has unveiled its plans to develop an “autonomous hospital” model by 2030, leveraging ambient and vision artificial intelligence (AI) technologies to automate medical ..."
    },
    "contact": {
     "ask_for": "Facilities Manager or Security Manager"
@@ -1185,7 +1185,7 @@
    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWHVRSUxaWjR4MkhfSmlPUDR2QXhmMGV5bUVSelJUWS00ZEI5elpqaURxd0lreW91VzBpVkwyNVZ0TDVyYU5PcDZLS3NLY2tmZU9XOGlKR2hkR1BWSEtTdGYtaGx1ZE9WV1l6cGZXelFOMHVnNDIxcHFnRE5IR1lIbXJXZmJ4cG5tX3VXVmt6c0pkTGlsMG1MU2Y4WDNfSUlVZGIwU2dVNFpzYklpek05VU9fUFpxMlB2U1NJeXdKVTVhS0RBMXZSNk9hamJER2NLY05od3dPVU5TRGc1RW9uUm9KQ0VkMlRaSU1Md3RITQ?oc=5",
    "source": "Construction Week Online",
    "feed": "GN via Construction Week: awards",
-   "summary": "C-Quest joins PIF-backed Khafji project as Phase 1 starts, with 2030 completion targeted for the first of three phases",
+   "summary": "",
    "published": "2026-11-19T07:05:07Z",
    "first_seen": "2026-11-24T10:43:07Z",
    "section": "awards",
@@ -1205,10 +1205,9 @@
    "lead": "C-Quest",
    "client": "",
    "why": "C-Quest just won work in the region: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers.",
-   "direct_url": "https://www.constructionweekonline.com/people/appointments/c-quest-appointed-cost-consultant-for-gulf-coast-developments-new-destination-in-khafji-governorate",
    "preview": {
     "url": "https://www.constructionweekonline.com/people/appointments/c-quest-appointed-cost-consultant-for-gulf-coast-developments-new-destination-in-khafji-governorate",
-    "excerpt": "C-Quest joins PIF-backed Khafji project as Phase 1 starts, with 2030 completion targeted for the first of three phases"
+    "excerpt": "C-Quest joins PIF-backed Khafji project as Phase 1 starts, with 2030 completion targeted for the first of three phases ..."
    },
    "contact": {
     "ask_for": "Procurement Manager or Project Manager",
@@ -1320,9 +1319,9 @@
    "client": "",
    "why": "Global just won work in UAE: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers.",
    "preview": {
-    "excerpt": "Dutch Foundation & Concrete Processing appointed to deliver enabling works across the entire AED 3 billion master-planned community in DHCC Phase 2",
+    "url": "https://www.zawya.com/en/press-release/companies-news/global-partners-awards-aed-100mln-contract-as-dubai-creek-gardens-moves-into-construction-2395330",
     "image": "https://media.zawya.com/prod/images/gm_preview/adcb41535d82-mirage-dcg-003-masterplan-aerial-copyright-plomp-large.jpeg",
-    "url": "https://www.zawya.com/en/press-release/companies-news/global-partners-awards-aed-100mln-contract-as-dubai-creek-gardens-moves-into-construction-2395330"
+    "excerpt": "Dutch Foundation & Concrete Processing appointed to deliver enabling works across the entire AED 3 billion master-planned community in DHCC Phase 2"
    },
    "contact": {
     "ask_for": "Procurement Manager or Project Manager",
@@ -1616,14 +1615,14 @@
    "lead": "Al Maktoum Airport",
    "client": "",
    "why": "New project in the region: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Reach Al Maktoum Airport while they are still buying.",
-   "contact": {
-    "ask_for": "Procurement Manager or Project Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Al%20Maktoum%20Airport%20Procurement%20Manager"
-   },
    "preview": {
     "url": "https://www.cbnme.com/news/al-maktoum-airport-and-rabigh-2-lead-octobers-top-10-contract-awards/",
     "image": "https://www.cbnme.com/wp-content/uploads/2026/11/catalog-1024x755.jpg",
     "excerpt": "A US$3.5 billion fertiliser complex in Saudi Arabia and Dubai Holding's largest construction contract to date headline a month of major awards across"
+   },
+   "contact": {
+    "ask_for": "Procurement Manager or Project Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Al%20Maktoum%20Airport%20Procurement%20Manager"
    }
   },
   {
@@ -1716,8 +1715,8 @@
    "client": "",
    "why": "EDECS Group just won work in the region: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers.",
    "preview": {
-    "excerpt": "The scope of work includes the installation of 120 piles",
-    "url": "https://www.zawya.com/en/business/edecs-group-secures-design-and-build-contract-for-dp-worlds-angolan-port-2284539"
+    "url": "https://www.zawya.com/en/business/edecs-group-secures-design-and-build-contract-for-dp-worlds-angolan-port-2284539",
+    "excerpt": "The scope of work includes the installation of 120 piles"
    },
    "contact": {
     "ask_for": "Procurement Manager or Project Manager",
@@ -1756,9 +1755,9 @@
    "client": "",
    "why": "New project in UAE: hospital security, porters and facilities teams use radios. Reach American Hospital Dubai while they are still buying.",
    "preview": {
-    "excerpt": "The new facilities include a dedicated Women & Children’s Hospital, an Outpatient & Day Case Centre, and an Orthopedic & Sports Medicine Hospital to be built near American Hospital at Dubai Science…",
+    "url": "https://www.khaleejtimes.com/lifestyle/health/american-hospital-dubai-announces-three-new-medical-facilities-at-dubai-science-park",
     "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-11-16/a72ihv5m/LEAD.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,0,1004,669",
-    "url": "https://www.khaleejtimes.com/lifestyle/health/american-hospital-dubai-announces-three-new-medical-facilities-at-dubai-science-park"
+    "excerpt": "The new facilities include a dedicated Women & Children’s Hospital, an Outpatient & Day Case Centre, and an Orthopedic & Sports Medicine Hospital to be built near American Hospital at Dubai Science…"
    },
    "contact": {
     "ask_for": "Facilities Manager or Security Manager",
@@ -1839,9 +1838,9 @@
    "client": "ADNOC Gas",
    "why": "Wison just won work in UAE: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers.",
    "preview": {
-    "excerpt": "A major unit of Abu Dhabi National Oil Company, ADNOC Gas had awarded Wison Engineering the $3.9 billion EPC contract in August",
+    "url": "https://www.zawya.com/en/business/wison-breaks-ground-on-key-adnoc-gas-facility-in-abu-dhabi-2277459",
     "image": "https://media.zawya.com/prod/images/gm_preview/f3f63b01b182-adnoc-trading-usa.webp",
-    "url": "https://www.zawya.com/en/business/wison-breaks-ground-on-key-adnoc-gas-facility-in-abu-dhabi-2277459"
+    "excerpt": "A major unit of Abu Dhabi National Oil Company, ADNOC Gas had awarded Wison Engineering the $3.9 billion EPC contract in August"
    },
    "contact": {
     "ask_for": "Procurement Manager or Project Manager (site communications)",
@@ -1882,9 +1881,9 @@
    "client": "",
    "why": "EDECS Group just won work in the region: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers.",
    "preview": {
-    "excerpt": "EDECS Group awarded the Design & Build contract of the quay wall at DP World’s container terminal at the Port of Luanda",
+    "url": "https://www.zawya.com/en/press-release/companies-news/edecs-group-and-dp-world-drive-next-generation-port-infrastructure-in-angola-2278374",
     "image": "https://media.zawya.com/prod/images/gm_preview/e591cce2b98c-port-of-luanda-angola.png",
-    "url": "https://www.zawya.com/en/press-release/companies-news/edecs-group-and-dp-world-drive-next-generation-port-infrastructure-in-angola-2278374"
+    "excerpt": "EDECS Group awarded the Design & Build contract of the quay wall at DP World’s container terminal at the Port of Luanda"
    },
    "contact": {
     "ask_for": "Procurement Manager or Project Manager",
@@ -1900,10 +1899,11 @@
    "id": "7919fbc3af38",
    "title": "Pieter Liebenberg appointed GM of Radisson Hotel Riyadh Airport",
    "link": "https://www.hoteliermiddleeast.com/hme/pieter-liebenberg-appointed-gm-of-radisson-hotel-riyadh-airport",
-   "source": "Hotelier Middle East (direct RSS)",
-   "feed": "Hotelier Middle East (direct RSS)",
-   "summary": "The appointment follows Amsa Hospitality’s takeover of the hotel’s management in June 2026",
-   "published": "2026-11-15T05:00:00Z",
+   "source": "Hotelier Middle East",
+   "feed": "Bing: Hotelier ME: openings",
+   "summary": "The appointment follows Amsa Hospitality’s takeover of the hotel’s management in June 2026. Pieter Liebenberg appointed GM of Radisson Hotel Riyadh Airport. Amsa Hospitality, appointment, general ...",
+   "image": "https://www.bing.com/th?id=ONUT.K9EpUQ46FsPF6qM2eFxD5g&w=640&h=360&c=7&rs=1&pid=News",
+   "published": "2026-11-15T08:25:00Z",
    "first_seen": "2026-11-24T07:49:29Z",
    "section": "awards",
    "score": "medium",
@@ -1925,7 +1925,8 @@
    "why": "Pieter Liebenberg just won work in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Call before they lock in suppliers.",
    "preview": {
     "url": "https://www.hoteliermiddleeast.com/hme/pieter-liebenberg-appointed-gm-of-radisson-hotel-riyadh-airport",
-    "excerpt": "The appointment follows Amsa Hospitality’s takeover of the hotel’s management in June 2026"
+    "image": "https://www.bing.com/th?id=ONUT.K9EpUQ46FsPF6qM2eFxD5g&w=640&h=360&c=7&rs=1&pid=News",
+    "excerpt": "The appointment follows Amsa Hospitality’s takeover of the hotel’s management in June 2026. Pieter Liebenberg appointed GM of Radisson Hotel Riyadh Airport. Amsa Hospitality, appointment, general ..."
    },
    "contact": {
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
@@ -2560,9 +2561,9 @@
    "client": "",
    "why": "Mannai just won work in Saudi Arabia: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers.",
    "preview": {
-    "excerpt": "Fast-tracked, two-year contract builds on Mannai's FIFA World Cup Qatar 2022 technology legacy and marks a major milestone for Mannai Information Tech...",
+    "url": "https://www.zawya.com/en/press-release/companies-news/mannai-awarded-major-mep-and-technology-contract-for-landmark-riyadh-giga-project-development-2153752",
     "image": "https://media.zawya.com/prod/images/gm_preview/13a9126071ae-sumanta-roy-group-ict-president-mannai-corporation-and-liu-xuanyuan-checs-pr.jpeg",
-    "url": "https://www.zawya.com/en/press-release/companies-news/mannai-awarded-major-mep-and-technology-contract-for-landmark-riyadh-giga-project-development-2153752"
+    "excerpt": "Fast-tracked, two-year contract builds on Mannai's FIFA World Cup Qatar 2022 technology legacy and marks a major milestone for Mannai Information Tech..."
    },
    "contact": {
     "ask_for": "Procurement Manager or Project Manager",
@@ -2635,11 +2636,6 @@
    "lead": "Lulu",
    "client": "",
    "why": "New project in UAE: mall security, facilities and car-park teams use radios and bodycams. Reach Lulu while they are still buying.",
-   "preview": {
-    "url": "https://gulfnews.com/uae/dubai/lulu-opens-127th-uae-hypermarket-at-moopans-mall-expands-global-projects-in-us-and-india-1.500741559",
-    "image": "https://media.assettype.com/gulfnews%2F2026-11-09%2Ffwtj33sj%2F70408bc2-ed94-4c78-a715-39e9e869baff.jpeg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
-    "excerpt": "Lulu opens its 127th UAE hypermarket at Moopans Mall, Dubai, expanding its global footprint with new projects in the US and India."
-   },
    "contact": {
     "ask_for": "Facilities Manager or Security Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Lulu%20Facilities%20Manager"
@@ -3359,7 +3355,7 @@
    "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE1ZclFfenRoV0VJc2VoQkNrTmY5ZllPR201SjdyTzRGNk9NZmhSUUFlV05NOTU3ZTl3b05DSGVYYlJBMm4tWjYtRko0SEFqQjJhMlE2TlNPcG1zT3NQWVhxOFgtYkxUYk9lZlAxUDFwX285cFo4NFZvc3BTcjE?oc=5",
    "source": "La Revue des Hôtels",
    "feed": "GN: Hotel openings Saudi & Oman",
-   "summary": "The Grand Hyatt The Red Sea opens in Saudi Arabia: 430 rooms and five pools on Shura Island La Revue des Hôtels",
+   "summary": "",
    "published": "2026-11-03T08:00:00Z",
    "first_seen": "2026-11-24T07:45:27Z",
    "section": "awards",
@@ -3795,6 +3791,42 @@
    }
   },
   {
+   "id": "4c84f4108547",
+   "title": "Red Sea Global announces opening of Grand Hyatt The Red Sea in Saudi Arabia",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT3JSQTE2TlBKUk9Vak4wLVIzdnJPOGJlb2VkSElJbVpES1N2RFVzQ1VrRkozQUxWd0RsMU5fdnVDM2d0Nnd3NWpWcEZZZlJidVZfcFc0ZjFTSGJMTkd0MkxKVEYtb2JES3ZMWnQ3VEk2YlFSRU1RbE1rU3AtSTdWVkFzU3ZrdlZzTkUyVXQ5VVNVZkhmSHozSUIxU01IWWhkSUx5eEZqRjl0ZFFQSWp4VzJPbEd3VnJRV1B6R2F4b0RqNE1zVEE?oc=5",
+   "source": "Prop News Time",
+   "feed": "GN: Hotel openings Saudi & Oman",
+   "summary": "",
+   "published": "2026-10-30T07:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "hospitality",
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opening"
+    ]
+   },
+   "compliance": [],
+   "lead": "Red Sea Global",
+   "client": "Hyatt",
+   "why": "New project in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Reach Red Sea Global while they are still buying.",
+   "preview": {
+    "url": "https://www.spa.gov.sa/en/N2714569",
+    "image": "https://portalcdn.spa.gov.sa/backend/original/202610/M11121342.jpeg",
+    "excerpt": "Tabuk, October 31, 2026, SPA -- Red Sea Global (RSG) has announced the opening of Grand Hyatt The Red Sea, a landmark premium resort on Shura Island that expands the destination's hospitality…"
+   },
+   "contact": {
+    "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Red%20Sea%20Global%20Pre-opening%20General%20Manager"
+   }
+  },
+  {
    "id": "5f107850ce9e",
    "title": "Saudi Arabia: Al Shubaily Grand Mall In Al Khobar Announces Phased Soft Opening! Details Inside",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSE1VaVpUQ2FrRnBvWGk1Z3FPS2syNUJVbFJfVEVERWJMLXBZYm1tRUptT29oMzh5U29GZ2RrcGFiNktMcjlnZHllNUpza1FPSXFva05PTmdPQ0k3bnlGMG9leFlxUHFpUDZLbjBEWmhyVVZyLWlWMEJ1Zkt1MGhpMVJ0YWplSWhvRlFBSzNqTjl5S0pnVVg4NV9sOFVqR19oUGVWOGppSE9yN3FPLU1FWVZsb3lmSWZpSTJYcHhZTlBfaDhZU2hPZEhDSDZvQTZySmV5S9IB2gFBVV95cUxOeUc4Rk9MSzFLRDZKWHdvVjBNcFA0cGpXd2VKNWNMa2U3VnlZOGVfa1FPOGJTR0dZYlhDTzVHX09zODg2M0stMUVaWWtCdEJGOFJRX3dieGxpNWM4NXNOUzJkcmh6LU16bHFsbGtpVUNlTmVtZGV2aWI0N1ZJZzdZVUNqT3JHUHd1RFZLTnJ3VXc5QVVkTGZTUDBQdldxaVVac1FYeG1XZ25UT2FOYkNQVEJuRldWTzFjelozamZXQ1J0dnFrYkxVYThtdldvUU9tblo2NmVzZ19ZUQ?oc=5",
@@ -3822,42 +3854,6 @@
    "why": "New project in Saudi Arabia: mall security, facilities and car-park teams use radios and bodycams. Reach the company while they are still buying.",
    "contact": {
     "ask_for": "Facilities Manager or Security Manager"
-   }
-  },
-  {
-   "id": "4c84f4108547",
-   "title": "Red Sea Global announces opening of Grand Hyatt The Red Sea in Saudi Arabia",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT3JSQTE2TlBKUk9Vak4wLVIzdnJPOGJlb2VkSElJbVpES1N2RFVzQ1VrRkozQUxWd0RsMU5fdnVDM2d0Nnd3NWpWcEZZZlJidVZfcFc0ZjFTSGJMTkd0MkxKVEYtb2JES3ZMWnQ3VEk2YlFSRU1RbE1rU3AtSTdWVkFzU3ZrdlZzTkUyVXQ5VVNVZkhmSHozSUIxU01IWWhkSUx5eEZqRjl0ZFFQSWp4VzJPbEd3VnJRV1B6R2F4b0RqNE1zVEE?oc=5",
-   "source": "Prop News Time",
-   "feed": "GN: Hotel openings Saudi & Oman",
-   "summary": "Red Sea Global announces opening of Grand Hyatt The Red Sea in Saudi Arabia Prop News Time",
-   "published": "2026-10-30T07:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "medium",
-   "country": "Saudi Arabia",
-   "sectors": [
-    "hospitality",
-    "construction"
-   ],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "opening"
-    ]
-   },
-   "compliance": [],
-   "lead": "Red Sea Global",
-   "client": "Hyatt",
-   "why": "New project in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Reach Red Sea Global while they are still buying.",
-   "contact": {
-    "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Red%20Sea%20Global%20Pre-opening%20General%20Manager"
-   },
-   "preview": {
-    "url": "https://www.spa.gov.sa/en/N2714569",
-    "image": "https://portalcdn.spa.gov.sa/backend/original/202610/M11121342.jpeg",
-    "excerpt": "Tabuk, October 31, 2026, SPA -- Red Sea Global (RSG) has announced the opening of Grand Hyatt The Red Sea, a landmark premium resort on Shura Island that expands the destination's hospitality…"
    }
   },
   {
