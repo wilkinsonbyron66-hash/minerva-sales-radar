@@ -122,18 +122,30 @@ def enrich(items, cache_path, max_items=150, budget_s=300, fetch=_get, log=print
     rank = {"high": 0, "medium": 1, "low": 2}
     for it in sorted(items, key=lambda x: (rank.get(x.get("score"), 3), x.get("published", "")), reverse=False):
         p = cache.get(it["id"])
-        retry = p is not None and not p.get("url") and p.get("tries", 0) < 2
+        direct = it.get("direct_url") or ("" if gn_id(it["link"]) else it["link"])
+        retry = p is not None and not p.get("url") and (p.get("tries", 0) < 2 or (direct and not p.get("d")))
         if (p is None or retry) and done < max_items and time.time() < deadline:
             done += 1
             tries = (p or {}).get("tries", 0) + 1
             u = None
             try:
-                u = real_url(it["link"], fetch)
+                u = direct or real_url(it["link"], fetch)
                 p = share_meta(u, it.get("title", ""), fetch) if u else {"tries": tries}
             except Exception:
                 p = {"url": u} if u and u != it["link"] else {"tries": tries}
+            if direct:
+                p["d"] = 1
             cache[it["id"]] = p
             time.sleep(0.4)
+        p = dict(p or {})
+        # Fall back to what the feed itself gave us (Bing thumbnail, direct link, feed snippet)
+        if not p.get("image") and it.get("image"):
+            p["image"] = it["image"]
+        if not p.get("url") and direct:
+            p["url"] = direct
+        if not p.get("excerpt") and it.get("summary") and direct and not _similar(it["summary"], it.get("title", "")):
+            ex = re.sub(r"\s+", " ", it["summary"]).strip()
+            p["excerpt"] = ex if len(ex) <= MAX_EXCERPT else ex[:MAX_EXCERPT].rsplit(" ", 1)[0].rstrip(",;:-") + "…"
         if p:
             pv = {k: v for k, v in p.items() if v and k in ("url", "image", "excerpt")}
             if pv:

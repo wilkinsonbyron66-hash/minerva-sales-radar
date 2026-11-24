@@ -41,6 +41,8 @@ Each entry in `feeds` is either a Google News search or a direct RSS link:
 ```
 
 - `query` is written like a normal Google search (quotes, OR, site:zawya.com all work). The script builds the Google News RSS link for you (`hl=en-AE&gl=AE&ceid=AE:en`).
+- Every `query` feed is also run on **Bing News** (same words). Bing links go straight to the article and include a thumbnail, which is where most card pictures come from. Turn it off with `"bing_news": false` in `settings`.
+- **Card pictures and excerpts:** `scripts/preview.py` reads each article's share picture and summary (the same ones a site shows when its link is shared). If none is found, the card shows a sector illustration from `img/sectors/`.
 - `section` is a hint: `tenders` or `awards`. The keywords decide in the end.
 - **Google Alerts:** create an alert at google.com/alerts → *Show options* → *Deliver to: RSS feed* → copy the RSS icon link into a `url` entry.
 - To remove a feed, delete its line (and the comma before it if it was the last one).

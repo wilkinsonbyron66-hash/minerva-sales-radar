@@ -64,6 +64,30 @@ def build_url(feed, settings):
     return f"https://news.google.com/rss/search?q={q}&{settings['google_news_params']}"
 
 
+def build_bing_url(feed, settings):
+    """Same search on Bing News. Bing links go straight to the article and carry a thumbnail."""
+    q = urllib.parse.quote_plus(feed["query"])
+    return f"https://www.bing.com/news/search?q={q}&format=rss&{settings.get('bing_news_params', 'setlang=en&cc=AE')}"
+
+
+def unwrap_link(link):
+    """Bing wraps article links in apiclick.aspx?...&url=<real url>. Return the real URL."""
+    if "bing.com/news/apiclick" in link:
+        u = urllib.parse.parse_qs(urllib.parse.urlsplit(link).query).get("url")
+        if u and u[0].startswith("http"):
+            return u[0]
+    return link
+
+
+def bing_thumb(u):
+    """Ask Bing's thumbnail service for a card-sized, smart-cropped image."""
+    if re.match(r"https?://[^/]*bing\.(?:com|net)/th", u or ""):
+        u = re.sub(r"&(?:w|h|c|pid|rs|qlt)=[^&]*", "", u) + "&w=640&h=360&c=7&rs=1&pid=News"
+    if u and u.startswith("http://"):
+        u = "https://" + u[7:]
+    return u
+
+
 def fetch(url, timeout=25):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/rss+xml, application/xml, text/xml, */*"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -110,7 +134,7 @@ def parse_feed(raw):
         tag = _strip_ns(el.tag)
         if tag not in ("item", "entry"):
             continue
-        d = {"title": "", "link": "", "published": "", "source": "", "summary": ""}
+        d = {"title": "", "link": "", "published": "", "source": "", "summary": "", "image": ""}
         for ch in el:
             t = _strip_ns(ch.tag)
             if t == "title":
@@ -123,6 +147,18 @@ def parse_feed(raw):
                 d["source"] = _text(ch)
             elif t in ("description", "summary", "content") and not d["summary"]:
                 d["summary"] = clean_html(_text(ch))[:400]
+            elif t == "image" and not d["image"]:
+                # Bing: <News:Image>url</News:Image>
+                d["image"] = (_text(ch) or "").strip()
+            elif t == "thumbnail" and not d["image"]:
+                d["image"] = (ch.get("url") or "").strip()
+            elif t == "content" and ch.get("medium") == "image" and not d["image"]:
+                d["image"] = (ch.get("url") or "").strip()
+        d["link"] = unwrap_link(d["link"])
+        if d["image"]:
+            d["image"] = bing_thumb(html.unescape(d["image"]))
+            if not d["image"].startswith("http"):
+                d["image"] = ""
         if d["title"] and d["link"]:
             out.append(d)
     return out
@@ -320,6 +356,14 @@ def dedupe(items, threshold):
         for k in kept:
             if difflib.SequenceMatcher(None, nt, k["_norm"]).ratio() >= threshold:
                 dup = True
+                # Same story from two feeds: keep the best bits of both
+                # (a Bing copy brings a direct link and thumbnail to a Google News card).
+                if it.get("image") and not k.get("image"):
+                    k["image"] = it["image"]
+                if "news.google." in k["link"] and "news.google." not in it["link"] and not k.get("direct_url"):
+                    k["direct_url"] = it["link"]
+                if it.get("summary") and not k.get("summary"):
+                    k["summary"] = it["summary"]
                 break
         if dup:
             continue
@@ -371,6 +415,13 @@ def main():
             except Exception as e:  # one bad feed must never stop the run
                 print(f"  ! {f['name']}: {e}", file=sys.stderr)
             time.sleep(1.0)  # be polite to Google News
+            if st.get("bing_news", True) and f.get("query"):
+                bname = "Bing: " + re.sub(r"^GN(?: via)?:?\s*", "", f["name"])
+                try:
+                    sources.append((bname, f.get("section", ""), fetch(build_bing_url(f, st))))
+                except Exception as e:
+                    print(f"  ! {bname}: {e}", file=sys.stderr)
+                time.sleep(1.0)
 
     report = []
     fresh = []
@@ -398,7 +449,8 @@ def main():
                 "link": e["link"],
                 "source": source or name,
                 "feed": name,
-                "summary": e["summary"][:300] if norm_title(e["summary"]) != norm_title(title) else "",
+                "summary": "" if norm_title(e["summary"]).startswith(norm_title(title)[:80]) else e["summary"][:300],
+                **({"image": e["image"]} if e.get("image") else {}),
                 "published": pub.strftime("%Y-%m-%dT%H:%M:%SZ"),
                 "first_seen": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
                 **c,
