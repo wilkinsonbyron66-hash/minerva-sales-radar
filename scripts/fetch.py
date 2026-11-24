@@ -146,7 +146,7 @@ STOPWORDS = {"The", "A", "An", "New", "How", "Why", "What", "This", "Top", "Here
 
 
 def _tidy_name(s):
-    s = LEAD_PREFIX.sub("", s.strip(" ,:;-–—'\""))
+    s = LEAD_PREFIX.sub("", s.replace("\u2019", "'").strip(" ,:;-–—'\""))
     s = re.sub(r"\s+(?:has|have|is|was|will|to|and)$", "", s)
     words = s.split()
     while words and words[0] in STOPWORDS:
@@ -171,7 +171,7 @@ def detect_leads(title, known):
         if m:
             lead = _tidy_name(m.group(1))
     if not lead:
-        m = re.match(r"^(.{2,70}?)\s+(?:" + VERBS + r")\b", title)
+        m = re.match(r"^(.{2,70}?)\s+(?:" + VERBS + r")\b", title, re.I)
         if m:
             lead = _tidy_name(m.group(1))
     if not lead:
