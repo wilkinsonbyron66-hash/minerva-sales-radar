@@ -6,7 +6,9 @@
     "max_items": 600,
     "google_news_params": "hl=en-AE&gl=AE&ceid=AE:en",
     "contact_lookups_per_run": 80,
-    "contact_time_budget_s": 600
+    "contact_time_budget_s": 600,
+    "preview_lookups_per_run": 150,
+    "preview_time_budget_s": 300
   },
   "keywords": {
     "product": [

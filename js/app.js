@@ -150,7 +150,16 @@
     var comp = it.compliance && it.compliance.length
       ? "<span class='badge comp' title='Matched: " + esc(it.compliance.join(", ")) + "'>⚠ Check before quoting</span>" : "";
     var sc = it.score.charAt(0).toUpperCase() + it.score.slice(1);
-    return "<article class='card item s-" + it.score + (hideReason ? " dim" : "") + "' data-id='" + esc(it.id) + "' style='--i:" + Math.min(i, 12) + "'>" +
+    var link = (it.preview && it.preview.url) || it.link;
+    var ill = "img/sectors/" + illustration(it) + ".svg";
+    var img = it.preview && it.preview.image;
+    var media = "<a class='media' href='" + esc(link) + "' target='_blank' rel='noopener' tabindex='-1' aria-hidden='true'>" +
+      "<img src='" + esc(img || ill) + "' alt='' loading='lazy' decoding='async' referrerpolicy='no-referrer'" + (img ? "" : " class='ill'") +
+      " onload=\"this.classList.add('ok')\" onerror=\"this.onerror=null;this.className='ill';this.src='" + ill + "'\"></a>";
+    var excerpt = it.preview && it.preview.excerpt
+      ? "<blockquote class='excerpt'>“" + esc(it.preview.excerpt) + "”<cite>" + esc(it.source) + "</cite></blockquote>" : "";
+    return "<article class='card item has-media s-" + it.score + (hideReason ? " dim" : "") + "' data-id='" + esc(it.id) + "' style='--i:" + Math.min(i, 12) + "'>" +
+      media + "<div class='body'>" +
       "<div class='badges'>" +
         (isNew(it) && !hideReason ? "<span class='badge new'>New</span>" : "") +
         "<span class='badge " + it.score + "'><span class='dot'></span>" + sc + "</span>" +
@@ -158,8 +167,9 @@
         "<span class='badge'>" + esc(it.country === "Other" ? "Country unclear" : it.country) + "</span>" + comp +
         (hideReason ? "<span class='badge'>" + esc(hideReason) + "</span>" : "") +
       "</div>" +
-      "<h3><a href='" + esc(it.link) + "' target='_blank' rel='noopener'>" + esc(it.title) + "</a></h3>" +
-      "<div class='meta'>" + esc(it.source) + " · " + ago(it.published) + "</div>" +
+      "<h3><a href='" + esc(link) + "' target='_blank' rel='noopener'>" + esc(it.title) + "</a></h3>" +
+      "<div class='meta'>" + esc(it.source) + " · " + ago(it.published) + " · <a href='" + esc(link) + "' target='_blank' rel='noopener'>Read article ↗</a></div>" +
+      excerpt +
       "<p class='why'>" + esc(it.why) + "</p>" +
       "<div class='who'><p class='who-top'>" + ICON.phone + "<span class='k'>Call</span>" + who + "</p>" + contactRows(it) + "</div>" +
       "<div class='actions'>" +
@@ -167,7 +177,7 @@
         (hideReason
           ? "<button class='btn quiet' data-act='restore'>Restore</button>"
           : "<button class='btn ghost' data-act='snooze'>" + ICON.clock + "Snooze 7d</button><button class='btn quiet' data-act='hide'>Not relevant</button>") +
-      "</div></article>";
+      "</div></div></article>";
   }
 
   function host(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return u; } }
@@ -184,6 +194,14 @@
     var src = c.phone_source || c.email_source;
     if (src) r += "<div class='crow tiny'>Public contact from <a href='" + esc(src) + "' target='_blank' rel='noopener'>" + esc(host(src)) + "</a> — check before calling.</div>";
     return r;
+  }
+
+  var ILL = [["hospitality", "hotel"], ["oil & gas", "oil"], ["security", "security"], ["transport", "transport"],
+             ["events", "events"], ["utilities", "utilities"], ["construction", "construction"], ["retail", "construction"]];
+  function illustration(it) {
+    var sec = it.sectors || [];
+    for (var k = 0; k < ILL.length; k++) if (sec.indexOf(ILL[k][0]) !== -1) return ILL[k][1];
+    return it.section === "tenders" ? "tender" : "generic";
   }
 
   function groupLabel(iso) {
@@ -205,6 +223,7 @@
       if (q) {
         var hay = [it.title, it.lead, it.client, it.source, it.why, it.country, (it.sectors || []).join(" "),
                    (it.matched && it.matched.product || []).join(" "),
+                   it.preview ? it.preview.excerpt : "",
                    it.contact ? [it.contact.email, (it.contact.people || []).map(function (p) { return p.name; }).join(" ")].join(" ") : ""].join(" ").toLowerCase();
         if (hay.indexOf(q) === -1) return false;
       }

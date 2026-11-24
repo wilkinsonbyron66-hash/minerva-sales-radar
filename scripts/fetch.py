@@ -337,6 +337,7 @@ def main():
     ap.add_argument("--now", help="Pretend today is YYYY-MM-DD (testing).")
     ap.add_argument("--fresh", action="store_true", help="Ignore existing items.json instead of merging.")
     ap.add_argument("--no-contacts", action="store_true", help="Skip the company contact lookup.")
+    ap.add_argument("--no-previews", action="store_true", help="Skip article image/excerpt lookup.")
     args = ap.parse_args()
 
     cfg = json.load(open(args.config, encoding="utf-8"))
@@ -430,6 +431,11 @@ def main():
     for it in items:
         it.pop("_norm", None)
 
+    if not args.no_previews and not args.sample_dir:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import preview
+        preview.enrich(items, os.path.join(os.path.dirname(args.out), "previews.json"),
+                       max_items=st.get("preview_lookups_per_run", 150), budget_s=st.get("preview_time_budget_s", 300))
     if not args.no_contacts and not args.sample_dir:
         sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
         import contacts

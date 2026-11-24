@@ -156,12 +156,34 @@ select:focus { outline: 0; border-color: var(--cyan); box-shadow: 0 0 0 3px rgba
   animation: rise .4s var(--ease) both; animation-delay: calc(var(--i, 0) * 35ms);
 }
 .item::before {
+  z-index: 2;
   content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: var(--low-bg);
 }
 .item.s-high::before { background: var(--high); }
 .item.s-medium::before { background: #e3a33b; }
 .item:hover { box-shadow: var(--shadow-hover); }
 .item.dim { opacity: .6; }
+.item.has-media { grid-template-columns: 240px minmax(0, 1fr); gap: 0 18px; padding: 0; }
+.item.has-media::before { z-index: 2; }
+.item .body { display: grid; gap: 10px; padding: 16px 18px 16px 0; min-width: 0; }
+.media {
+  display: block; position: relative; overflow: hidden; background: var(--navy);
+  align-self: start; height: 160px; margin: 16px 0 16px 18px; border-radius: 10px;
+}
+.media img {
+  position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;
+  opacity: 0; transform: scale(1.04); transition: opacity .5s var(--ease), transform .6s var(--ease);
+}
+.media img.ok, .media img.ill { opacity: 1; transform: none; }
+.item:hover .media img.ok { transform: scale(1.03); }
+.excerpt {
+  margin: 0; padding: 8px 0 8px 14px; border-left: 3px solid var(--cyan);
+  color: #33424f; font-size: 15px; font-style: italic; line-height: 1.5;
+}
+.excerpt cite { display: block; font-style: normal; font-size: 13px; color: var(--muted); margin-top: 4px; }
+.excerpt cite::before { content: "From "; }
+.meta a { color: var(--navy); text-decoration: none; font-weight: 600; }
+.meta a:hover { text-decoration: underline; }
 .item.leaving { opacity: 0; transform: translateX(24px); }
 @keyframes rise { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
 
@@ -271,6 +293,9 @@ footer { color: var(--muted); font-size: 13px; text-align: center; padding-top: 
   .stat .n { font-size: 24px; }
   .frow { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .card { padding: 14px 14px 14px 16px; }
+  .item.has-media { grid-template-columns: minmax(0, 1fr); padding: 0; }
+  .item .body { padding: 14px 14px 14px 16px; }
+  .media { height: 160px; margin: 0; border-radius: var(--radius) var(--radius) 0 0; }
   .item h3 { font-size: 17px; }
   .ev-facts { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
   .ev-facts .fact:last-child { grid-column: 1 / -1; }

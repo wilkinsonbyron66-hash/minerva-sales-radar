@@ -354,7 +354,7 @@ def enrich(items, cache_path, now, max_lookups=80, budget_s=600, fetcher=None, l
         company = it.get("lead") or it.get("client") or ""
         role = ask_for(it)
         contact = {"ask_for": role}
-        people = people_in_text(f"{it.get('title', '')}. {it.get('summary', '')}")
+        people = people_in_text(f"{it.get('title', '')}. {it.get('summary', '')}. {it.get('preview', {}).get('excerpt', '')}")
         if people:
             contact["people"] = people
         if company:
