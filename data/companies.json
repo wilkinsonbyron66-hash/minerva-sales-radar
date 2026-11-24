@@ -19,6 +19,13 @@
   "name": "Altec",
   "v": 2
  },
+ "american hospital dubai": {
+  "checked": "2026-11-24T10:35:58Z",
+  "guessed": true,
+  "name": "American Hospital Dubai",
+  "v": 2,
+  "website": "https://patientportal.ahdubai.com/"
+ },
  "arabia": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "Arabia",
@@ -144,6 +151,16 @@
   "v": 2,
   "website": "https://www.dubaiairports.ae/en"
  },
+ "edecs group": {
+  "checked": "2026-11-24T10:35:58Z",
+  "contact_page": "https://www.edecs.com/contact-us",
+  "guessed": true,
+  "name": "EDECS Group",
+  "phone": "+971 0545865858",
+  "phone_source": "https://www.edecs.com/contact-us",
+  "v": 2,
+  "website": "https://www.edecs.com/"
+ },
  "egyptian group madkour": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "Egyptian group Madkour",
@@ -152,6 +169,11 @@
  "emaar development": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "Emaar Development",
+  "v": 2
+ },
+ "emiratisation": {
+  "checked": "2026-11-24T10:35:58Z",
+  "name": "Emiratisation",
   "v": 2
  },
  "energy oman": {
@@ -494,6 +516,22 @@
   "checked": "2026-11-24T08:44:46Z",
   "name": "UAE Business: Capella Hotel Group",
   "v": 2
+ },
+ "un tourism executive council 127th session": {
+  "checked": "2026-11-24T10:35:58Z",
+  "name": "UN Tourism Executive Council 127th Session",
+  "v": 2
+ },
+ "wison": {
+  "checked": "2026-11-24T10:35:58Z",
+  "contact_page": "https://www.wison.com/contact",
+  "email": "ethics@wison.com",
+  "email_source": "https://www.wison.com/contact",
+  "name": "Wison",
+  "phone": "+86 21 20306000",
+  "phone_source": "https://www.wison.com/contact",
+  "v": 2,
+  "website": "http://www.wison.com"
  },
  "world police summit": {
   "checked": "2026-11-24T08:44:46Z",

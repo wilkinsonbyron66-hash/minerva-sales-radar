@@ -1,362 +1,450 @@
 {
  "00a61b9b7647": {
-  "tries": 1
- },
- "00df72d710ae": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "00ed99b93e92": {
-  "tries": 1
+  "tries": 2
  },
  "012e109cb039": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
+ },
+ "03ee6a753d98": {
+  "d": 1,
+  "excerpt": "Diriyah Company has cancelled the main construction contract awarded to a Saudi-Indian JV for a hotel at the giga-project in Riyadh",
+  "image": "https://www.agbi.com/tachyon/sites/4/2026/11/Diriyah-hotel.jpg",
+  "url": "https://www.agbi.com/giga-projects/2026/11/diriyah-cancels-200m-hotel-construction-contract/"
  },
  "053872bb1b6a": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "0613da4b8cc4": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "075306972dd8": {
-  "tries": 1
- },
- "0c19455b94d9": {
-  "tries": 1
+  "tries": 2
  },
  "0d02bdf43fdb": {
-  "tries": 1
+  "tries": 2
  },
  "0dd596983f34": {
-  "tries": 1
+  "tries": 2
  },
  "0e70324cc7aa": {
-  "tries": 1
+  "tries": 2
  },
  "0f21fab5bd96": {
-  "tries": 1
+  "tries": 2
  },
  "0ff4d819a5b8": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
+ },
+ "109bdce83179": {
+  "d": 1,
+  "excerpt": "Fast-tracked, two-year contract builds on Mannai's FIFA World Cup Qatar 2022 technology legacy and marks a major milestone for Mannai Information Tech...",
+  "image": "https://media.zawya.com/prod/images/gm_preview/13a9126071ae-sumanta-roy-group-ict-president-mannai-corporation-and-liu-xuanyuan-checs-pr.jpeg",
+  "url": "https://www.zawya.com/en/press-release/companies-news/mannai-awarded-major-mep-and-technology-contract-for-landmark-riyadh-giga-project-development-2153752"
  },
  "15a567ec2e7d": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "17d11c119d39": {
-  "tries": 1
+  "tries": 2
  },
  "17fa059ed581": {
-  "tries": 1
+  "tries": 2
  },
  "1971261bac4f": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "1d4073abaa0f": {
-  "tries": 1
+  "tries": 2
  },
  "2076740de0d1": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
+ },
+ "207f8d86b67c": {
+  "d": 1,
+  "excerpt": "Jumeirah unveils plans for a luxury 40-suite hotel on Italy's Lake Como, set to open in 2027, expanding its European portfolio with stunning waterfront views.",
+  "image": "https://media.assettype.com/gulfnews%2F2026-11-23%2Fzcumamtp%2FPhoto-1Jumeirah-Lake-Como.jpg?w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
+  "url": "https://gulfnews.com/business/tourism/dubais-jumeirah-to-open-luxury-lake-como-hotel-in-italy-in-2027-1.500757781"
  },
  "27b3dd212db5": {
-  "tries": 1
+  "tries": 2
  },
  "281609e3a59d": {
-  "tries": 1
+  "tries": 2
+ },
+ "2954b6a776d8": {
+  "d": 1,
+  "excerpt": "The scope of work includes the installation of 120 piles",
+  "image": "",
+  "url": "https://www.zawya.com/en/business/edecs-group-secures-design-and-build-contract-for-dp-worlds-angolan-port-2284539"
  },
  "29799324c1c0": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "2bcdb9c79fae": {
-  "tries": 1
+  "tries": 2
  },
  "2c1537f25299": {
-  "tries": 1
+  "tries": 2
  },
  "2fa13bc9f79b": {
-  "tries": 1
+  "tries": 2
  },
  "31e58f0d0b6c": {
-  "tries": 1
+  "tries": 2
  },
  "3211632806cf": {
-  "tries": 1
+  "tries": 2
  },
  "376003666f5f": {
-  "tries": 1
+  "tries": 2
  },
  "39b04acc93fc": {
-  "tries": 1
+  "tries": 2
  },
  "3e16f9247878": {
-  "tries": 1
+  "tries": 2
  },
  "3efe5c66bd4d": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "3f43989a3d75": {
-  "tries": 1
+  "tries": 2
  },
  "4515f2f5a0f9": {
-  "tries": 1
+  "tries": 2
  },
  "4593a518610c": {
-  "tries": 1
+  "tries": 2
  },
  "45cbf8651f36": {
-  "tries": 1
+  "tries": 2
+ },
+ "46d7985584bd": {
+  "d": 1,
+  "excerpt": "A major unit of Abu Dhabi National Oil Company, ADNOC Gas had awarded Wison Engineering the $3.9 billion EPC contract in August",
+  "image": "https://media.zawya.com/prod/images/gm_preview/f3f63b01b182-adnoc-trading-usa.webp",
+  "url": "https://www.zawya.com/en/business/wison-breaks-ground-on-key-adnoc-gas-facility-in-abu-dhabi-2277459"
  },
  "47240dc2c521": {
-  "tries": 1
+  "tries": 2
  },
  "4a418d9b9aa4": {
-  "tries": 1
+  "d": 1,
+  "url": "https://www.hoteliermiddleeast.com/news/marriott-signs-deal-for-first-fairfield-hotel-in-the-uae"
  },
  "4a985ada4464": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "4c84f4108547": {
-  "tries": 1
+  "tries": 2
  },
  "4cf2c3e659f1": {
-  "tries": 1
+  "tries": 2
  },
  "4ebd872c4bc3": {
-  "tries": 1
+  "tries": 2
  },
  "50bee628405c": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "50cc5626d070": {
-  "tries": 1
+  "tries": 2
  },
  "514ff3c96244": {
-  "tries": 1
+  "tries": 2
  },
  "52cc68667e43": {
-  "tries": 1
+  "tries": 2
  },
  "561d172501a6": {
-  "tries": 1
+  "tries": 2
  },
  "567447cc79ff": {
-  "tries": 1
- },
- "57434051cb33": {
-  "tries": 1
+  "tries": 2
  },
  "57f2886a0432": {
-  "tries": 1
+  "tries": 2
  },
  "59995b843700": {
-  "tries": 1
+  "tries": 2
+ },
+ "5bd9f804abda": {
+  "d": 1,
+  "excerpt": "",
+  "image": "",
+  "url": "https://www.wam.ae/en/article/c3c1pqv-cleveland-clinic-abu-dhabi-charts-course-towards"
  },
  "5cf30e07df00": {
-  "tries": 1
+  "tries": 2
  },
  "5f107850ce9e": {
-  "tries": 1
+  "tries": 2
  },
  "6265677cfde6": {
-  "tries": 1
+  "tries": 2
  },
  "656b9843abb8": {
-  "tries": 1
+  "tries": 2
  },
  "685b5a804209": {
-  "tries": 1
+  "tries": 2
  },
  "69445d7b7c84": {
-  "tries": 1
+  "tries": 2
  },
  "69ec4f9159d8": {
+  "tries": 2
+ },
+ "6a83b7f73eb8": {
+  "d": 1,
   "tries": 1
  },
  "6acbf89bb187": {
-  "tries": 1
+  "tries": 2
  },
  "74dc2dacf2da": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "7578ab548ddb": {
-  "tries": 1
+  "tries": 2
  },
  "75d75e9faabd": {
-  "tries": 1
+  "tries": 2
  },
  "789c38cc47da": {
-  "tries": 1
+  "tries": 2
  },
  "78aa60e8dfbe": {
-  "tries": 1
+  "tries": 2
  },
  "7919fbc3af38": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "7c4e8e325be7": {
-  "tries": 1
+  "tries": 2
  },
  "7fb73d41a578": {
-  "tries": 1
+  "tries": 2
  },
  "82ce4f0dffbf": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "84f23d80ebef": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "88038a589175": {
+  "tries": 2
+ },
+ "88b0e93c9b80": {
+  "d": 1,
   "tries": 1
  },
  "88b1854d5847": {
-  "tries": 1
+  "tries": 2
  },
  "89f0019110ee": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "8dffcd337c43": {
-  "tries": 1
+  "tries": 2
  },
  "8e514c870cb6": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "92c846a497bc": {
-  "tries": 1
+  "tries": 2
  },
  "9744a416a7e7": {
-  "tries": 1
+  "tries": 2
  },
- "9e28b3b86e93": {
-  "tries": 1
+ "9a4aa5b7868b": {
+  "d": 1,
+  "excerpt": "The new facilities include a dedicated Women & Children’s Hospital, an Outpatient & Day Case Centre, and an Orthopedic & Sports Medicine Hospital to be built near American Hospital at Dubai Science…",
+  "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-11-16/a72ihv5m/LEAD.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=0,0,1004,669",
+  "url": "https://www.khaleejtimes.com/lifestyle/health/american-hospital-dubai-announces-three-new-medical-facilities-at-dubai-science-park"
  },
  "9f8e33695b7a": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "9fb383392779": {
-  "tries": 1
+  "tries": 2
  },
  "a17d802f9dc2": {
-  "tries": 1
+  "tries": 2
  },
  "a2f9c5c47b9c": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "a4b2bbfc040c": {
-  "tries": 1
+  "tries": 2
  },
  "a4d4a2cde9c6": {
+  "d": 1,
+  "tries": 2
+ },
+ "a60ae4dcd466": {
+  "d": 1,
   "tries": 1
  },
  "a70d0a5e6e24": {
-  "tries": 1
+  "tries": 2
  },
  "a72601d7b11e": {
-  "tries": 1
+  "tries": 2
  },
  "a8ed37983a4a": {
-  "tries": 1
+  "tries": 2
  },
  "ab7f64b0c573": {
-  "tries": 1
+  "tries": 2
  },
  "afc562ea47e8": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "b192bee7db45": {
-  "tries": 1
- },
- "b2d09c329e50": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "b73b40bb3210": {
-  "tries": 1
+  "tries": 2
  },
  "b8c5448cb68a": {
-  "tries": 1
+  "tries": 2
  },
  "b9152d93370c": {
-  "tries": 1
+  "tries": 2
  },
  "bee8ff1c2634": {
-  "tries": 1
+  "tries": 2
+ },
+ "c3253f32cec0": {
+  "d": 1,
+  "excerpt": "EDECS Group awarded the Design & Build contract of the quay wall at DP World’s container terminal at the Port of Luanda",
+  "image": "https://media.zawya.com/prod/images/gm_preview/e591cce2b98c-port-of-luanda-angola.png",
+  "url": "https://www.zawya.com/en/press-release/companies-news/edecs-group-and-dp-world-drive-next-generation-port-infrastructure-in-angola-2278374"
+ },
+ "c592e0236fa2": {
+  "d": 1,
+  "excerpt": "The award received more than 33,000 applications this year, an increase of 85% on the previous edition",
+  "image": "https://media.zawya.com/prod/images/gm_preview/cde3bde19686-cb668b02-be6a-4c4f-845f-c037dd7481bd.jpg",
+  "url": "https://www.zawya.com/en/press-release/companies-news/al-ghurair-foods-honoured-for-emiratisation-and-workforce-excellence-at-the-emirates-labour-market-award-2026-2452627"
  },
  "c656d4a5e36b": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "c7205378947d": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "ce7f46dcedc7": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "cfed1e45626d": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "d20708085cd4": {
-  "tries": 1
+  "tries": 2
  },
  "d225ef9c8bbc": {
-  "tries": 1
+  "tries": 2
  },
  "d29ad217238b": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "d4f0fe85b8ba": {
-  "tries": 1
+  "tries": 2
  },
  "d5b69f4a9432": {
-  "tries": 1
+  "tries": 2
  },
  "d8f9975c2236": {
-  "tries": 1
+  "tries": 2
  },
- "d9052ca3935b": {
-  "tries": 1
+ "dacc6dc5df01": {
+  "d": 1,
+  "excerpt": "Dutch Foundation & Concrete Processing appointed to deliver enabling works across the entire AED 3 billion master-planned community in DHCC Phase 2",
+  "image": "https://media.zawya.com/prod/images/gm_preview/adcb41535d82-mirage-dcg-003-masterplan-aerial-copyright-plomp-large.jpeg",
+  "url": "https://www.zawya.com/en/press-release/companies-news/global-partners-awards-aed-100mln-contract-as-dubai-creek-gardens-moves-into-construction-2395330"
  },
  "dd9c411ce4dc": {
-  "tries": 1
+  "tries": 2
  },
  "dfc9d3d794f2": {
-  "tries": 1
+  "tries": 2
  },
  "e8aafded5da3": {
-  "tries": 1
+  "tries": 2
  },
  "e8f094e10fe9": {
+  "tries": 2
+ },
+ "eb637c194a1d": {
+  "d": 1,
   "tries": 1
  },
  "ec098bf52071": {
-  "tries": 1
+  "tries": 2
  },
  "ec7a4d0f653b": {
-  "tries": 1
+  "tries": 2
  },
  "ed41f13e0694": {
-  "tries": 1
+  "tries": 2
  },
  "eea3cc1c6de4": {
-  "tries": 1
+  "d": 1,
+  "tries": 2
  },
  "f23ccedc70a9": {
-  "tries": 1
+  "tries": 2
  },
  "f2c76ffcacfb": {
-  "tries": 1
+  "tries": 2
  },
  "f7cac5eba264": {
-  "tries": 1
+  "tries": 2
  },
  "f87e82d2c5f6": {
-  "tries": 1
+  "tries": 2
  },
  "fad82432f576": {
-  "tries": 1
+  "tries": 2
  },
  "fb406a895af1": {
-  "tries": 1
+  "tries": 2
  },
  "fca7a8a05ce7": {
-  "tries": 1
+  "tries": 2
  },
  "ff02a2073210": {
-  "tries": 1
+  "tries": 2
  }
 }
