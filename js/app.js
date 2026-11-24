@@ -48,7 +48,10 @@
     phone: "<svg viewBox='0 0 24 24'><path d='M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z'/></svg>",
     plus: "<svg viewBox='0 0 24 24'><path d='M12 5v14M5 12h14'/></svg>",
     check: "<svg viewBox='0 0 24 24'><path d='M20 6 9 17l-5-5'/></svg>",
-    clock: "<svg viewBox='0 0 24 24'><circle cx='12' cy='12' r='9'/><path d='M12 7v5l3 2'/></svg>"
+    clock: "<svg viewBox='0 0 24 24'><circle cx='12' cy='12' r='9'/><path d='M12 7v5l3 2'/></svg>",
+    tel: "<svg viewBox='0 0 24 24'><path d='M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6A19.8 19.8 0 0 1 2.1 4.2 2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.7a2 2 0 0 1-.5 2.1L8 9.8a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.4c.9.3 1.8.6 2.7.7a2 2 0 0 1 1.7 2z'/></svg>",
+    mail: "<svg viewBox='0 0 24 24'><rect x='3' y='5' width='18' height='14' rx='2'/><path d='m3 7 9 6 9-6'/></svg>",
+    web: "<svg viewBox='0 0 24 24'><circle cx='12' cy='12' r='9'/><path d='M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18'/></svg>"
   };
 
   var toastT;
@@ -158,13 +161,29 @@
       "<h3><a href='" + esc(it.link) + "' target='_blank' rel='noopener'>" + esc(it.title) + "</a></h3>" +
       "<div class='meta'>" + esc(it.source) + " · " + ago(it.published) + "</div>" +
       "<p class='why'>" + esc(it.why) + "</p>" +
-      "<p class='who'>" + ICON.phone + "<span class='k'>Call</span>" + who + "</p>" +
+      "<div class='who'><p class='who-top'>" + ICON.phone + "<span class='k'>Call</span>" + who + "</p>" + contactRows(it) + "</div>" +
       "<div class='actions'>" +
         "<button class='btn" + (added ? " added" : "") + "' data-act='call'>" + (added ? ICON.check + "In call list" : ICON.plus + "Call list") + "</button>" +
         (hideReason
           ? "<button class='btn quiet' data-act='restore'>Restore</button>"
           : "<button class='btn ghost' data-act='snooze'>" + ICON.clock + "Snooze 7d</button><button class='btn quiet' data-act='hide'>Not relevant</button>") +
       "</div></article>";
+  }
+
+  function host(u) { try { return new URL(u).hostname.replace(/^www\./, ""); } catch (e) { return u; } }
+  function contactRows(it) {
+    var c = it.contact; if (!c) return "";
+    var r = "", line = [];
+    if (c.phone) line.push("<a class='cl' href='tel:" + esc(c.phone.replace(/[^+0-9]/g, "")) + "'>" + ICON.tel + esc(c.phone) + "</a>");
+    if (c.email) line.push("<a class='cl' href='mailto:" + esc(c.email) + "'>" + ICON.mail + esc(c.email) + "</a>");
+    if (c.website) line.push("<a class='cl' href='" + esc(c.website) + "' target='_blank' rel='noopener'>" + ICON.web + esc(host(c.website)) + (c.guessed ? " <span class='warn'>(guessed — check)</span>" : "") + "</a>");
+    if (line.length) r += "<div class='crow'>" + line.join("") + "</div>";
+    if (c.people && c.people.length) r += "<div class='crow small'><span class='k'>In the article:</span> " + c.people.map(function (p) { return "<b>" + esc(p.name) + "</b> (" + esc(p.role) + ")"; }).join(", ") + "</div>";
+    if (c.ask_for) r += "<div class='crow small'><span class='k'>Ask for:</span> " + esc(c.ask_for) +
+      (c.linkedin ? " <a class='li' href='" + esc(c.linkedin) + "' target='_blank' rel='noopener'>Find on LinkedIn ↗</a>" : "") + "</div>";
+    var src = c.phone_source || c.email_source;
+    if (src) r += "<div class='crow tiny'>Public contact from <a href='" + esc(src) + "' target='_blank' rel='noopener'>" + esc(host(src)) + "</a> — check before calling.</div>";
+    return r;
   }
 
   function groupLabel(iso) {
@@ -185,7 +204,8 @@
       if (F.score === "medium" && it.score === "low") return false;
       if (q) {
         var hay = [it.title, it.lead, it.client, it.source, it.why, it.country, (it.sectors || []).join(" "),
-                   (it.matched && it.matched.product || []).join(" ")].join(" ").toLowerCase();
+                   (it.matched && it.matched.product || []).join(" "),
+                   it.contact ? [it.contact.email, (it.contact.people || []).map(function (p) { return p.name; }).join(" ")].join(" ") : ""].join(" ").toLowerCase();
         if (hay.indexOf(q) === -1) return false;
       }
       return true;
@@ -244,7 +264,10 @@
       if (inCalls(id)) { calls = calls.filter(function (c) { return c.id !== id; }); toast("Removed from call list"); }
       else {
         calls.unshift({ id: id, company: it.lead || it.client || "", title: it.title, link: it.link,
-                        country: it.country, date: it.published.slice(0, 10), added: new Date().toISOString() });
+                        country: it.country, date: it.published.slice(0, 10), added: new Date().toISOString(),
+                        phone: (it.contact && it.contact.phone) || "", email: (it.contact && it.contact.email) || "",
+                        website: (it.contact && it.contact.website) || "", ask_for: (it.contact && it.contact.ask_for) || "",
+                        person: it.contact && it.contact.people && it.contact.people[0] ? it.contact.people[0].name + " (" + it.contact.people[0].role + ")" : "" });
         toast("Added " + (it.lead || "item") + " to call list");
       }
       save(KEY.calls, calls);
@@ -298,6 +321,8 @@
       return "<article class='card item call-row' data-cid='" + esc(c.id) + "' style='--i:" + Math.min(i, 12) + "'>" +
         "<div class='top'><b>" + esc(c.company || "Company not detected") + "</b><span class='meta'>" + esc(c.country) + " · " + fmtDate(c.date + "T08:00:00Z", true) + "</span></div>" +
         "<a href='" + esc(c.link) + "' target='_blank' rel='noopener'>" + esc(c.title) + "</a>" +
+        ((c.phone || c.email) ? "<div class='crow'>" + (c.phone ? "<a class='cl' href='tel:" + esc(c.phone.replace(/[^+0-9]/g, "")) + "'>" + ICON.tel + esc(c.phone) + "</a>" : "") +
+          (c.email ? "<a class='cl' href='mailto:" + esc(c.email) + "'>" + ICON.mail + esc(c.email) + "</a>" : "") + "</div>" : "") +
         "<div class='actions'><button class='btn quiet' data-rm='1'>Remove</button></div></article>";
     }).join("") : "<div class='card empty'>No calls yet. Tap <b>Call list</b> on any signal.</div>";
   }
@@ -312,8 +337,8 @@
   function csvCell(v) { v = String(v == null ? "" : v); return /[",\n\r]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }
   $("export").addEventListener("click", function () {
     if (!calls.length) { toast("Call list is empty"); return; }
-    var lines = [["company", "title", "link", "country", "date"].join(",")].concat(calls.map(function (c) {
-      return [c.company, c.title, c.link, c.country, c.date].map(csvCell).join(",");
+    var lines = [["company", "title", "link", "country", "date", "phone", "email", "website", "ask_for", "person_in_article"].join(",")].concat(calls.map(function (c) {
+      return [c.company, c.title, c.link, c.country, c.date, c.phone, c.email, c.website, c.ask_for, c.person].map(csvCell).join(",");
     }));
     var blob = new Blob(["﻿" + lines.join("\r\n")], { type: "text/csv;charset=utf-8" });
     var a = document.createElement("a");

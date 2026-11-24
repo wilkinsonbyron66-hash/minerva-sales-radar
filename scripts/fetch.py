@@ -336,6 +336,7 @@ def main():
                                          "File names starting with 'tenders_' or 'awards_' set the section hint.")
     ap.add_argument("--now", help="Pretend today is YYYY-MM-DD (testing).")
     ap.add_argument("--fresh", action="store_true", help="Ignore existing items.json instead of merging.")
+    ap.add_argument("--no-contacts", action="store_true", help="Skip the company contact lookup.")
     args = ap.parse_args()
 
     cfg = json.load(open(args.config, encoding="utf-8"))
@@ -396,6 +397,7 @@ def main():
                 "link": e["link"],
                 "source": source or name,
                 "feed": name,
+                "summary": e["summary"][:300] if norm_title(e["summary"]) != norm_title(title) else "",
                 "published": pub.strftime("%Y-%m-%dT%H:%M:%SZ"),
                 "first_seen": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
                 **c,
@@ -427,6 +429,12 @@ def main():
     items = items[: st["max_items"]]
     for it in items:
         it.pop("_norm", None)
+
+    if not args.no_contacts and not args.sample_dir:
+        sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+        import contacts
+        contacts.enrich(items, os.path.join(os.path.dirname(args.out), "companies.json"), now,
+                        max_lookups=st.get("contact_lookups_per_run", 80), budget_s=st.get("contact_time_budget_s", 600))
 
     out = {
         "generated": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
