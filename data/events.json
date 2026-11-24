@@ -1,0 +1,105 @@
+{
+  "_help": "Hand-maintained. Dates are YYYY-MM-DD. confirmed=false means the date came from listing sites, not the organiser - check before booking. book_by is about 3 weeks before the show (time to set up meetings).",
+  "updated": "2026-11-24",
+  "events": [
+    {
+      "name": "Big 5 Global 2026",
+      "start": "2026-11-23", "end": "2026-11-26",
+      "location": "Dubai", "venue": "Dubai World Trade Centre",
+      "sectors": ["construction", "utilities"],
+      "why": "Biggest construction show in MEASA. Main contractors, MEP firms and developers who need site radios, repeaters and PTP links for site offices and CCTV.",
+      "book_by": "2026-11-02",
+      "confirmed": true,
+      "note": "On now. Walk the halls for contractor contacts.",
+      "url": "https://www.big5global.com"
+    },
+    {
+      "name": "GITEX Global 2026",
+      "start": "2026-12-07", "end": "2026-12-11",
+      "location": "Dubai", "venue": "Dubai Exhibition Centre, Expo City Dubai",
+      "sectors": ["technology", "government", "smart city"],
+      "why": "Moved to December and to Expo City this year. Government IT, telcos and system integrators - good for Cambium wireless broadband and smart-city/CCTV backhaul conversations.",
+      "book_by": "2026-11-16",
+      "confirmed": true,
+      "note": "Book-by date has passed - book meetings now.",
+      "url": "https://www.gitex.com"
+    },
+    {
+      "name": "Intersec Global 2027",
+      "start": "2027-01-12", "end": "2027-01-14",
+      "location": "Dubai", "venue": "Dubai World Trade Centre",
+      "sectors": ["security", "safety", "fire", "police"],
+      "why": "The key show for us: security companies, guarding firms, police and civil defence buyers. Core audience for two-way radios, TETRA and body cameras.",
+      "book_by": "2026-12-22",
+      "confirmed": false,
+      "note": "Organiser pages show both 11-13 Jan and 12-14 Jan 2027 (12-14 is on the Intersec Global page and in WAM news). Check intersecglobal.ae before booking.",
+      "url": "https://intersecglobal.ae.messefrankfurt.com"
+    },
+    {
+      "name": "Arabian Travel Market 2027",
+      "start": "2027-05-03", "end": "2027-05-06",
+      "location": "Dubai", "venue": "Dubai World Trade Centre",
+      "sectors": ["hospitality", "tourism"],
+      "why": "Hotel groups, resorts, destination developers and tourism boards. Hotel ops and security teams run on radios - good for new-opening leads.",
+      "book_by": "2027-04-12",
+      "confirmed": true,
+      "note": "Organiser confirmed 3-6 May 2027.",
+      "url": "https://www.wtm.com/atm"
+    },
+    {
+      "name": "Critical Communications World (CCW) 2027",
+      "start": "2027-05-11", "end": "2027-05-13",
+      "location": "Amsterdam (not Middle East)", "venue": "TBC",
+      "sectors": ["critical communications", "TETRA", "public safety"],
+      "why": "TCCA's global TETRA / mission-critical show. Useful for Motorola and TETRA network contacts; GCC operators (e.g. Nedaa) often attend.",
+      "book_by": "2027-04-20",
+      "confirmed": false,
+      "note": "UNCONFIRMED. Listing sites show Amsterdam 11-13 May 2027. I could not find a separate 'CCW Middle East' edition - the last Dubai edition was May 2024. Check tcca.info.",
+      "url": "https://tcca.info"
+    },
+    {
+      "name": "The Hotel Show Dubai 2027",
+      "start": "2027-06-01", "end": "2027-06-03",
+      "location": "Dubai", "venue": "Dubai World Trade Centre",
+      "sectors": ["hospitality", "F&B"],
+      "why": "Hotel owners, operators, procurement and pre-opening teams. Pre-opening teams buy radio fleets for housekeeping, security and engineering.",
+      "book_by": "2027-05-11",
+      "confirmed": false,
+      "note": "UNCONFIRMED. Dates from listing sites only; the 2026 show was moved to Sept, so check thehotelshow.com.",
+      "url": "https://www.thehotelshow.com"
+    },
+    {
+      "name": "ADIPEC 2027",
+      "start": "2027-11-01", "end": "2027-11-04",
+      "location": "Abu Dhabi", "venue": "ADNEC Centre Abu Dhabi",
+      "sectors": ["oil & gas", "energy"],
+      "why": "The region's biggest oil & gas show. ADNOC, Aramco, PDO, EPC contractors and drilling firms - buyers of ATEX radios and PTP links for remote sites.",
+      "book_by": "2027-10-11",
+      "confirmed": false,
+      "note": "Organiser says November 2027; exact 1-4 Nov dates come from listing sites.",
+      "url": "https://www.adipec.com"
+    },
+    {
+      "name": "Big 5 Global 2027",
+      "start": "2027-11-22", "end": "2027-11-25",
+      "location": "Dubai", "venue": "Dubai World Trade Centre",
+      "sectors": ["construction"],
+      "why": "Same audience as this year: contractors, developers and MEP firms.",
+      "book_by": "2027-11-01",
+      "confirmed": false,
+      "note": "ESTIMATE ONLY. 2027 dates not announced; guessed from the usual late-November slot.",
+      "url": "https://www.big5global.com"
+    },
+    {
+      "name": "ISNR Abu Dhabi 2028",
+      "start": "2028-04-04", "end": "2028-04-06",
+      "location": "Abu Dhabi", "venue": "ADNEC Centre Abu Dhabi",
+      "sectors": ["security", "police", "government"],
+      "why": "National security and resilience show, held every two years with the Ministry of Interior and Abu Dhabi Police. Government buyers, so check compliance before quoting.",
+      "book_by": "2028-03-14",
+      "confirmed": false,
+      "note": "UNCONFIRMED. Biennial - the last edition was 19-21 May 2026. 2028 dates from one listing site only.",
+      "url": "https://www.isnrabudhabi.com"
+    }
+  ]
+}

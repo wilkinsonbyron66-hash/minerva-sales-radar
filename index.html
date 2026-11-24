@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover">
+  <title>Minerva Sales Radar</title>
+  <meta name="description" content="Daily buying signals for Minerva Technologies: tenders, contract awards, new projects and events in the UAE, Saudi Arabia and Oman.">
+  <meta name="theme-color" content="#0f5c4d">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="Sales Radar">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div>
+        <h1>Minerva Sales Radar</h1>
+        <p class="sub">Daily buying signals for the UAE, Saudi Arabia and Oman: tenders, contract awards, new projects and events. Each card says why it matters and who to call.</p>
+      </div>
+      <p class="updated" id="updated">Loading…</p>
+    </header>
+
+    <nav class="tabs" role="tablist">
+      <button role="tab" data-tab="signals" aria-selected="true">Signals <span class="count" id="c-signals"></span></button>
+      <button role="tab" data-tab="events" aria-selected="false">Events <span class="count" id="c-events"></span></button>
+      <button role="tab" data-tab="calls" aria-selected="false">Call list <span class="count" id="c-calls"></span></button>
+    </nav>
+
+    <!-- SIGNALS -->
+    <section id="tab-signals" class="tabpanel">
+      <div class="card filters">
+        <div class="frow">
+          <label class="f"><span>Section</span>
+            <select id="f-section">
+              <option value="">All sections</option>
+              <option value="tenders">Live tenders</option>
+              <option value="awards">Awards &amp; new projects</option>
+            </select>
+          </label>
+          <label class="f"><span>Country</span>
+            <select id="f-country">
+              <option value="">All countries</option>
+              <option>UAE</option>
+              <option>Saudi Arabia</option>
+              <option>Oman</option>
+              <option value="Other">Other / unclear</option>
+            </select>
+          </label>
+          <label class="f"><span>Score</span>
+            <select id="f-score">
+              <option value="">Any score</option>
+              <option value="high">High only</option>
+              <option value="medium">Medium and up</option>
+            </select>
+          </label>
+          <label class="f"><span>Sort</span>
+            <select id="f-sort">
+              <option value="newest">Newest first</option>
+              <option value="score">Highest score</option>
+            </select>
+          </label>
+        </div>
+        <div class="frow">
+          <label class="f grow"><span>Search</span>
+            <input id="f-q" type="search" placeholder="Company, product, city…" autocomplete="off">
+          </label>
+          <label class="check"><input id="f-hidden" type="checkbox"> Show hidden <span id="c-hidden"></span></label>
+        </div>
+      </div>
+      <p class="resultline" id="resultline"></p>
+      <div id="list" class="list"></div>
+    </section>
+
+    <!-- EVENTS -->
+    <section id="tab-events" class="tabpanel" hidden>
+      <p class="resultline">Hand-maintained in <code>data/events.json</code>. Items marked <b>Unconfirmed</b> came from listing sites, not the organiser.</p>
+      <div id="events" class="list"></div>
+    </section>
+
+    <!-- CALL LIST -->
+    <section id="tab-calls" class="tabpanel" hidden>
+      <div class="card">
+        <h2>Call list</h2>
+        <p class="muted">Saved on this device. Export as CSV to import into your dialler (columns: company, title, link, country, date).</p>
+        <div class="actions">
+          <button class="btn" id="export">Export CSV</button>
+          <button class="btn ghost" id="clearcalls">Clear list</button>
+          <span class="toast" id="toast" role="status"></span>
+        </div>
+      </div>
+      <div id="calls" class="list"></div>
+    </section>
+
+    <footer>Free build: RSS feeds → GitHub Actions (06:00 Dubai daily) → GitHub Pages. Keyword scoring only. Always check the source before quoting.</footer>
+  </div>
+  <script src="js/app.js"></script>
+</body>
+</html>

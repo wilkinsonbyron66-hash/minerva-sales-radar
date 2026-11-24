@@ -1,0 +1,39 @@
+name: Daily radar update
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # 02:00 UTC = 06:00 Dubai
+  workflow_dispatch:       # "Run workflow" button for manual runs
+
+permissions:
+  contents: write
+
+concurrency:
+  group: radar-update
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch feeds and score items
+        run: python scripts/fetch.py
+
+      - name: Commit updated items.json
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "radar-bot@users.noreply.github.com"
+          git add data/items.json
+          if git diff --cached --quiet; then
+            echo "No changes"
+          else
+            git commit -m "Daily radar update $(date -u +%Y-%m-%d)"
+            git push
+          fi
