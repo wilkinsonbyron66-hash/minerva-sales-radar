@@ -9,6 +9,8 @@ Nothing beyond that publisher-written summary is copied.
 Results are cached in data/previews.json (keyed by item id).
 """
 import base64
+import difflib
+import xml.etree.ElementTree as ET
 import html
 import json
 import os
@@ -76,6 +78,43 @@ def real_url(url, fetch=_get):
 
 
 # --------------------------------------------------------------------------- #
+# Bing headline lookup: find the same story on Bing News to get its direct
+# link and thumbnail (Google News links can't be decoded from GitHub's servers).
+# --------------------------------------------------------------------------- #
+def _norm(t):
+    t = re.sub(r"[^a-z0-9 ]", " ", (t or "").lower())
+    return re.sub(r"\s+", " ", t).strip()
+
+
+def bing_lookup(title, source="", fetch=_get):
+    q = urllib.parse.quote_plus(title[:150])
+    raw, _ = fetch(f"https://www.bing.com/news/search?q={q}&format=rss&setlang=en&cc=AE")
+    root = ET.fromstring(raw.encode("utf-8") if isinstance(raw, str) else raw)
+    want, best = _norm(title), (0.0, None)
+    for el in root.iter():
+        if el.tag.split("}")[-1].lower() != "item":
+            continue
+        d = {}
+        for ch in el:
+            d[ch.tag.split("}")[-1].lower()] = (ch.text or "").strip()
+        r = difflib.SequenceMatcher(None, want, _norm(html.unescape(d.get("title", "")))).ratio()
+        if r > best[0]:
+            best = (r, d)
+    if best[0] < 0.8 or not best[1]:
+        return None
+    d = best[1]
+    link = d.get("link", "")
+    if "bing.com/news/apiclick" in link:
+        link = (urllib.parse.parse_qs(urllib.parse.urlsplit(link).query).get("url") or [""])[0]
+    img = html.unescape(d.get("image", ""))
+    if re.match(r"https?://[^/]*bing\.(?:com|net)/th", img):
+        img = re.sub(r"&(?:w|h|c|pid|rs|qlt)=[^&]*", "", img) + "&w=640&h=360&c=7&rs=1&pid=News"
+        img = "https://" + img.split("://", 1)[1]
+    desc = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", d.get("description", "")))).strip()
+    return {"url": link if link.startswith("http") else "", "thumb": img if img.startswith("http") else "", "snippet": desc}
+
+
+# --------------------------------------------------------------------------- #
 # Share metadata
 # --------------------------------------------------------------------------- #
 def _meta(page, *names):
@@ -123,10 +162,22 @@ def enrich(items, cache_path, max_items=150, budget_s=300, fetch=_get, log=print
     for it in sorted(items, key=lambda x: (rank.get(x.get("score"), 3), x.get("published", "")), reverse=False):
         p = cache.get(it["id"])
         direct = it.get("direct_url") or ("" if gn_id(it["link"]) else it["link"])
-        retry = p is not None and not p.get("url") and (p.get("tries", 0) < 2 or (direct and not p.get("d")))
+        retry = p is not None and not p.get("url") and (
+            p.get("tries", 0) < 2 or (direct and not p.get("d")) or (not direct and not p.get("b")))
         if (p is None or retry) and done < max_items and time.time() < deadline:
             done += 1
             tries = (p or {}).get("tries", 0) + 1
+            extra = {}
+            if not direct:
+                try:
+                    b = bing_lookup(it.get("title", ""), it.get("source", ""), fetch)
+                except Exception:
+                    b = None
+                extra["b"] = 1
+                if b:
+                    direct = b["url"]
+                    extra.update({k: v for k, v in (("thumb", b["thumb"]), ("snippet", b["snippet"])) if v})
+                time.sleep(0.6)
             u = None
             try:
                 u = direct or real_url(it["link"], fetch)
@@ -135,16 +186,20 @@ def enrich(items, cache_path, max_items=150, budget_s=300, fetch=_get, log=print
                 p = {"url": u} if u and u != it["link"] else {"tries": tries}
             if direct:
                 p["d"] = 1
+            p.update(extra)
+            if not p.get("url") and direct:
+                p["url"] = direct
             cache[it["id"]] = p
             time.sleep(0.4)
         p = dict(p or {})
         # Fall back to what the feed itself gave us (Bing thumbnail, direct link, feed snippet)
-        if not p.get("image") and it.get("image"):
-            p["image"] = it["image"]
+        if not p.get("image"):
+            p["image"] = it.get("image") or p.get("thumb", "")
         if not p.get("url") and direct:
             p["url"] = direct
-        if not p.get("excerpt") and it.get("summary") and direct and not _similar(it["summary"], it.get("title", "")):
-            ex = re.sub(r"\s+", " ", it["summary"]).strip()
+        src_text = p.get("snippet") or (it.get("summary") if direct else "")
+        if not p.get("excerpt") and src_text and not _similar(src_text, it.get("title", "")):
+            ex = re.sub(r"\s+", " ", src_text).strip()
             p["excerpt"] = ex if len(ex) <= MAX_EXCERPT else ex[:MAX_EXCERPT].rsplit(" ", 1)[0].rstrip(",;:-") + "…"
         if p:
             pv = {k: v for k, v in p.items() if v and k in ("url", "image", "excerpt")}

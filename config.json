@@ -8,7 +8,7 @@
     "contact_lookups_per_run": 80,
     "contact_time_budget_s": 600,
     "preview_lookups_per_run": 150,
-    "preview_time_budget_s": 300,
+    "preview_time_budget_s": 480,
     "bing_news": true,
     "bing_news_params": "setlang=en&cc=AE"
   },
