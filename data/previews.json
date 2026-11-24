@@ -4,6 +4,11 @@
   "tries": 2,
   "v": 2
  },
+ "03dcdf6993f2": {
+  "b": 1,
+  "tries": 1,
+  "v": 2
+ },
  "03ee6a753d98": {
   "d": 1,
   "excerpt": "Diriyah Company has cancelled the main construction contract awarded to a Saudi-Indian JV for a hotel at the giga-project in Riyadh",
@@ -146,7 +151,7 @@
  },
  "4d3c42612a19": {
   "b": 1,
-  "tries": 1,
+  "tries": 2,
   "v": 2
  },
  "50bee628405c": {
@@ -237,6 +242,11 @@
   "tries": 2,
   "v": 2
  },
+ "7578ab548ddb": {
+  "b": 1,
+  "tries": 1,
+  "v": 2
+ },
  "75d75e9faabd": {
   "b": 1,
   "tries": 2,
@@ -265,11 +275,6 @@
   "d": 1,
   "tries": 1,
   "url": "https://www.hoteliermiddleeast.com/news/marriott-signs-deal-for-first-fairfield-hotel-in-the-uae",
-  "v": 2
- },
- "88038a589175": {
-  "b": 1,
-  "tries": 2,
   "v": 2
  },
  "880654255e65": {
@@ -312,6 +317,11 @@
   "url": "https://www.hoteliermiddleeast.com/news/the-ritz-carlton-opens-at-amaala-on-saudi-arabias-red-sea-coast",
   "v": 2
  },
+ "a82438c067e6": {
+  "b": 1,
+  "tries": 1,
+  "v": 2
+ },
  "a8ed37983a4a": {
   "b": 1,
   "d": 1,
@@ -323,7 +333,7 @@
  },
  "aa4975e59211": {
   "b": 1,
-  "tries": 1,
+  "tries": 2,
   "v": 2
  },
  "afc562ea47e8": {
@@ -352,6 +362,11 @@
  },
  "c53819c701b3": {
   "b": 1,
+  "tries": 2,
+  "v": 2
+ },
+ "cf04ea48870c": {
+  "b": 1,
   "tries": 1,
   "v": 2
  },
@@ -373,15 +388,6 @@
   "d": 1,
   "tries": 1,
   "url": "https://www.constructionweekonline.com/projects-tenders/dubai-metro-to-extend-to-al-maktoum-international-airport-city-by-2031",
-  "v": 2
- },
- "d4f0fe85b8ba": {
-  "b": 1,
-  "d": 1,
-  "excerpt": "Five contractors are competing for the design-and-build contract",
-  "image": "",
-  "snippet": "Oman's Muscat Municipality is evaluating bids for a design-and-build contract to develop and rehabilitate stormwater drainage infrastructure at multiple locations in Wilayat Seeb, Muscat Governorate.",
-  "url": "https://www.zawya.com/en/projects/construction/omans-muscat-municipality-expected-to-award-stormwater-drain-works-contract-in-q4-2026-1858414",
   "v": 2
  },
  "d5b69f4a9432": {

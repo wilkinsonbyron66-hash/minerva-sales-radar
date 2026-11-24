@@ -271,6 +271,17 @@
   "v": 2,
   "website": "https://www.hyatt.com/"
  },
+ "hytera": {
+  "checked": "2026-11-24T11:33:05Z",
+  "contact_page": "https://www.hytera.com/en/about-hytera/contact-us.html",
+  "email": "info@hytera.co.id",
+  "email_source": "https://www.hytera.com/en/about-hytera/contact-us.html",
+  "name": "Hytera",
+  "phone": "+971 4 431 3969",
+  "phone_source": "https://www.hytera.com/en/about-hytera/contact-us.html",
+  "v": 2,
+  "website": "https://www.hytera.com/"
+ },
  "j1 hotel dubai": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "J1 Hotel Dubai",
@@ -389,6 +400,11 @@
  "muharraq city development": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "Muharraq City Development",
+  "v": 2
+ },
+ "municipality": {
+  "checked": "2026-11-24T11:33:05Z",
+  "name": "Municipality",
   "v": 2
  },
  "muscat municipality": {
@@ -647,5 +663,10 @@
   "phone_source": "https://www.worley.com/en/investor-relations/ir-contacts",
   "v": 2,
   "website": "https://www.worley.com/"
+ },
+ "xinran group": {
+  "checked": "2026-11-24T11:33:05Z",
+  "name": "Xinran Group",
+  "v": 2
  }
 }
