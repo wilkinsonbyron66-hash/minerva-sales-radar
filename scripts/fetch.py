@@ -171,7 +171,7 @@ def parse_feed(raw):
 VERBS = (r"wins|won|bags|secures|lands|clinches|grabs|is awarded|awarded|signs|inks|"
          r"appointed|selected|picked|to build|to develop|to open|opens|set to open|launches|unveils|"
          r"invites|issues|floats|seeks|tenders|tender|RFQ|announces|plans|begins|starts|breaks ground|"
-         r"completes|hands|awards|partners with|teams up")
+         r"completes|hands|gives|debuts|leads|awards|partners with|teams up")
 LEAD_PREFIX = re.compile(r"^(?:Saudi Arabia['’]?s?|Abu Dhabi['’]?s?|UAE['’]?s?|Saudi['’]?s?|Oman['’]?s?|Dubai['’]?s?|Gulf|"
                          r"[A-Z][a-z]+-based|Emirati|Omani|Report:|Exclusive:|Breaking:)\s+")
 PLACES = {"dubai", "uae", "saudi", "saudi arabia", "arabia", "oman", "abu dhabi", "riyadh", "muscat", "jeddah",
@@ -230,12 +230,12 @@ def detect_leads(title, known):
         if hits:
             lead = max(hits, key=len)
     if not lead:
-        m = re.search(r"\b(?:at|for)\s+(?:the\s+)?([A-Z][\w&'\.-]*(?:\s+[A-Z0-9][\w&'\.-]*){0,4})", title)
-        if m and m.group(1) not in STOPWORDS:
-            lead = _tidy_name(m.group(1))
-    if not lead:
         m = COMPANY_SUFFIX.search(title)
         if m:
+            lead = _tidy_name(m.group(1))
+    if not lead:
+        m = re.search(r"\b(?:at|for)\s+(?:the\s+)?([A-Z][\w&'\.-]*(?:\s+[A-Z0-9][\w&'\.-]*){0,4})", title)
+        if m and m.group(1) not in STOPWORDS:
             lead = _tidy_name(m.group(1))
     if lead and not client:
         for k in sorted(known, key=len, reverse=True):
