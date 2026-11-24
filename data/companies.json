@@ -381,6 +381,17 @@
   "name": "PDO",
   "v": 2
  },
+ "petro rabigh": {
+  "checked": "2026-11-24T09:43:28Z",
+  "contact_page": "https://www.petrorabigh.com/en/Pages/ContactUs.aspx",
+  "email": "generalauditor.hotline@petrorabigh.com",
+  "email_source": "https://www.petrorabigh.com/en/Pages/ContactUs.aspx",
+  "name": "Petro Rabigh",
+  "phone": "+966 12 425 7555",
+  "phone_source": "https://www.petrorabigh.com/en",
+  "v": 2,
+  "website": "http://www.petrorabigh.com"
+ },
  "petro rabigh awards worley engineering": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "Petro Rabigh Awards Worley Engineering",

@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-24T08:44:46Z",
+ "generated": "2026-11-24T09:43:28Z",
  "count": 120,
- "feeds_checked": 20,
+ "feeds_checked": 21,
  "items": [
   {
    "id": "b2d09c329e50",
@@ -901,6 +901,7 @@
    "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE12dU5GSHpnM3piOE1UanpWV1F4N2VrMEVPMXZLWkI1NjFtX1lYS056VGVCTFRxUzFKYUxkYmd5WVcyRk5mR3g3WHJHVkIyMUIzeU1qa0JoalpZVjVy?oc=5",
    "source": "Tube & Pipe India",
    "feed": "GN: Saudi EPC contracts",
+   "summary": "Arabian Pipes Secures INR 259 Crore Contract from Saudi Aramco Tube & Pipe India",
    "published": "2026-11-19T09:20:03Z",
    "first_seen": "2026-11-24T07:45:27Z",
    "section": "awards",
@@ -916,13 +917,12 @@
     ]
    },
    "compliance": [],
-   "lead": "Saudi Aramco",
-   "client": "",
-   "why": "Saudi Aramco just won work in Saudi Arabia: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers.",
+   "lead": "Arabian Pipes",
+   "client": "Saudi Aramco",
+   "why": "Arabian Pipes just won work in Saudi Arabia: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers.",
    "contact": {
     "ask_for": "Procurement Manager or Project Manager (site communications)",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Saudi%20Aramco%20Procurement%20Manager",
-    "website": "https://www.aramco.com//"
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Arabian%20Pipes%20Procurement%20Manager"
    }
   },
   {
@@ -1207,6 +1207,7 @@
    "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdUg4UkJaVDB5T2RKU2s3MFpjZndCTUtiVWdPTUo4Q1lmbmN5aE96NXFIR1ROOXVkMkdET084RHNsN1d5YlFvRnN0QUhkWHktS005RnRRcVV2dEQ4eGhjMWdMYTJ3LVNHSlpiNkxadXBmVHhwY2pITGx6QTVEQ2NnT0x1eVpQeFlXNkRuclY4YXRHYlFtdHRiUXhhRGk4aVJKUHFxREJfb1FtRFlZ?oc=5",
    "source": "Yieh Corp.",
    "feed": "GN: Saudi EPC contracts",
+   "summary": "Arabian Pipes secures SAR 104 million steel pipe order from Saudi Aramco Yieh Corp.",
    "published": "2026-11-17T12:47:49Z",
    "first_seen": "2026-11-24T07:45:27Z",
    "section": "awards",
@@ -1318,7 +1319,8 @@
    "title": "Al Maktoum Airport And Rabigh 2 Lead October's Top 10 Contract Awards",
    "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPZVphcTN1QWVmNi01T202TG4zVHFWSUhadlhNWjBvMEo3RzBnZGFTak90Zk5DaEdhbnJfeHZUdDltaHM2ckNYdHYyd05XX1Badnp4ODJXWTVuWlpWTzhtalRJVkdkLWtQSmUtdi10Uml1LWhjWklCa0lkRjBaTGU4OFhfR3d6R1lLT2FSd1ZaZ2F6dldXcGpUSXY4YXc?oc=5",
    "source": "Construction Business News Middle East",
-   "feed": "GN: Metro, rail, airport contracts",
+   "feed": "GN: Utilities projects",
+   "summary": "Al Maktoum Airport And Rabigh 2 Lead October's Top 10 Contract Awards Construction Business News Middle East",
    "published": "2026-11-17T07:44:16Z",
    "first_seen": "2026-11-24T07:45:27Z",
    "section": "awards",
@@ -1546,41 +1548,6 @@
    }
   },
   {
-   "id": "27b3dd212db5",
-   "title": "Mered awards main contract for Riviera Residences Phase I",
-   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV0YtTkd3c2tKRW9WOTZTVkFqd2d2Y1Z1M3FYdEMyTFh2Sm5oZmNwSXZPOFRrMnBOWVNmeGVjdThXT2xOX2Z6WUs0dVR1N3ZZa2lINU01N2MxTS1XZlVucVBsdHhKMG9iWmxqVlVRTXNsbTZHWS1jVkRoMDZNaVVWbTlEUkJMbldZdFd0VWxULXFWRnd4Y0JYZmdOZ01MbkVOS0tiT0tIRzhELUZLRnNwc3U1dUctbDBO?oc=5",
-   "source": "Zawya",
-   "feed": "GN via Zawya: contracts",
-   "summary": "Mered awards main contract for Riviera Residences Phase I Zawya",
-   "published": "2026-11-13T04:34:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "low",
-   "country": "Other",
-   "sectors": [],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "contract win"
-    ]
-   },
-   "compliance": [],
-   "lead": "Mered",
-   "client": "",
-   "why": "Mered just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers.",
-   "contact": {
-    "ask_for": "Procurement Manager or Operations Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Mered%20Procurement%20Manager",
-    "website": "https://mered.ae/",
-    "guessed": true,
-    "phone": "+971 4 879 7271",
-    "phone_source": "https://mered.ae/",
-    "email": "office@mered.ae",
-    "email_source": "https://mered.ae/",
-    "contact_page": "https://mered.ae/contacts"
-   }
-  },
-  {
    "id": "a2f9c5c47b9c",
    "title": "Palma Development unveils Phase II of Serenia District in Jumeirah Islands",
    "link": "https://www.constructionweekonline.com/projects-tenders/palma-development-unveils-phase-ii-of-serenia-district-in-jumeirah-islands",
@@ -1644,6 +1611,41 @@
    "contact": {
     "ask_for": "Procurement Manager or Project Manager (site communications)",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=PDO%20Procurement%20Manager"
+   }
+  },
+  {
+   "id": "27b3dd212db5",
+   "title": "Mered awards main contract for Riviera Residences Phase I",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV0YtTkd3c2tKRW9WOTZTVkFqd2d2Y1Z1M3FYdEMyTFh2Sm5oZmNwSXZPOFRrMnBOWVNmeGVjdThXT2xOX2Z6WUs0dVR1N3ZZa2lINU01N2MxTS1XZlVucVBsdHhKMG9iWmxqVlVRTXNsbTZHWS1jVkRoMDZNaVVWbTlEUkJMbldZdFd0VWxULXFWRnd4Y0JYZmdOZ01MbkVOS0tiT0tIRzhELUZLRnNwc3U1dUctbDBO?oc=5",
+   "source": "Zawya",
+   "feed": "GN via Zawya: contracts",
+   "summary": "Mered awards main contract for Riviera Residences Phase I Zawya",
+   "published": "2026-11-12T08:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Other",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "contract win"
+    ]
+   },
+   "compliance": [],
+   "lead": "Mered",
+   "client": "",
+   "why": "Mered just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers.",
+   "contact": {
+    "ask_for": "Procurement Manager or Operations Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Mered%20Procurement%20Manager",
+    "website": "https://mered.ae/",
+    "guessed": true,
+    "phone": "+971 4 879 7271",
+    "phone_source": "https://mered.ae/",
+    "email": "office@mered.ae",
+    "email_source": "https://mered.ae/",
+    "contact_page": "https://mered.ae/contacts"
    }
   },
   {
@@ -2715,35 +2717,6 @@
    }
   },
   {
-   "id": "dd9c411ce4dc",
-   "title": "Oman’s MDO awards Mazoon Copper Project mining contract to China’s Hongda",
-   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYm55UjhfVXp3UHQtUFVtM1dvVDg3bktQMnVaV0dKMGtZSGw3VDBuOWJvRVFhZFNFcVcyQkhHZEtJYTZWazJpZlJNM1BuejRyS2pneEdLcGROUTJ0a0dEVVdaS3NwRGFsdGFQUWtFNGI3UVMxcmV0Q242ekJVZ3VZRUlDS1doU081MnZjVFFrcndiN2lXSE9HVW9yUVBFejJYQlFRVTN5NDE?oc=5",
-   "source": "International Mining",
-   "feed": "GN: Oman contracts awarded",
-   "summary": "Oman’s MDO awards Mazoon Copper Project mining contract to China’s Hongda International Mining",
-   "published": "2026-11-03T08:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "low",
-   "country": "Oman",
-   "sectors": [],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "contract win"
-    ]
-   },
-   "compliance": [],
-   "lead": "MDO",
-   "client": "",
-   "why": "MDO just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers.",
-   "contact": {
-    "ask_for": "Procurement Manager or Operations Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=MDO%20Procurement%20Manager",
-    "website": "http://www.mcgillismusic.com"
-   }
-  },
-  {
    "id": "50cc5626d070",
    "title": "World Cup cliff stadium update as 46,979-seater arena gets underground lake",
    "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQamlwazdKZFZSOWFuMjUxMlVNWnhhMGpMWHJZR2ZwbENRLVdKSFFXUlNYcHVPVXVxYl8yelFFUjNIdWZMZG0tTEU2UTlCU1NRd2F1RDNobjdpVkhYUHVZODQzU0lzLU1GSEpWUnctNWNVS3RyZUZtNHBTeEY1WE8yZEpLSnNxN2NUT0hoOW5mTDhfQUMydEtIMmwzUlJhODg?oc=5",
@@ -2770,6 +2743,35 @@
    "why": "New project in the region: event operations, stewards and security need radio fleets (rental or purchase). Reach the company while they are still buying.",
    "contact": {
     "ask_for": "Operations Manager or Event Production Manager"
+   }
+  },
+  {
+   "id": "dd9c411ce4dc",
+   "title": "Oman’s MDO awards Mazoon Copper Project mining contract to China’s Hongda",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYm55UjhfVXp3UHQtUFVtM1dvVDg3bktQMnVaV0dKMGtZSGw3VDBuOWJvRVFhZFNFcVcyQkhHZEtJYTZWazJpZlJNM1BuejRyS2pneEdLcGROUTJ0a0dEVVdaS3NwRGFsdGFQUWtFNGI3UVMxcmV0Q242ekJVZ3VZRUlDS1doU081MnZjVFFrcndiN2lXSE9HVW9yUVBFejJYQlFRVTN5NDE?oc=5",
+   "source": "International Mining",
+   "feed": "GN: Oman contracts awarded",
+   "summary": "Oman’s MDO awards Mazoon Copper Project mining contract to China’s Hongda International Mining",
+   "published": "2026-11-03T08:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Oman",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "contract win"
+    ]
+   },
+   "compliance": [],
+   "lead": "MDO",
+   "client": "",
+   "why": "MDO just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers.",
+   "contact": {
+    "ask_for": "Procurement Manager or Operations Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=MDO%20Procurement%20Manager",
+    "website": "http://www.mcgillismusic.com"
    }
   },
   {
@@ -2926,36 +2928,6 @@
    }
   },
   {
-   "id": "789c38cc47da",
-   "title": "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMktmMXdhZjQwcUx2NlNfYnAtQUlYU3BScl9Ob0hBQmp0eW5Gam04SndjUW5EaFlFLWhtU2kxQThFSE9BZk5DRzJwdl9uNUkxb21RZWlQRGpNWHhEVzNLcm1BSlM2amxvVWdxMDVWLXM3RmlVRU5LYzNvN3pJb1dIeFV6WEZKLTFyNFFkTXRlRVJ6cGdjLW1GejcxdG5UVk5zVm4yQXR2NG5PRTMwemxiTVJGSWZmbWxtRWN5ZA?oc=5",
-   "source": "Zawya",
-   "feed": "GN via Zawya: contracts",
-   "summary": "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract Zawya",
-   "published": "2026-11-01T07:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "medium",
-   "country": "Saudi Arabia",
-   "sectors": [
-    "construction"
-   ],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "awards $"
-    ]
-   },
-   "compliance": [],
-   "lead": "GO Telecom",
-   "client": "",
-   "why": "GO Telecom just won work in Saudi Arabia: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers.",
-   "contact": {
-    "ask_for": "Procurement Manager or Project Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=GO%20Telecom%20Procurement%20Manager"
-   }
-  },
-  {
    "id": "00ed99b93e92",
    "title": "Cenomi Centers Awards $220 Million Madinah Downtown Mall and Office Contract to Lynx Contracting",
    "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM0ltS2lZR0hfUnpkUmJOQm0ta2dhWnJUQ3V1bTVJU2lUVmxYWUxRaGxUUzJ5WXVYeXhaR0xiQm4xN3FuNlY2YU1jWS1ZT01IWDJsaWw1Nm5wX1NfMTMwSWJXdU81YTFIR1dFRWtxSG9reVJlOHZCcU1sTi1nRk5qZzJSWkVMdXVZZHRrc0FCRXdRUHNFbnI3ZlZqaGExeFY0eVI3eld6S0dwWG4tM3puQXdwbm1OUQ?oc=5",
@@ -2983,6 +2955,36 @@
    "contact": {
     "ask_for": "Facilities Manager or Security Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Cenomi%20Centers%20Facilities%20Manager"
+   }
+  },
+  {
+   "id": "789c38cc47da",
+   "title": "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPMktmMXdhZjQwcUx2NlNfYnAtQUlYU3BScl9Ob0hBQmp0eW5Gam04SndjUW5EaFlFLWhtU2kxQThFSE9BZk5DRzJwdl9uNUkxb21RZWlQRGpNWHhEVzNLcm1BSlM2amxvVWdxMDVWLXM3RmlVRU5LYzNvN3pJb1dIeFV6WEZKLTFyNFFkTXRlRVJ6cGdjLW1GejcxdG5UVk5zVm4yQXR2NG5PRTMwemxiTVJGSWZmbWxtRWN5ZA?oc=5",
+   "source": "Zawya",
+   "feed": "GN via Zawya: contracts",
+   "summary": "Saudi Arabia's GO Telecom awards $49.6mln AI data centre infrastructure contract Zawya",
+   "published": "2026-11-01T07:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "awards $"
+    ]
+   },
+   "compliance": [],
+   "lead": "GO Telecom",
+   "client": "",
+   "why": "GO Telecom just won work in Saudi Arabia: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers.",
+   "contact": {
+    "ask_for": "Procurement Manager or Project Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=GO%20Telecom%20Procurement%20Manager"
    }
   },
   {
@@ -3048,6 +3050,7 @@
    "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1YZTRlVFFyUU5ZeEdmbjM2dk5GVHREODNseWhRT3dSaEU0NDh0N0Q3eGM5VVRNWEFOWGQ5aDNDZ2wxYTY3Wnc3bUFUZXNWS1BYaU8tbFV0Y0ZRM21BWlpRQjdXeldXQ0dOUVFtcWVR?oc=5",
    "source": "HOTELSMag.com",
    "feed": "GN: Hotel openings UAE",
+   "summary": "Capella Dubai set to open in 2030 HOTELSMag.com",
    "published": "2026-10-30T16:51:21Z",
    "first_seen": "2026-11-24T07:49:29Z",
    "section": "awards",
@@ -3100,6 +3103,36 @@
    }
   },
   {
+   "id": "5f107850ce9e",
+   "title": "Saudi Arabia: Al Shubaily Grand Mall In Al Khobar Announces Phased Soft Opening! Details Inside",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSE1VaVpUQ2FrRnBvWGk1Z3FPS2syNUJVbFJfVEVERWJMLXBZYm1tRUptT29oMzh5U29GZ2RrcGFiNktMcjlnZHllNUpza1FPSXFva05PTmdPQ0k3bnlGMG9leFlxUHFpUDZLbjBEWmhyVVZyLWlWMEJ1Zkt1MGhpMVJ0YWplSWhvRlFBSzNqTjl5S0pnVVg4NV9sOFVqR19oUGVWOGppSE9yN3FPLU1FWVZsb3lmSWZpSTJYcHhZTlBfaDhZU2hPZEhDSDZvQTZySmV5S9IB2gFBVV95cUxOeUc4Rk9MSzFLRDZKWHdvVjBNcFA0cGpXd2VKNWNMa2U3VnlZOGVfa1FPOGJTR0dZYlhDTzVHX09zODg2M0stMUVaWWtCdEJGOFJRX3dieGxpNWM4NXNOUzJkcmh6LU16bHFsbGtpVUNlTmVtZGV2aWI0N1ZJZzdZVUNqT3JHUHd1RFZLTnJ3VXc5QVVkTGZTUDBQdldxaVVac1FYeG1XZ25UT2FOYkNQVEJuRldWTzFjelozamZXQ1J0dnFrYkxVYThtdldvUU9tblo2NmVzZ19ZUQ?oc=5",
+   "source": "Curly Tales",
+   "feed": "GN: Malls, stadiums, arenas",
+   "summary": "Saudi Arabia: Al Shubaily Grand Mall In Al Khobar Announces Phased Soft Opening! Details Inside Curly Tales",
+   "published": "2026-10-30T07:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "retail"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opening",
+     "soft opening"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in Saudi Arabia: mall security, facilities and car-park teams use radios and bodycams. Reach the company while they are still buying.",
+   "contact": {
+    "ask_for": "Facilities Manager or Security Manager"
+   }
+  },
+  {
    "id": "4c84f4108547",
    "title": "Red Sea Global announces opening of Grand Hyatt The Red Sea in Saudi Arabia",
    "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT3JSQTE2TlBKUk9Vak4wLVIzdnJPOGJlb2VkSElJbVpES1N2RFVzQ1VrRkozQUxWd0RsMU5fdnVDM2d0Nnd3NWpWcEZZZlJidVZfcFc0ZjFTSGJMTkd0MkxKVEYtb2JES3ZMWnQ3VEk2YlFSRU1RbE1rU3AtSTdWVkFzU3ZrdlZzTkUyVXQ5VVNVZkhmSHozSUIxU01IWWhkSUx5eEZqRjl0ZFFQSWp4VzJPbEd3VnJRV1B6R2F4b0RqNE1zVEE?oc=5",
@@ -3128,36 +3161,6 @@
    "contact": {
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Red%20Sea%20Global%20Pre-opening%20General%20Manager"
-   }
-  },
-  {
-   "id": "5f107850ce9e",
-   "title": "Saudi Arabia: Al Shubaily Grand Mall In Al Khobar Announces Phased Soft Opening! Details Inside",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSE1VaVpUQ2FrRnBvWGk1Z3FPS2syNUJVbFJfVEVERWJMLXBZYm1tRUptT29oMzh5U29GZ2RrcGFiNktMcjlnZHllNUpza1FPSXFva05PTmdPQ0k3bnlGMG9leFlxUHFpUDZLbjBEWmhyVVZyLWlWMEJ1Zkt1MGhpMVJ0YWplSWhvRlFBSzNqTjl5S0pnVVg4NV9sOFVqR19oUGVWOGppSE9yN3FPLU1FWVZsb3lmSWZpSTJYcHhZTlBfaDhZU2hPZEhDSDZvQTZySmV5S9IB2gFBVV95cUxOeUc4Rk9MSzFLRDZKWHdvVjBNcFA0cGpXd2VKNWNMa2U3VnlZOGVfa1FPOGJTR0dZYlhDTzVHX09zODg2M0stMUVaWWtCdEJGOFJRX3dieGxpNWM4NXNOUzJkcmh6LU16bHFsbGtpVUNlTmVtZGV2aWI0N1ZJZzdZVUNqT3JHUHd1RFZLTnJ3VXc5QVVkTGZTUDBQdldxaVVac1FYeG1XZ25UT2FOYkNQVEJuRldWTzFjelozamZXQ1J0dnFrYkxVYThtdldvUU9tblo2NmVzZ19ZUQ?oc=5",
-   "source": "Curly Tales",
-   "feed": "GN: Malls, stadiums, arenas",
-   "summary": "Saudi Arabia: Al Shubaily Grand Mall In Al Khobar Announces Phased Soft Opening! Details Inside Curly Tales",
-   "published": "2026-10-30T07:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "medium",
-   "country": "Saudi Arabia",
-   "sectors": [
-    "retail"
-   ],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "opening",
-     "soft opening"
-    ]
-   },
-   "compliance": [],
-   "lead": "",
-   "client": "",
-   "why": "New project in Saudi Arabia: mall security, facilities and car-park teams use radios and bodycams. Reach the company while they are still buying.",
-   "contact": {
-    "ask_for": "Facilities Manager or Security Manager"
    }
   },
   {
@@ -3223,6 +3226,40 @@
    }
   },
   {
+   "id": "69445d7b7c84",
+   "title": "Petro Rabigh Awards Worley Engineering and Project Management Services Contract",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcGJjR2NpbW1oSG12Q181cnRoR1pzMUpoeDQxRE5VWVdZU0lfaW9hTGFlNUF2Q2VSX2taUl9qbTd3eC1QeHpfaFBnWExGX2sxSjY2clBUejRyam42U2xEeE92Zkt1eVpzNTdVV0t5VURsRnZvSzJZVXA0eDhuQmhWd2ozaFpPSWZYdUFEWjNGMWdISXlZMjNtU3VVdnpaejJq?oc=5",
+   "source": "SaudiGulf Projects",
+   "feed": "GN: Saudi EPC contracts",
+   "summary": "Petro Rabigh Awards Worley Engineering and Project Management Services Contract SaudiGulf Projects",
+   "published": "2026-10-28T07:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Other",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "contract win"
+    ]
+   },
+   "compliance": [],
+   "lead": "Petro Rabigh",
+   "client": "",
+   "why": "Petro Rabigh just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers.",
+   "contact": {
+    "ask_for": "Procurement Manager or Operations Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Petro%20Rabigh%20Procurement%20Manager",
+    "website": "http://www.petrorabigh.com",
+    "phone": "+966 12 425 7555",
+    "phone_source": "https://www.petrorabigh.com/en",
+    "email": "generalauditor.hotline@petrorabigh.com",
+    "email_source": "https://www.petrorabigh.com/en/Pages/ContactUs.aspx",
+    "contact_page": "https://www.petrorabigh.com/en/Pages/ContactUs.aspx"
+   }
+  },
+  {
    "id": "a8ed37983a4a",
    "title": "Riyadh awards contract for first alternative mobility network phase",
    "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNdDVZNXJsdVRkbkNaV096OHhpSHkzbVF5azE1OUtUWkVJaHJpVktHUmU5bUltdFhCUk0xMjQxTi03OEFnbXpneTJYa2lVeHUyNldkaWZZd1I0ZS0xemxDa0R2aDZ6TlcwTFlhZktyaUJiU3loR0tXMHdQX2h4SzF0ZVdYQ2ZWRFBRc1BDYWhHRVJXSjRXWW5HZmpkZGJYOTR4NzlWUG9sdkM2ajdxSGJkaHJnWjcwZUtiTF9KbnR1by1WN1ZhV1RFTHhGX2NLNXZYT2Rv?oc=5",
@@ -3250,63 +3287,6 @@
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Riyadh%20Procurement%20Manager",
     "website": "https://riyadh.om/",
     "guessed": true
-   }
-  },
-  {
-   "id": "69445d7b7c84",
-   "title": "Petro Rabigh Awards Worley Engineering and Project Management Services Contract",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcGJjR2NpbW1oSG12Q181cnRoR1pzMUpoeDQxRE5VWVdZU0lfaW9hTGFlNUF2Q2VSX2taUl9qbTd3eC1QeHpfaFBnWExGX2sxSjY2clBUejRyam42U2xEeE92Zkt1eVpzNTdVV0t5VURsRnZvSzJZVXA0eDhuQmhWd2ozaFpPSWZYdUFEWjNGMWdISXlZMjNtU3VVdnpaejJq?oc=5",
-   "source": "SaudiGulf Projects",
-   "feed": "GN: Saudi EPC contracts",
-   "published": "2026-10-28T07:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "low",
-   "country": "Other",
-   "sectors": [],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "contract win"
-    ]
-   },
-   "compliance": [],
-   "lead": "Petro Rabigh Awards Worley Engineering",
-   "client": "",
-   "why": "Petro Rabigh Awards Worley Engineering just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers.",
-   "contact": {
-    "ask_for": "Procurement Manager or Operations Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Petro%20Rabigh%20Awards%20Worley%20Engineering%20Procurement%20Manager"
-   }
-  },
-  {
-   "id": "52cc68667e43",
-   "title": "SLB wins 5-year PDO fracturing deal",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBhU0d1WVp4ZUlkOV9ybEN0STRLZ0l2aFl2MUxlZEVYWEduWTJiT2JpcGZCUjhMUjNwdXNPVzBXUFY0U19WUGVrSkxSQzl6S1ZQMEVhYUdNNldpc1paU2sxeEZfOThWSmtXS3dDT2FrZXFmaTdKT25r?oc=5",
-   "source": "Oil & Gas Middle East",
-   "feed": "GN: Oman contracts awarded",
-   "summary": "SLB wins 5-year PDO fracturing deal Oil & Gas Middle East",
-   "published": "2026-10-27T07:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "medium",
-   "country": "Oman",
-   "sectors": [
-    "oil & gas"
-   ],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "contract win"
-    ]
-   },
-   "compliance": [],
-   "lead": "SLB",
-   "client": "PDO",
-   "why": "SLB just won work in Oman: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers.",
-   "contact": {
-    "ask_for": "Procurement Manager or Project Manager (site communications)",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=SLB%20Procurement%20Manager"
    }
   },
   {
@@ -3338,6 +3318,36 @@
    "contact": {
     "ask_for": "Operations Manager or Event Production Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Arabia%20Operations%20Manager"
+   }
+  },
+  {
+   "id": "52cc68667e43",
+   "title": "SLB wins 5-year PDO fracturing deal",
+   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFBhU0d1WVp4ZUlkOV9ybEN0STRLZ0l2aFl2MUxlZEVYWEduWTJiT2JpcGZCUjhMUjNwdXNPVzBXUFY0U19WUGVrSkxSQzl6S1ZQMEVhYUdNNldpc1paU2sxeEZfOThWSmtXS3dDT2FrZXFmaTdKT25r?oc=5",
+   "source": "Oil & Gas Middle East",
+   "feed": "GN: Oman contracts awarded",
+   "summary": "SLB wins 5-year PDO fracturing deal Oil & Gas Middle East",
+   "published": "2026-10-27T07:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Oman",
+   "sectors": [
+    "oil & gas"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "contract win"
+    ]
+   },
+   "compliance": [],
+   "lead": "SLB",
+   "client": "PDO",
+   "why": "SLB just won work in Oman: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers.",
+   "contact": {
+    "ask_for": "Procurement Manager or Project Manager (site communications)",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=SLB%20Procurement%20Manager"
    }
   },
   {
@@ -3402,6 +3412,42 @@
    }
   },
   {
+   "id": "17fa059ed581",
+   "title": "$763M NMDC Energy Aramco Offshore EPC Projects, Contractor Wins Three Awards in Saudi Arabia",
+   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPN1JsWDFheDNPUkN5VXJNU1p2d0tsWVhDWG9TSDd4Z2oxNEJUNmhubDlWMkhvekRYV09SZkVVSm91RHhXOGNiaWdmblJjWDJMYXkwMnZUamlBTE5oa0pvWlFpTjNYOTVVYUJOMHdVMGdSaUpnUVFrcENqTWtQYkJwUmFGSUVRSGNqMk9oNTJfQTMzUEo3MEtQdlIzMm9KNjRvZGJBS1dpLTNlNHBMMURfT2x1M3VXRkdFeTBDdEJNQ1c5ZEtCRFlJ?oc=5",
+   "source": "Construction Review",
+   "feed": "GN: Saudi EPC contracts",
+   "summary": "$763M NMDC Energy Aramco Offshore EPC Projects, Contractor Wins Three Awards in Saudi Arabia Construction Review",
+   "published": "2026-10-26T07:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "oil & gas",
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "EPC"
+    ]
+   },
+   "compliance": [],
+   "lead": "NMDC Energy",
+   "client": "Aramco",
+   "why": "NMDC Energy just won work in Saudi Arabia: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers.",
+   "contact": {
+    "ask_for": "Procurement Manager or Project Manager (site communications)",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=NMDC%20Energy%20Procurement%20Manager",
+    "website": "https://www.nmdc-energy.com/en/",
+    "guessed": true,
+    "phone": "+966 -3- 882 0494",
+    "phone_source": "https://www.nmdc-energy.com/en/contact-us/",
+    "contact_page": "https://www.nmdc-energy.com/en/contact-us/"
+   }
+  },
+  {
    "id": "e8f094e10fe9",
    "title": "Mallside Hotel, Curio Collection by Hilton, set to open in Dubai Q1 2027",
    "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWDlhV1ZENmdkWktQS240R3RPRGpabG5ReTM0dFY5Qm9jaklhdXhiamJpUFRQa2VRTmN0TnFzWTZqOHJuTTBuVFFKRnpzSHhQcEFHdEZ6NERfNFl6ZkhEdHgySDVqdmxZZXJPV0JHYkg1Vk4wUmVSNGhOM2JsckU2RWpIY0JxWjVrVEVrakF5RHNTN183UjBnRmx2TFR2MVBkbkpBUU9HTDVZYmdlSWw0?oc=5",
@@ -3429,6 +3475,35 @@
    "contact": {
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Mallside%20Hotel%2C%20Curio%20Collection%20by%20Hilton%20Pre-opening%20General%20Manager"
+   }
+  },
+  {
+   "id": "075306972dd8",
+   "title": "Saudi Arabia's bold £1bn ‘Sky Stadium’ for the 2034 World Cup - is it real? Here’s what we know",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNW1nZ0VyU0MwN3hHSjZMaFNYU1ZQQ192QmEtSUZtdmxJTDlrbFIwZlJzalZUQlh3VXJweDVlMmp2aUR3c1lHVlV1czZFRGc0cl91RS1sd2plSER4RzdZU21ETzloa0NVaXJQSzA5dFQwdTZYdGN3VUxDRnliNWpqQVRwclFpZV93OWNfNGphVDNweEsteW1iUnE2Z0tsZEJFaEU5RmhIX25lNGJsQ2U4eU05SXdJMkZLczJia3dOUUhVVXh3MmxtaQ?oc=5",
+   "source": "Football Ground Guide",
+   "feed": "GN: Malls, stadiums, arenas",
+   "summary": "",
+   "published": "2026-10-26T07:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "events"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "stadium"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in Saudi Arabia: event operations, stewards and security need radio fleets (rental or purchase). Reach the company while they are still buying.",
+   "contact": {
+    "ask_for": "Operations Manager or Event Production Manager"
    }
   },
   {
@@ -3465,70 +3540,6 @@
     "email": "wecare@nakheel.com",
     "email_source": "https://www.nakheel.com/en/contact-us",
     "contact_page": "https://www.nakheel.com/en/contact-us"
-   }
-  },
-  {
-   "id": "075306972dd8",
-   "title": "Saudi Arabia's bold £1bn ‘Sky Stadium’ for the 2034 World Cup - is it real? Here’s what we know",
-   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNW1nZ0VyU0MwN3hHSjZMaFNYU1ZQQ192QmEtSUZtdmxJTDlrbFIwZlJzalZUQlh3VXJweDVlMmp2aUR3c1lHVlV1czZFRGc0cl91RS1sd2plSER4RzdZU21ETzloa0NVaXJQSzA5dFQwdTZYdGN3VUxDRnliNWpqQVRwclFpZV93OWNfNGphVDNweEsteW1iUnE2Z0tsZEJFaEU5RmhIX25lNGJsQ2U4eU05SXdJMkZLczJia3dOUUhVVXh3MmxtaQ?oc=5",
-   "source": "Football Ground Guide",
-   "feed": "GN: Malls, stadiums, arenas",
-   "summary": "",
-   "published": "2026-10-26T07:00:00Z",
-   "first_seen": "2026-11-24T07:49:29Z",
-   "section": "awards",
-   "score": "medium",
-   "country": "Saudi Arabia",
-   "sectors": [
-    "events"
-   ],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "stadium"
-    ]
-   },
-   "compliance": [],
-   "lead": "",
-   "client": "",
-   "why": "New project in Saudi Arabia: event operations, stewards and security need radio fleets (rental or purchase). Reach the company while they are still buying.",
-   "contact": {
-    "ask_for": "Operations Manager or Event Production Manager"
-   }
-  },
-  {
-   "id": "17fa059ed581",
-   "title": "$763M NMDC Energy Aramco Offshore EPC Projects, Contractor Wins Three Awards in Saudi Arabia",
-   "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPN1JsWDFheDNPUkN5VXJNU1p2d0tsWVhDWG9TSDd4Z2oxNEJUNmhubDlWMkhvekRYV09SZkVVSm91RHhXOGNiaWdmblJjWDJMYXkwMnZUamlBTE5oa0pvWlFpTjNYOTVVYUJOMHdVMGdSaUpnUVFrcENqTWtQYkJwUmFGSUVRSGNqMk9oNTJfQTMzUEo3MEtQdlIzMm9KNjRvZGJBS1dpLTNlNHBMMURfT2x1M3VXRkdFeTBDdEJNQ1c5ZEtCRFlJ?oc=5",
-   "source": "Construction Review",
-   "feed": "GN: Saudi EPC contracts",
-   "published": "2026-10-26T07:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "medium",
-   "country": "Saudi Arabia",
-   "sectors": [
-    "oil & gas",
-    "construction"
-   ],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "EPC"
-    ]
-   },
-   "compliance": [],
-   "lead": "NMDC Energy",
-   "client": "Aramco",
-   "why": "NMDC Energy just won work in Saudi Arabia: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers.",
-   "contact": {
-    "ask_for": "Procurement Manager or Project Manager (site communications)",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=NMDC%20Energy%20Procurement%20Manager",
-    "website": "https://www.nmdc-energy.com/en/",
-    "guessed": true,
-    "phone": "+966 -3- 882 0494",
-    "phone_source": "https://www.nmdc-energy.com/en/contact-us/",
-    "contact_page": "https://www.nmdc-energy.com/en/contact-us/"
    }
   },
   {
