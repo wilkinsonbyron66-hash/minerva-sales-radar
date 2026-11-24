@@ -14,6 +14,11 @@
   "name": "Al Maktoum International Airport",
   "v": 2
  },
+ "al shubaily grand mall in al khobar": {
+  "checked": "2026-11-24T11:25:41Z",
+  "name": "Al Shubaily Grand Mall In Al Khobar",
+  "v": 2
+ },
  "altec": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "Altec",
@@ -111,6 +116,13 @@
   "checked": "2026-11-24T08:44:46Z",
   "name": "Cenomi Centers",
   "v": 2
+ },
+ "cheval south bay": {
+  "checked": "2026-11-24T11:25:41Z",
+  "guessed": true,
+  "name": "Cheval South Bay",
+  "v": 2,
+  "website": "https://www.chevalsouthbay.ae/"
  },
  "cheval south bay scheduled": {
   "checked": "2026-11-24T08:44:46Z",
@@ -227,6 +239,16 @@
   "v": 2,
   "website": "https://www.gbif.org"
  },
+ "global partners": {
+  "checked": "2026-11-24T11:25:41Z",
+  "email": "info@gppac.net",
+  "email_source": "https://www.gppac.net/",
+  "name": "Global Partners",
+  "phone": "+31 (0)70 311 0970",
+  "phone_source": "https://www.gppac.net/",
+  "v": 2,
+  "website": "http://www.gppac.net"
+ },
  "go telecom": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "GO Telecom",
@@ -242,6 +264,12 @@
   "checked": "2026-11-24T08:44:46Z",
   "name": "Hoxton",
   "v": 2
+ },
+ "hyatt": {
+  "checked": "2026-11-24T11:25:41Z",
+  "name": "Hyatt",
+  "v": 2,
+  "website": "https://www.hyatt.com/"
  },
  "j1 hotel dubai": {
   "checked": "2026-11-24T08:44:46Z",
@@ -273,6 +301,11 @@
   "name": "Longevity and wellness clinic Shookra",
   "v": 2
  },
+ "lpm sur mer": {
+  "checked": "2026-11-24T11:25:41Z",
+  "name": "LPM-Sur-Mer",
+  "v": 2
+ },
  "lpm sur mer beach venue": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "LPM-Sur-Mer beach venue",
@@ -286,6 +319,23 @@
  "luxury dining guide gaya": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "Luxury dining guide GAYA",
+  "v": 2
+ },
+ "madkour": {
+  "checked": "2026-11-24T11:25:41Z",
+  "contact_page": "https://www.madkour.com.eg/index.php/contact",
+  "email": "info@madkour.com.eg",
+  "email_source": "https://www.madkour.com.eg/index.php/contact",
+  "guessed": true,
+  "name": "Madkour",
+  "phone": "+202 26125061",
+  "phone_source": "https://www.madkour.com.eg/index.php/contact",
+  "v": 2,
+  "website": "https://www.madkour.com.eg/"
+ },
+ "mallside hotel": {
+  "checked": "2026-11-24T11:25:41Z",
+  "name": "Mallside Hotel",
   "v": 2
  },
  "mallside hotel curio collection by hilton": {
@@ -371,6 +421,11 @@
   "phone_source": "https://www.nmdc-energy.com/en/contact-us/",
   "v": 2,
   "website": "https://www.nmdc-energy.com/en/"
+ },
+ "oil": {
+  "checked": "2026-11-24T11:25:41Z",
+  "name": "Oil",
+  "v": 2
  },
  "overweight": {
   "checked": "2026-11-24T08:44:46Z",
@@ -496,6 +551,18 @@
   "v": 2,
   "website": "https://www.aramco.com//"
  },
+ "shookra": {
+  "checked": "2026-11-24T11:25:41Z",
+  "contact_page": "https://shookra.com/contact",
+  "email": "information@shookra.com",
+  "email_source": "https://shookra.com/",
+  "guessed": true,
+  "name": "Shookra",
+  "phone": "+971 50 320 4553",
+  "phone_source": "https://shookra.com/",
+  "v": 2,
+  "website": "https://shookra.com/"
+ },
  "six senses": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "Six Senses",
@@ -517,6 +584,18 @@
   "name": "SLB",
   "v": 2
  },
+ "tivoli": {
+  "checked": "2026-11-24T11:25:41Z",
+  "contact_page": "https://www.tivoli.ae/contact",
+  "email": "info@tivoli.ae",
+  "email_source": "https://www.tivoli.ae/contact",
+  "guessed": true,
+  "name": "Tivoli",
+  "phone": "+971 52 397 3601",
+  "phone_source": "https://www.tivoli.ae/",
+  "v": 2,
+  "website": "https://www.tivoli.ae/"
+ },
  "truckoman": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "Truckoman",
@@ -530,6 +609,11 @@
  "un tourism executive council 127th session": {
   "checked": "2026-11-24T10:35:58Z",
   "name": "UN Tourism Executive Council 127th Session",
+  "v": 2
+ },
+ "warwick al baha": {
+  "checked": "2026-11-24T11:25:41Z",
+  "name": "Warwick Al Baha",
   "v": 2
  },
  "wison": {
