@@ -1,5 +1,5 @@
 /* Service worker: app shell cached for offline use; data files always fetched fresh when online. */
-const CACHE = "msr-v5";
+const CACHE = "msr-v6";
 const SHELL = ["./", "index.html", "css/style.css", "js/app.js", "manifest.json", "icons/icon.svg", "icons/icon-192.png"];
 
 self.addEventListener("install", (e) => {

@@ -171,9 +171,13 @@ def parse_feed(raw):
 VERBS = (r"wins|won|bags|secures|lands|clinches|grabs|is awarded|awarded|signs|inks|"
          r"appointed|selected|picked|to build|to develop|to open|opens|set to open|launches|unveils|"
          r"invites|issues|floats|seeks|tenders|tender|RFQ|announces|plans|begins|starts|breaks ground|"
-         r"completes|hands|awards|partners|teams up")
-LEAD_PREFIX = re.compile(r"^(?:UAE'?s|Saudi'?s|Saudi Arabia'?s|Oman'?s|Dubai'?s|Abu Dhabi'?s|Gulf|"
-                         r"[A-Z][a-z]+-based|Emirati|Omani|Saudi|Report:|Exclusive:|Breaking:)\s+", re.I)
+         r"completes|hands|awards|partners with|teams up")
+LEAD_PREFIX = re.compile(r"^(?:Saudi Arabia['’]?s?|Abu Dhabi['’]?s?|UAE['’]?s?|Saudi['’]?s?|Oman['’]?s?|Dubai['’]?s?|Gulf|"
+                         r"[A-Z][a-z]+-based|Emirati|Omani|Report:|Exclusive:|Breaking:)\s+")
+PLACES = {"dubai", "uae", "saudi", "saudi arabia", "arabia", "oman", "abu dhabi", "riyadh", "muscat", "jeddah",
+          "sharjah", "neom", "gulf", "gcc", "middle east", "mena", "ras al khaimah", "ajman", "fujairah", "kingdom"}
+CONNECT = {"and", "&", "of", "de", "al", "el", "by", "the", "bin", "for"}
+TRAILING_JUNK = {"Scheduled", "Set", "Announces", "Gets", "Tops", "Unveils", "Debuts", "Reveals"}
 COMPANY_SUFFIX = re.compile(
     r"\b((?:[A-Z][\w&'\.-]*\s){0,4}(?:LLC|L\.L\.C|Group|Company|Co\.|Holding|Holdings|Contracting|"
     r"Construction|Engineering|Energy|Hotels|Resorts|Properties|Developments?|Industries|Services|"
@@ -182,13 +186,24 @@ STOPWORDS = {"The", "A", "An", "New", "How", "Why", "What", "This", "Top", "Here
 
 
 def _tidy_name(s):
-    s = LEAD_PREFIX.sub("", s.replace("\u2019", "'").strip(" ,:;-–—'\""))
+    s = s.replace("\u2019", "'").strip(" ,:;-–—'\"")
+    s = re.split(r"\s*[:|]\s*", s)[-1]                     # "UAE Business: Capella" -> "Capella"
+    s = s.split(",")[0]                                       # "Six Senses The Palm, Dubai" -> "Six Senses The Palm"
+    s = LEAD_PREFIX.sub("", s)
     s = re.sub(r"\s+(?:has|have|is|was|will|to|and)$", "", s)
     words = s.split()
     while words and words[0] in STOPWORDS:
         words = words[1:]
+    while words and words[-1] in TRAILING_JUNK:
+        words = words[:-1]
+    # Drop a lowercase descriptor: "Luxury dining guide GAYA" -> "GAYA", "Egyptian group Madkour" -> "Madkour"
+    low = [i for i, w in enumerate(words) if w[:1].islower() and w.lower() not in CONNECT]
+    if low:
+        tail = words[low[-1] + 1:]
+        head = words[:low[0]]
+        words = tail if tail else head
     s = " ".join(words)
-    if not s or not s[0].isupper() or len(words) > 7:
+    if not s or not s[0].isupper() or len(words) > 7 or s.lower() in PLACES:
         return ""
     return s
 
@@ -231,48 +246,81 @@ def detect_leads(title, known):
 
 
 AWARD_RE = re.compile(r"\b(?:win|wins|won|secure|secures|secured|bag|bags|land|lands|clinch|clinches|"
-                      r"award|awards|awarded|sign|signs|signed|ink|inks|bags)\b[^.]{0,60}?\b(?:contract|deal|order|package|EPC)\b", re.I)
+                      r"award|awards|awarded|sign|signs|signed|ink|inks|bags)\b[^.]{0,70}?\b(?:contracts?|deals?|orders?|packages?|EPC)\b", re.I)
 
 # --------------------------------------------------------------------------- #
 # Classification and scoring
 # --------------------------------------------------------------------------- #
 
+TENDER_CTX = re.compile(r"\b(?:bidders?|bids? (?:invited|for (?:the |a )?(?:contract|tender|project|package|works|scheme))|"
+                        r"bid (?:deadline|submission|bond|opening)|lowest bid|submit(?:ted)? bids?|bidding (?:process|round))\b", re.I)
+NOT_TENDER = re.compile(r"\btender offer\b|\blegal tender\b", re.I)
+APPOINT_RE = re.compile(r"\b(?:appointed|selected|chosen|hired)\b[^.]{0,30}\b(?:contractor|consultant|developer|operator|"
+                        r"EPC|MEP|to (?:build|deliver|design|construct|supply|install|operate|manage))", re.I)
+LAUNCH_RE = re.compile(r"\blaunch(?:es|ed)?\b[^.]{0,40}\b(?:project|development|tower|residences|community|district|phase|hotel|mall)\b", re.I)
+DEV_LAUNCH_RE = re.compile(r"\b(?:Developments?|Properties|Real Estate|Developer)\b[^.]{0,20}\blaunch(?:es|ed)?\b")
+NEW_BUILD_RE = re.compile(r"\bnew\b[^.]{0,25}\b(?:facilit(?:y|ies)|hospitals?|hotels?|malls?|towers?|campus|plants?|terminals?|stadiums?|schools?|factory|warehouse)\b|"
+                          r"\b(?:metro|rail|railway|road|airport|line|tram)\b[^.]{0,25}\b(?:to extend|extension|expansion)\b", re.I)
+PEOPLE_RE = re.compile(r"\b(?:appoints?|appointed|names|named|promoted|joins|returns to|power list)\b[^.]{0,80}"
+                       r"\b(?:GM|general manager|director|chef|CEO|COO|CFO|manager|head of|VP|president|chairman)\b|power list", re.I)
+PRIZE_RE = re.compile(r"\b(?:honou?red|award(?:s)? 20\d\d|awards? ceremony|cargo awards|wins? ['‘\"]|named best|ranked)\b", re.I)
+CANCEL_RE = re.compile(r"\b(?:cancels?|cancelled|scraps?|scrapped|terminates?|terminated|halts?|suspends?)\b", re.I)
+OPENS_NOT_SITE = re.compile(r"\bopens? (?:bookings|subscriptions?|registrations?|applications|nominations|session)|session opens\b", re.I)
+POSSESSIVE_ORIGIN = re.compile(r"\b(?:UAE|Dubai|Abu Dhabi|Saudi Arabia|Saudi|Oman|Sharjah)['’]s\s+(?=[A-Z])")
+
+
+def detect_country(title, text, M):
+    """Count target-country mentions. A Gulf name used only as the company's origin ("Dubai's Jumeirah ...
+    Lake Como") does not count when the headline names a place outside our market."""
+    foreign = M["other"].find(title)
+    scan = (POSSESSIVE_ORIGIN.sub(" ", title) if foreign else text)
+    hits = []
+    for name, m in M["countries"].items():
+        n = len(m.find(scan))
+        if n:
+            hits.append((n, name))
+    hits.sort(reverse=True)
+    return (hits[0][1] if hits else "Other"), foreign
+
+
 def classify(item, feed_section, M, cfg):
     text = f"{item['title']} {item['summary']}"
     title = item["title"]
+    if PEOPLE_RE.search(title):
+        return None  # staff moves and GM lists are not buying signals
     prod = M["product"].find(text)
-    tend = M["tender"].find(title) or M["tender"].find(text)
-    award = M["award"].find(text)
-    proj = M["project"].find(title)
-    if not award and AWARD_RE.search(title):
+    tend = [] if NOT_TENDER.search(title) else (M["tender"].find(title) or M["tender"].find(text))
+    if not tend and TENDER_CTX.search(text):
+        tend = ["bids"]
+    award = M["award"].find(title) or (M["award"].find(text) if not PRIZE_RE.search(title) else [])
+    if not award and (AWARD_RE.search(title) or APPOINT_RE.search(title)):
         award = ["contract win"]
+    proj = M["project"].find(title)
+    if OPENS_NOT_SITE.search(title):
+        proj = [p for p in proj if p not in ("opens", "opening")]
+    if not proj and (LAUNCH_RE.search(title) or DEV_LAUNCH_RE.search(title)):
+        proj = ["project launch"]
+    if not proj and NEW_BUILD_RE.search(title):
+        proj = ["new build"]
+    if PRIZE_RE.search(title) and not re.search(r"\bcontract|\bdeal\b|\border\b", title, re.I):
+        award, proj = [], []
     comp = M["compliance"].find(text)
 
-    countries = []
-    for name, m in M["countries"].items():
-        n = len(m.find(text))
-        if n:
-            countries.append((n, name))
-    countries.sort(reverse=True)
-    country = countries[0][1] if countries else "Other"
-
+    country, foreign = detect_country(title, text, M)
+    in_target = country != "Other"
     sectors = [name for name, m in M["sectors"].items() if m.find(text)]
 
-    if not (prod or tend or award or proj):
-        return None  # nothing we care about
+    if not (tend or award or proj or (prod and in_target)):
+        return None  # nothing we care about (e.g. Motorola share-price news, US contracts)
+    if not in_target and foreign:
+        return None  # clearly outside UAE / Saudi / Oman
 
-    if tend and (prod or feed_section == "tenders"):
-        section = "tenders"
-    elif award or proj:
-        section = "awards"
-    elif tend:
-        section = "tenders"
-    else:
-        section = feed_section or "awards"
+    section = "tenders" if tend else "awards"
 
-    in_target = country != "Other"
-    if tend and prod and in_target:
-        score = "high"
+    if CANCEL_RE.search(title):
+        score = "low"
+    elif in_target and prod and (tend or award or proj):
+        score = "high"   # our product category named in a live tender / contract / project in our market
     elif in_target and sectors and (award or proj or tend):
         score = "medium"
     elif in_target and prod:
@@ -344,31 +392,91 @@ def split_source(title, source):
     return title, source
 
 
+GENERIC = set("""dubai abu dhabi uae saudi arabia arabias oman omans riyadh muscat jeddah sharjah the a an of in on at to for
+and with by from as its new first hotel hotels group resort resorts opens open opening to set announces announced official
+date luxury middle east red sea business news contract contracts awards award awarded wins win secures signs deal project
+projects phase company holding holdings international global gulf kingdom q1 q2 q3 q4 bn bln mln mn million billion aed sar
+usd details inside update world key major top more than over""".split())
+
+
+def story_tokens(title):
+    """Distinctive name words in a headline (Capella, Mazoon, Hongda, Six Senses, Palm...)."""
+    t = title.replace("\u2019", "'")
+    shouty = sum(1 for w in t.split() if w.isupper() and len(w) > 2) > len(t.split()) / 2
+    out = set()
+    for w in re.findall(r"[A-Za-z][A-Za-z0-9'\-]+", t):
+        if not shouty and not w[0].isupper():
+            continue
+        k = re.sub(r"'s$", "", w.lower())
+        if k not in GENERIC and len(k) > 2:
+            out.add(k)
+    return out
+
+
+def _numbers(title):
+    return set(re.findall(r"\d[\d,.]*", title))
+
+
+def same_story(a, b, threshold):
+    if difflib.SequenceMatcher(None, a["_norm"], b["_norm"]).ratio() >= threshold:
+        return True
+    ta, tb = a["_tok"], b["_tok"]
+    if not ta or not tb:
+        return False
+    shared = ta & tb
+    if len(shared) < 1 or len(shared) / min(len(ta), len(tb)) < 0.6:
+        return False
+    if len(shared) == 1 and min(len(ta), len(tb)) > 1:
+        return False
+    # Different money figures on both sides usually mean two different deals
+    na, nb = _numbers(a["title"]), _numbers(b["title"])
+    money = re.compile(r"[$₹]|\b(?:AED|SAR|USD|INR|mln|bln|million|billion|crore)\b", re.I)
+    if len(shared) <= 2 and na and nb and not (na & nb) and money.search(a["title"]) and money.search(b["title"]):
+        return False
+    try:
+        gap = abs((parse_date(a["published"]) - parse_date(b["published"])).days)
+    except TypeError:
+        gap = 0
+    return gap <= 14
+
+
+def _richness(it):
+    p = it.get("preview") or {}
+    return (1 if (p.get("image") or it.get("image")) else 0) + (1 if p.get("excerpt") or it.get("summary") else 0) + \
+           (1 if "news.google." not in it["link"] or it.get("direct_url") else 0)
+
+
 def dedupe(items, threshold):
+    """One card per story. Keeps the highest score, then the richest card (picture, excerpt, direct link),
+    and copies over anything useful from the copies it drops."""
     seen_links, kept = set(), []
     rank = {"high": 0, "medium": 1, "low": 2}
-    items = sorted(items, key=lambda x: (rank[x["score"]], x["published"]), reverse=False)
+    for it in items:
+        it["_tok"] = story_tokens(it["title"])
+    shouty = lambda t: sum(1 for w in t.split() if w.isupper() and len(w) > 2) > len(t.split()) / 2
+    items = sorted(items, key=lambda x: (rank[x["score"]], -_richness(x), shouty(x["title"]), -(parse_date(x["published"]) or datetime.min.replace(tzinfo=timezone.utc)).timestamp()))
     for it in items:
         if it["link"] in seen_links:
             continue
-        nt = it["_norm"]
-        dup = False
-        for k in kept:
-            if difflib.SequenceMatcher(None, nt, k["_norm"]).ratio() >= threshold:
-                dup = True
-                # Same story from two feeds: keep the best bits of both
-                # (a Bing copy brings a direct link and thumbnail to a Google News card).
-                if it.get("image") and not k.get("image"):
-                    k["image"] = it["image"]
-                if "news.google." in k["link"] and "news.google." not in it["link"] and not k.get("direct_url"):
-                    k["direct_url"] = it["link"]
-                if it.get("summary") and not k.get("summary"):
-                    k["summary"] = it["summary"]
-                break
-        if dup:
+        k = next((k for k in kept if same_story(it, k, threshold)), None)
+        if k is not None:
+            if it.get("image") and not k.get("image"):
+                k["image"] = it["image"]
+            if "news.google." in k["link"] and "news.google." not in it["link"] and not k.get("direct_url"):
+                k["direct_url"] = it["link"]
+            if it.get("summary") and not k.get("summary"):
+                k["summary"] = it["summary"]
+            if not k.get("lead") and it.get("lead"):
+                k["lead"] = it["lead"]
+            if it.get("first_seen", "9") < k.get("first_seen", "9"):
+                k["first_seen"] = it["first_seen"]
+            k["also"] = k.get("also", 0) + 1
+            seen_links.add(it["link"])
             continue
         seen_links.add(it["link"])
         kept.append(it)
+    for it in kept:
+        it.pop("_tok", None)
     return kept
 
 
@@ -397,6 +505,7 @@ def main():
         "project": Matcher(kw["project"]),
         "compliance": Matcher(cfg["compliance_terms"]),
         "countries": {k: Matcher(v) for k, v in cfg["countries"].items()},
+        "other": Matcher(cfg.get("other_places", [])),
         "sectors": {k: Matcher(v) for k, v in cfg["sectors"].items()},
     }
 
@@ -467,6 +576,12 @@ def main():
             for it in prev.get("items", []):
                 first_seen[it["link"]] = it.get("first_seen")
                 if parse_date(it["published"]) and parse_date(it["published"]) >= cutoff:
+                    # Re-score with today's rules so rule changes apply to older cards too
+                    c = classify({"title": it["title"], "summary": it.get("summary", "")}, "", M, cfg)
+                    if not c:
+                        continue
+                    it.update(c)
+                    it.pop("also", None)
                     it["_norm"] = norm_title(it["title"])
                     old.append(it)
             for it in fresh:

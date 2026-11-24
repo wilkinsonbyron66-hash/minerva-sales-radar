@@ -170,7 +170,9 @@
         (hideReason ? "<span class='badge'>" + esc(hideReason) + "</span>" : "") +
       "</div>" +
       "<h3><a href='" + esc(link) + "' target='_blank' rel='noopener'>" + esc(it.title) + "</a></h3>" +
-      "<div class='meta'>" + esc(it.source) + " · " + ago(it.published) + " · <a href='" + esc(link) + "' target='_blank' rel='noopener'>Read article ↗</a></div>" +
+      "<div class='meta'>" + esc(it.source) + " · " + ago(it.published) +
+        (it.also ? " · also in " + it.also + " other report" + (it.also > 1 ? "s" : "") : "") +
+        " · <a href='" + esc(link) + "' target='_blank' rel='noopener'>Read article ↗</a></div>" +
       excerpt +
       "<p class='why'>" + esc(it.why) + "</p>" +
       "<div class='who'><p class='who-top'>" + ICON.phone + "<span class='k'>Call</span>" + who + "</p>" + contactRows(it) + "</div>" +
@@ -284,7 +286,7 @@
     if (act === "call") {
       if (inCalls(id)) { calls = calls.filter(function (c) { return c.id !== id; }); toast("Removed from call list"); }
       else {
-        calls.unshift({ id: id, company: it.lead || it.client || "", title: it.title, link: it.link,
+        calls.unshift({ id: id, company: it.lead || it.client || "", title: it.title, link: (it.preview && it.preview.url) || it.link,
                         country: it.country, date: it.published.slice(0, 10), added: new Date().toISOString(),
                         phone: (it.contact && it.contact.phone) || "", email: (it.contact && it.contact.email) || "",
                         website: (it.contact && it.contact.website) || "", ask_for: (it.contact && it.contact.ask_for) || "",
@@ -371,7 +373,11 @@
     removeCard(el, function () { renderCalls(); renderSignals(); });
   });
 
-  function csvCell(v) { v = String(v == null ? "" : v); return /[",\n\r]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v; }
+  function csvCell(v) {
+    v = String(v == null ? "" : v);
+    if (/^[=+\-@]/.test(v)) v = " " + v;  // stop Excel reading "+971 ..." or "=..." as a formula
+    return /[",\n\r]/.test(v) ? '"' + v.replace(/"/g, '""') + '"' : v;
+  }
   $("export").addEventListener("click", function () {
     if (!calls.length) { toast("Call list is empty"); return; }
     var lines = [["company", "title", "link", "country", "date", "phone", "email", "website", "ask_for", "person_in_article"].join(",")].concat(calls.map(function (c) {

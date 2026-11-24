@@ -31,6 +31,15 @@ Open `config.json` on GitHub, click the pencil icon, edit, then **Commit changes
 
 Rules: keep the quotes and commas. Short ALL-CAPS words (DMR, PTT, RFQ, PDO) match case-sensitively; everything else ignores case and matches whole words.
 
+## How stories are filtered
+
+- **Same story, one card:** headlines that share the distinctive names (e.g. "Capella", "Mazoon", "Six Senses Palm") within 14 days are folded into one card; the card says "also in N other reports".
+- **Outside our market:** a story is dropped when it names a place in `other_places` (Egypt, India, Kuwait, Bahrain...) and no UAE / Saudi / Oman place. "Dubai's Jumeirah opens on Lake Como" counts as Italy, not UAE.
+- **Not a buying signal:** staff appointments, GM lists, prizes ("wins ... award 2026"), share-price news and "bid" used in sport or politics are ignored. A cancelled contract is kept but scored low.
+- **Live tenders** only shows items with a real tender word (tender, RFQ, RFP, EOI, prequalification, bids invited, bidders).
+- **High score:** our product category (radios, TETRA, body cams, PTP...) named in a tender, contract or project in the UAE, Saudi or Oman.
+- Older cards are re-scored with the current rules every run.
+
 ## Adding or removing feeds
 
 Each entry in `feeds` is either a Google News search or a direct RSS link:
