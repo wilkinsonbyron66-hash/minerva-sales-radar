@@ -1,7 +1,7 @@
 {
- "generated": "2026-11-24T07:45:27Z",
- "count": 59,
- "feeds_checked": 21,
+ "generated": "2026-11-24T07:49:29Z",
+ "count": 116,
+ "feeds_checked": 23,
  "items": [
   {
    "id": "5cf30e07df00",
@@ -25,6 +25,56 @@
    "lead": "",
    "client": "",
    "why": "New project in the region: a new site will need communications. Reach the company while they are still buying."
+  },
+  {
+   "id": "a4d4a2cde9c6",
+   "title": "The Ritz-Carlton opens at AMAALA on Saudi Arabia’s Red Sea coast",
+   "link": "https://www.hoteliermiddleeast.com/news/the-ritz-carlton-opens-at-amaala-on-saudi-arabias-red-sea-coast",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-24T05:43:32Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opens"
+    ]
+   },
+   "compliance": [],
+   "lead": "Ritz-Carlton",
+   "client": "",
+   "why": "New project in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Reach Ritz-Carlton while they are still buying."
+  },
+  {
+   "id": "88038a589175",
+   "title": "Six Senses The Palm, Dubai Opens With 61 Suites and 172 Residences",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNS0ZwanQ0WmFRYzFWaVNMY3Ria1lIdVA4U0VCR1dxcEF3cXdXVldSNHV2TXBKcVYxaTlJSVVnZDIzX3ota2l5RGduVjNBSmhRMVZFc2lkSDd0RVpfa2NXeDZkWU9zdVFtUEhHQWplYUlvTHZYZ2JLRWhqSm0wcm8wTGRDZy1jRzV4Vm5SRFh1TlI5VXNzX0JlTEI2NDQyTUVU?oc=5",
+   "source": "Hotel Online",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-23T22:44:14Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opens"
+    ]
+   },
+   "compliance": [],
+   "lead": "Six Senses The Palm, Dubai",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Six Senses The Palm, Dubai while they are still buying."
   },
   {
    "id": "b73b40bb3210",
@@ -142,9 +192,9 @@
     ]
    },
    "compliance": [],
-   "lead": "",
+   "lead": "Six Senses",
    "client": "",
-   "why": "New project in the region: hospital security, porters and facilities teams use radios. Reach the company while they are still buying."
+   "why": "New project in the region: hospital security, porters and facilities teams use radios. Reach Six Senses while they are still buying."
   },
   {
    "id": "a70d0a5e6e24",
@@ -167,9 +217,9 @@
     ]
    },
    "compliance": [],
-   "lead": "Dubai’s Jumeirah",
+   "lead": "Jumeirah",
    "client": "",
-   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Dubai’s Jumeirah while they are still buying."
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Jumeirah while they are still buying."
   },
   {
    "id": "2bcdb9c79fae",
@@ -218,6 +268,57 @@
    "lead": "Jumeirah",
    "client": "",
    "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Jumeirah while they are still buying."
+  },
+  {
+   "id": "89f0019110ee",
+   "title": "Red Sea Global opens Foster + Partners-designed Ritz-Carlton at AMAALA",
+   "link": "https://www.constructionweekonline.com/projects-tenders/red-sea-global-opens-foster-partners-designed-ritz-carlton-at-amaala",
+   "source": "Construction Week (direct RSS)",
+   "feed": "Construction Week (direct RSS)",
+   "published": "2026-11-23T09:05:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "hospitality",
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opens"
+    ]
+   },
+   "compliance": [],
+   "lead": "Red Sea Global",
+   "client": "",
+   "why": "New project in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Reach Red Sea Global while they are still buying."
+  },
+  {
+   "id": "3efe5c66bd4d",
+   "title": "Nakheel breaks ground on Jamaa Al Anwar mosque at Palm Jebel Ali",
+   "link": "https://www.constructionweekonline.com/projects-tenders/nakheel-breaks-ground-on-jamaa-al-anwar-mosque-at-palm-jebel-ali",
+   "source": "Construction Week (direct RSS)",
+   "feed": "Construction Week (direct RSS)",
+   "published": "2026-11-23T08:10:59Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "breaks ground"
+    ]
+   },
+   "compliance": [],
+   "lead": "Nakheel",
+   "client": "",
+   "why": "New project in UAE: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Reach Nakheel while they are still buying."
   },
   {
    "id": "0dd596983f34",
@@ -316,6 +417,81 @@
    "why": "New project in UAE: a new site will need communications. Reach the company while they are still buying."
   },
   {
+   "id": "6acbf89bb187",
+   "title": "Ciel Dubai Marina Opens as World's Tallest Hotel with Record-Breaking Sky Pool",
+   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPX0pXTXNnS05zcXBTdGdHcXdjWVdVaEFuQVkxUURfeXBLSVMyMzFlUmNuOFlORmRvZUdFRHRNY2tUdFFBMHRMMER5MmUxMlF1b0lKeWJsTnhhT2Z2d0Rka1dzMEhKV3d2RlFoandfNzJ3TTBUZzF4aHB2S05lVlY5dVZ1QnVfamltTVRiSS1NWTQwQTgyYmh4bQ?oc=5",
+   "source": "Head Topics",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-20T14:38:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opens"
+    ]
+   },
+   "compliance": [],
+   "lead": "Ciel Dubai Marina",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Ciel Dubai Marina while they are still buying."
+  },
+  {
+   "id": "29799324c1c0",
+   "title": "Addressing MEASA’s construction and urban development priorities at Big 5 Global",
+   "link": "https://www.constructionweekonline.com/business/insights/addressing-measas-construction-and-urban-development-priorities-at-big-5-global",
+   "source": "Construction Week (direct RSS)",
+   "feed": "Construction Week (direct RSS)",
+   "published": "2026-11-20T11:57:15Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Other",
+   "sectors": [
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "development"
+    ]
+   },
+   "compliance": [],
+   "lead": "Big 5 Global",
+   "client": "",
+   "why": "New project in the region: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Reach Big 5 Global while they are still buying."
+  },
+  {
+   "id": "6265677cfde6",
+   "title": "ROCAMBOLESCO OPENS THE PIANO ROOM, ITS AFTER-DARK HIDEAWAY IN UPTOWN DUBAI",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcDg4b2NIRHkxUWxyMldMVnVabk9sWGJIcEw1ZlpYRW9PQTBlNXNxUF9KaEJLZEo2Wm5zQlFIYWVYS2JYWTdTdGljQldOLXNvMUJONUYwYjZYRmxVLWc3Z256YjV0S3E3SGJGaF9XUE5pZjhURXlNZlR2VUVjVl9rTm1obkYtQWkxWXJOR3RNNm1qREpNbEhBRWhKcFdiSnFEMWRLLUFnWHBlbTA?oc=5",
+   "source": "Hotel & Catering",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-20T08:26:01Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opens"
+    ]
+   },
+   "compliance": [],
+   "lead": "ROCAMBOLESCO",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach ROCAMBOLESCO while they are still buying."
+  },
+  {
    "id": "4515f2f5a0f9",
    "title": "UAE’s NMDC Wins $112 Million Machilipatnam Port Dredging Contract in India",
    "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPN0JEWVQ5QlFXOE9MS25ZZmx6QXMxMXRGVHBiVWdaclVJSHlRS2czTlZ2clNpS2xPNkJsWlc4UEdzM1ZRd2ZQZ1BtTlhaZUp3Vm02ZWNvSWFXLTNvRlA4SlotcmtzUVJPRmdBZEJ1SE9DYlk5Q2w0ME1ZOWxpdmxlZFQ3RkFqeE5QTW9fNkNBMkVKMnJCM1A4UDJrbmJVaXhXRUhTVU9rdGw2TFVza2FLYUtoWVJYMEZlemtTZDZGLXA?oc=5",
@@ -384,9 +560,34 @@
     ]
    },
    "compliance": [],
-   "lead": "Global Partners",
+   "lead": "Global",
    "client": "",
-   "why": "Global Partners just won work in UAE: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers."
+   "why": "Global just won work in UAE: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers."
+  },
+  {
+   "id": "cfed1e45626d",
+   "title": "David Russell appointed cluster GM of Mövenpick JLT, voco Bonnington JLT and Riva Beach Club",
+   "link": "https://www.hoteliermiddleeast.com/hme/david-russell-appointed-cluster-gm-of-movenpick-jlt-voco-bonnington-jlt-and-riva-beach-club",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-19T13:08:37Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Other",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "appointed"
+    ]
+   },
+   "compliance": [],
+   "lead": "David Russell",
+   "client": "",
+   "why": "David Russell just won work in the region: hotel ops, security and housekeeping teams run on two-way radios. Call before they lock in suppliers."
   },
   {
    "id": "57f2886a0432",
@@ -463,19 +664,40 @@
    "why": "Saudi Aramco just won work in Saudi Arabia: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers."
   },
   {
-   "id": "d9052ca3935b",
+   "id": "15a567ec2e7d",
+   "title": "D.Mind: Dubai Municipality launches AI platform to resolve residents’ complaints",
+   "link": "https://www.constructionweekonline.com/news/d-mind-dubai-municipality-launches-ai-platform-to-resolve-residents-complaints",
+   "source": "Construction Week (direct RSS)",
+   "feed": "Construction Week (direct RSS)",
+   "published": "2026-11-19T09:14:08Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "UAE",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "launches"
+    ]
+   },
+   "compliance": [],
+   "lead": "D.Mind: Dubai Municipality",
+   "client": "",
+   "why": "New project in UAE: a new site will need communications. Reach D.Mind: Dubai Municipality while they are still buying."
+  },
+  {
+   "id": "6a83b7f73eb8",
    "title": "C-Quest appointed Cost Consultant for Gulf Coast Development’s new destination in Khafji Governorate",
-   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNWHVRSUxaWjR4MkhfSmlPUDR2QXhmMGV5bUVSelJUWS00ZEI5elpqaURxd0lreW91VzBpVkwyNVZ0TDVyYU5PcDZLS3NLY2tmZU9XOGlKR2hkR1BWSEtTdGYtaGx1ZE9WV1l6cGZXelFOMHVnNDIxcHFnRE5IR1lIbXJXZmJ4cG5tX3VXVmt6c0pkTGlsMG1MU2Y4WDNfSUlVZGIwU2dVNFpzYklpek05VU9fUFpxMlB2U1NJeXdKVTVhS0RBMXZSNk9hamJER2NLY05od3dPVU5TRGc1RW9uUm9KQ0VkMlRaSU1Md3RITQ?oc=5",
-   "source": "Construction Week Online",
-   "feed": "GN via Construction Week: awards",
+   "link": "https://www.constructionweekonline.com/people/appointments/c-quest-appointed-cost-consultant-for-gulf-coast-developments-new-destination-in-khafji-governorate",
+   "source": "Construction Week (direct RSS)",
+   "feed": "Construction Week (direct RSS)",
    "published": "2026-11-19T07:05:07Z",
-   "first_seen": "2026-11-24T07:45:27Z",
+   "first_seen": "2026-11-24T07:49:29Z",
    "section": "awards",
    "score": "low",
    "country": "Other",
-   "sectors": [
-    "construction"
-   ],
+   "sectors": [],
    "matched": {
     "product": [],
     "trigger": [
@@ -486,7 +708,7 @@
    "compliance": [],
    "lead": "C-Quest",
    "client": "",
-   "why": "C-Quest just won work in the region: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers."
+   "why": "C-Quest just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers."
   },
   {
    "id": "2c1537f25299",
@@ -509,9 +731,9 @@
     ]
    },
    "compliance": [],
-   "lead": "",
+   "lead": "Altec",
    "client": "",
-   "why": "the company just won work in Saudi Arabia: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers."
+   "why": "Altec just won work in Saudi Arabia: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers."
   },
   {
    "id": "d225ef9c8bbc",
@@ -562,6 +784,54 @@
    "why": "Pablo Air just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers."
   },
   {
+   "id": "eea3cc1c6de4",
+   "title": "Saadiyat records AED18.69bn in sales ahead of Guggenheim Abu Dhabi opening",
+   "link": "https://www.constructionweekonline.com/analysis/saadiyat-records-aed18-69bn-in-sales-ahead-of-guggenheim-abu-dhabi-opening",
+   "source": "Construction Week (direct RSS)",
+   "feed": "Construction Week (direct RSS)",
+   "published": "2026-11-18T11:10:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "UAE",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opening"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in UAE: a new site will need communications. Reach the company while they are still buying."
+  },
+  {
+   "id": "2076740de0d1",
+   "title": "Luxury dining guide GAYA launches in Dubai",
+   "link": "https://www.hoteliermiddleeast.com/hme/luxury-dining-guide-gaya-launches-in-dubai",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-18T05:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "launches"
+    ]
+   },
+   "compliance": [],
+   "lead": "Luxury dining guide GAYA",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Luxury dining guide GAYA while they are still buying."
+  },
+  {
    "id": "0f21fab5bd96",
    "title": "Motorola Solutions Increases Quarterly Dividend 11 Percent",
    "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxOZUhmc0tjLUdEMlhEMWdhREVOQTh3eDZybHNFQWpDZmdXZjRVNjRYZ3V6YlM4UW4tMDdEMmlVeHRYUVc0OEF4eG40Zjc0VkU3UTJSc3V2Q21vWl9zU1NscHFQVDVjQTZlazN2dmdJQXJ0T0xVUFFXanFoYlVuM0NMbEc2SjQzSjBiQVNyVkdXWjNPeVBwWTBWc3MyeXc0X1BxbzdvUW40c0JxNXJ5eWNOUA?oc=5",
@@ -610,6 +880,29 @@
    "why": "Arabian Pipes just won work in Saudi Arabia: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers."
   },
   {
+   "id": "012e109cb039",
+   "title": "Big 5 Global connects international suppliers with the UAE’s urban development ambitions",
+   "link": "https://www.constructionweekonline.com/events/big-5-global-connects-international-suppliers-with-the-uaes-urban-development-ambitions",
+   "source": "Construction Week (direct RSS)",
+   "feed": "Construction Week (direct RSS)",
+   "published": "2026-11-17T08:32:38Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "UAE",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "development"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in UAE: a new site will need communications. Reach the company while they are still buying."
+  },
+  {
    "id": "ec7a4d0f653b",
    "title": "MGM Dubai gets new 2029 opening date",
    "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQenc5RHc0WUZPRjNNb0ZSZzU0UlJ4LW4wMm5SNnlkVnlXUUl2YnJacFJqak5LbldpcFY1c25GaXJmOHc2VHNyd1VLUU9kdnlURGRRbjhRV05ULTFETm12QS0wdzJJYmRUSHVuS20wY1I2S1htRzdsT2RBRkVjSjdSSjBmdjlJRUZyWFEyLWJIMS1qQWhEalRvN0FEU1NhWWZTbkZoTE95ei1lZXk5bDZhWmtGT3NaaC1CRTRr?oc=5",
@@ -631,6 +924,31 @@
    "lead": "",
    "client": "",
    "why": "New project in UAE: a new site will need communications. Reach the company while they are still buying."
+  },
+  {
+   "id": "c7205378947d",
+   "title": "Radisson expands Saudi recruitment and employee development programmes",
+   "link": "https://www.hoteliermiddleeast.com/news/radisson-expands-saudi-recruitment-and-employee-development-programmes",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-17T07:55:46Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "development"
+    ]
+   },
+   "compliance": [],
+   "lead": "Radisson",
+   "client": "",
+   "why": "New project in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Reach Radisson while they are still buying."
   },
   {
    "id": "685b5a804209",
@@ -657,6 +975,56 @@
    "lead": "Al Maktoum Airport",
    "client": "",
    "why": "New project in the region: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Reach Al Maktoum Airport while they are still buying."
+  },
+  {
+   "id": "dfc9d3d794f2",
+   "title": "MGM Dubai tops out, opening now early 2029",
+   "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9CU1dyMkRLZG00cHJwellMQ1JWLUVnUEN5WDV0X0pTWWFMMXFXaG1CVmNwSVJMZ3M3SnphZnZtWFlvTHhJd0pRM0hjSUhrMExsNzZBU002ckFNcG9oZFpHdHo5ZC1IRDc2bW1z?oc=5",
+   "source": "Tbreak UAE",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-17T05:05:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "UAE",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opening"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in UAE: a new site will need communications. Reach the company while they are still buying."
+  },
+  {
+   "id": "7919fbc3af38",
+   "title": "Pieter Liebenberg appointed GM of Radisson Hotel Riyadh Airport",
+   "link": "https://www.hoteliermiddleeast.com/hme/pieter-liebenberg-appointed-gm-of-radisson-hotel-riyadh-airport",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-15T05:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "hospitality",
+    "transport"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "airport",
+     "appointed"
+    ]
+   },
+   "compliance": [],
+   "lead": "Pieter Liebenberg",
+   "client": "Radisson",
+   "why": "Pieter Liebenberg just won work in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Call before they lock in suppliers."
   },
   {
    "id": "d5b69f4a9432",
@@ -707,6 +1075,31 @@
    "why": "New project in Oman: a new site will need communications. Reach the company while they are still buying."
   },
   {
+   "id": "fb406a895af1",
+   "title": "Kuwait likely to award secondary substations EPC contract in Q1 2027",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY2psUmpJMU8zQWNlRjdaNG1jVE4yOHZOU0lDaGNhRUREcTlaTTByd2RzVkZaTFhNeDJMN19Qbi1rUy1JbVlvYmkxM3NMU2NzM2NmZ2hfbU8yZTBjUXNvZWZ5b0JSR0dpYUJzVFJDcFRqbl9wX3A2ZUxvUmVqRmFSNjR1cmtiTXlLNHhmaFlfN0FUdVVrN0dZUnpiQklzX3QyQXVISmhwZXJ6RkNuNFVnZ1kyWXc2aXYxazdsOQ?oc=5",
+   "source": "Zawya",
+   "feed": "GN via Zawya: contracts",
+   "published": "2026-11-14T04:56:31Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Other",
+   "sectors": [
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "EPC"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "the company just won work in the region: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers."
+  },
+  {
    "id": "b9152d93370c",
    "title": "Police-Worn Body Camera Maker Axon Sues Grant County Prosecutor",
    "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNdkt2RHlYQmpKWDJZZ1puTXpSWnVyVmgtQlJfN0ItRGRWSjZZUVRaeXFLTmx3NVhIVEtuS0JuYWFtRndVZVRFUjdfSTd1cnRNTHFEaFYyS1dQMzRYRDNlM2FhNmJkNUNKMWdxeE1wazJYVkpPYUVscXpqZE9MSUJfVm9Mc3NhQThiTDRETXo0dU1qQVdyU3IyeGJVR3Nod3RaNWZLU1p0bUUtVHRleGNOekNvZ2cwOU1IUHRhaE0za3E1d2tIeFJJZGZiUTBHbmFmN0tXeXVwckRMTE1WRmdfc05LdmVReFlDYXN3SEhqUQ?oc=5",
@@ -732,6 +1125,32 @@
    "why": "Live tender mentioning body camera in the region - get the documents and quote before the deadline."
   },
   {
+   "id": "50bee628405c",
+   "title": "Longevity and wellness clinic Shookra opens at Andaz Dubai The Palm",
+   "link": "https://www.hoteliermiddleeast.com/news/longevity-and-wellness-clinic-shookra-opens-at-andaz-dubai-the-palm",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-13T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality",
+    "healthcare"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opens"
+    ]
+   },
+   "compliance": [],
+   "lead": "Longevity and wellness clinic Shookra",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Longevity and wellness clinic Shookra while they are still buying."
+  },
+  {
    "id": "27b3dd212db5",
    "title": "Mered awards main contract for Riviera Residences Phase I",
    "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQV0YtTkd3c2tKRW9WOTZTVkFqd2d2Y1Z1M3FYdEMyTFh2Sm5oZmNwSXZPOFRrMnBOWVNmeGVjdThXT2xOX2Z6WUs0dVR1N3ZZa2lINU01N2MxTS1XZlVucVBsdHhKMG9iWmxqVlVRTXNsbTZHWS1jVkRoMDZNaVVWbTlEUkJMbldZdFd0VWxULXFWRnd4Y0JYZmdOZ01MbkVOS0tiT0tIRzhELUZLRnNwc3U1dUctbDBO?oc=5",
@@ -753,6 +1172,31 @@
    "lead": "Mered",
    "client": "",
    "why": "Mered just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers."
+  },
+  {
+   "id": "a2f9c5c47b9c",
+   "title": "Palma Development unveils Phase II of Serenia District in Jumeirah Islands",
+   "link": "https://www.constructionweekonline.com/projects-tenders/palma-development-unveils-phase-ii-of-serenia-district-in-jumeirah-islands",
+   "source": "Construction Week (direct RSS)",
+   "feed": "Construction Week (direct RSS)",
+   "published": "2026-11-12T09:09:12Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "development"
+    ]
+   },
+   "compliance": [],
+   "lead": "Palma Development",
+   "client": "Jumeirah",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Palma Development while they are still buying."
   },
   {
    "id": "f23ccedc70a9",
@@ -780,6 +1224,31 @@
    "why": "PDO just won work in Oman: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers."
   },
   {
+   "id": "00a61b9b7647",
+   "title": "Top 12 project launches in October 2026: Nakheel, Qiddiya Investment Company, Aman Group, and more",
+   "link": "https://www.constructionweekonline.com/power-lists/top-12-project-launches-in-october-2026-nakheel-qiddiya-investment-company-aman-group-and-more",
+   "source": "Construction Week (direct RSS)",
+   "feed": "Construction Week (direct RSS)",
+   "published": "2026-11-12T07:39:52Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "launches"
+    ]
+   },
+   "compliance": [],
+   "lead": "Qiddiya",
+   "client": "Nakheel",
+   "why": "New project in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Reach Qiddiya while they are still buying."
+  },
+  {
    "id": "ab7f64b0c573",
    "title": "Bahrain's Eskan Bank expected to award villa project contract in Q1 2027",
    "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQc0FMWjFLbThJU21VOUJCTVNXb0stczl3Q3lPTmJCY0FKN1k1TElCSGJGSlNJOHMtelpielFKeWtUWjU0eENpcWpXb0FtOThqOG9GUTE3MGQtR2ViVm10TUNIeVpPbFlwWkhRVXhIcFNIck5zSk4tbDFmUTc5Tm4zQVlDWXZ1X2d4bVRQNC1sdEpxZS1RVl9HN0F1bEdCdktHTFNoUzJBeGNnajBMdDhVZVdwMA?oc=5",
@@ -801,6 +1270,125 @@
    "lead": "",
    "client": "",
    "why": "the company just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers."
+  },
+  {
+   "id": "1971261bac4f",
+   "title": "BEYOND Developments launches SHIONE at SIORA on Dubai Islands",
+   "link": "https://www.constructionweekonline.com/projects-tenders/beyond-developments-launches-shione-at-siora-on-dubai-islands",
+   "source": "Construction Week (direct RSS)",
+   "feed": "Construction Week (direct RSS)",
+   "published": "2026-11-11T08:30:41Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "UAE",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "launches"
+    ]
+   },
+   "compliance": [],
+   "lead": "BEYOND Developments",
+   "client": "",
+   "why": "New project in UAE: a new site will need communications. Reach BEYOND Developments while they are still buying."
+  },
+  {
+   "id": "567447cc79ff",
+   "title": "Cheval South Bay Scheduled to Open 2030 in Dubai",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBMLW53blMtOVg2a1liNklhUGZnc1FIQWdqUlZGbER3NHduVmFVdGJwY3pYQzZkcDdmTjFCallKNER2RVEzSHo1OVJZMi1mdGstZktkSm1BYnE1QzhHSzFBcmdR?oc=5",
+   "source": "Hotel News Resource",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-11T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "to open"
+    ]
+   },
+   "compliance": [],
+   "lead": "Cheval South Bay Scheduled",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Cheval South Bay Scheduled while they are still buying."
+  },
+  {
+   "id": "2fa13bc9f79b",
+   "title": "Ras Al Khaimah to open first mountain lodge on Jebel Jais by end of 2026",
+   "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNRG01bkNrdW1sRjh5ZzNLZVduQnMyQ0hudXZqcHRoRjBsLVN0bFRzUFdsZGFNamJUdTJNTHVUaUpTVFkyVlJSRHR4RHo1ZXRBVERSSThPa0pKc1VwNWVJaXhIaWJIWVNyUHhLTFVFbEtTYjFyVHNMdlVVZnJBeVMwNkxrY096d3BPSWdWeXdnUnJYWU1uSHNlUF9fRUFTQnZIMWJkSdIBrAFBVV95cUxNal9hdHJHaVdNWWZ1WkF2bGxid2V3MXNTcmFJbUU0SWs1R0VVWm1LUzR1akpjZ1A5RkRidmtScUZuS0kxam9TUFZDUUJKc1ZfNUh3MFU0U19WTzJhOWRYNUxRdEVIQldqcVJuWEhNcElHeEthUkwzalhScDVOb3lYZGUzQXRDRm9CQTNkOHJZbjJCajRJSHo3ZjQ5WnZia21PdEFaWm5nemtEWjNR?oc=5",
+   "source": "Khaleej Times",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-11T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "UAE",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "to open"
+    ]
+   },
+   "compliance": [],
+   "lead": "Ras Al Khaimah",
+   "client": "",
+   "why": "New project in UAE: a new site will need communications. Reach Ras Al Khaimah while they are still buying."
+  },
+  {
+   "id": "d29ad217238b",
+   "title": "Dubai Metro to extend to Al Maktoum International Airport City by 2031",
+   "link": "https://www.constructionweekonline.com/projects-tenders/dubai-metro-to-extend-to-al-maktoum-international-airport-city-by-2031",
+   "source": "Construction Week (direct RSS)",
+   "feed": "Construction Week (direct RSS)",
+   "published": "2026-11-10T12:02:55Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "transport"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "airport"
+    ]
+   },
+   "compliance": [],
+   "lead": "Al Maktoum International Airport",
+   "client": "",
+   "why": "New project in UAE: operations and maintenance teams need radio/TETRA coverage and wireless links. Reach Al Maktoum International Airport while they are still buying."
+  },
+  {
+   "id": "74dc2dacf2da",
+   "title": "Bahrain’s Muharraq City Development Project Phase I nears completion",
+   "link": "https://www.constructionweekonline.com/projects-tenders/bahrains-muharraq-city-development-project-phase-i-nears-completion",
+   "source": "Construction Week (direct RSS)",
+   "feed": "Construction Week (direct RSS)",
+   "published": "2026-11-10T11:29:40Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Other",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "development"
+    ]
+   },
+   "compliance": [],
+   "lead": "Muharraq City Development",
+   "client": "",
+   "why": "New project in the region: a new site will need communications. Reach Muharraq City Development while they are still buying."
   },
   {
    "id": "57434051cb33",
@@ -830,6 +1418,81 @@
    "why": "Mannai just won work in Saudi Arabia: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers."
   },
   {
+   "id": "afc562ea47e8",
+   "title": "Dubai opens 110-metre pedestrian bridge linking Metro station to Coca-Cola Arena",
+   "link": "https://www.constructionweekonline.com/projects-tenders/dubai-opens-110-metre-pedestrian-bridge-linking-metro-station-to-coca-cola-arena",
+   "source": "Construction Week (direct RSS)",
+   "feed": "Construction Week (direct RSS)",
+   "published": "2026-11-10T05:50:08Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "transport",
+    "events",
+    "retail"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opens"
+    ]
+   },
+   "compliance": [],
+   "lead": "Dubai",
+   "client": "",
+   "why": "New project in UAE: operations and maintenance teams need radio/TETRA coverage and wireless links. Reach Dubai while they are still buying."
+  },
+  {
+   "id": "4a985ada4464",
+   "title": "Saudi Arabia’s Dream of the Desert luxury train opens bookings with journeys from US$22,997",
+   "link": "https://www.hoteliermiddleeast.com/saudi-arabia/saudi-arabias-dream-of-the-desert-luxury-train-opens-bookings-with-journeys-from-us22997",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-10T05:35:25Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "transport"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opens"
+    ]
+   },
+   "compliance": [],
+   "lead": "Dream of the Desert luxury train",
+   "client": "",
+   "why": "New project in Saudi Arabia: operations and maintenance teams need radio/TETRA coverage and wireless links. Reach Dream of the Desert luxury train while they are still buying."
+  },
+  {
+   "id": "514ff3c96244",
+   "title": "Awarded Saudi projects triple in October",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRjlMZmxrZHlaTk1jZVFwOFZibDUwQ044WWZZMWJYTG5rY0xWUjRxd1ZfS1RiMUR1Ym9CUmF1VEtOWUkwa2p5ZlJCazUxY3BSeVJFMDlCclFpblJ1NDJoczVRZlN2Q1g4SGgyS09kR25udXI0bjlGZ25XT0tKMmdLY1F2aUxDRTluV1E?oc=5",
+   "source": "Zawya",
+   "feed": "GN via Zawya: contracts",
+   "published": "2026-11-10T04:59:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Saudi Arabia",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "awarded"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "the company just won work in Saudi Arabia: a new contract means new teams to equip. Call before they lock in suppliers."
+  },
+  {
    "id": "17d11c119d39",
    "title": "Egyptian group Madkour wins contract to build 400kV grid station in Oman",
    "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZGgydngtMEx3QmdjZGpFZUsyZXg2T0dwdmhPSFBJYWx5N1R4REktbGdEMjU0TEV3ZGRuNjR4aE9nMGpfSmZtdGFabFdWc01ZOS04b3lGWGNuTEhWbnE3dWZmc0tINTFBS3Fsbmo4Wms2dDNpdHBnYVNvaUkwVmFRLWx3OXAzVlV0QlBiTmFZWEIzMF9xM3MzVFFQZDJtUFM2N00zeG9yc3JYNkhYSk5MMzhR?oc=5",
@@ -853,6 +1516,212 @@
    "lead": "Egyptian group Madkour",
    "client": "",
    "why": "Egyptian group Madkour just won work in Oman: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers."
+  },
+  {
+   "id": "f87e82d2c5f6",
+   "title": "Lulu opens 127th UAE hypermarket at Moopans Mall, expands global projects in US and India",
+   "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOVHJLWE5HdnU4Zk5sNUVQTnctcHM0RnpXYlFoQVJvWDM2UzVxTHR1VklnZ2QzbkQ3dVJqQzBGQ3A1elAwUmJ4Ml9od0c3NXJYZEl3a2dfZWhyV1lWVGVudmlTS0V6X043ejZxZWxubTVHaW1fLTUydE94blZtRUFXck1jQ0JBd0FheThrTWRkUENveFFQRGN1aF81TWlQa3o3NEdhZndzMEtuM2daVzdiallLajhnc2RncTFwc0I4QkpuUkVUYk5pVTR0VdIB3gFBVV95cUxNUGlIalVQUWltcklhRl9OUk1aQmpVYndXV193bVBsVkc0MzNoQXJpd1ViQ2dsbDhHWVgxYk4wQXBSWmIydXpOckVFM0Y5ejVnUklpUXZtSzJNSVlkVWJCcEc0WGp6amcyVXRtYXdFUkVKX080RGZRSS14RWNWakJZaHpYckp4UjhhNkRLTW5PVGNZQ0V4MDdkRER4OUtpank1YnlSV3RrWHVWYTg4UHhPTlhDSHlKZ3VOdG9zazBhVGN5VVZaaHB0WHk0WUNjbE9IY1FrM1ZJUmU2LWVNWGc?oc=5",
+   "source": "Gulf News",
+   "feed": "GN: Malls, stadiums, arenas",
+   "published": "2026-11-09T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "retail"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opens"
+    ]
+   },
+   "compliance": [],
+   "lead": "Lulu",
+   "client": "",
+   "why": "New project in UAE: mall security, facilities and car-park teams use radios and bodycams. Reach Lulu while they are still buying."
+  },
+  {
+   "id": "0ff4d819a5b8",
+   "title": "How two Saudi resorts earned a world-first DarkSky certification",
+   "link": "https://www.hoteliermiddleeast.com/hme/how-two-saudi-resorts-earned-a-world-first-darksky-certification",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-07T05:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "tenders",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "bid"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "Tender in Saudi Arabia: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Ask who handles communications packages."
+  },
+  {
+   "id": "8e514c870cb6",
+   "title": "Six Senses to open first UAE resort on Palm Jumeirah",
+   "link": "https://www.hoteliermiddleeast.com/news/six-senses-to-open-first-uae-resort-on-palm-jumeirah",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-05T13:03:30Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality",
+    "healthcare"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "resort",
+     "to open"
+    ]
+   },
+   "compliance": [],
+   "lead": "Six Senses",
+   "client": "Jumeirah",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Six Senses while they are still buying."
+  },
+  {
+   "id": "b8c5448cb68a",
+   "title": "Dubai's Emaar Development awards nearly $5bln in construction, infrastructure contracts in 9M 2026",
+   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPQ3dFNFVITGY2WVJwOXdDYXFNUFFNdVptYkdHM1FxMkJkNlBVQW92aXVWSndPZDdWUFNQX3FEUlZiV1JxUVY2M2g5ajZMVk9rUk5jTnJIMHI5SWMzRVVwc3hIam5aaVhvUTNoQ0hhNHc5SXdYcnhZZFB0aDFjN3c0dUNrM1UtaWFPYi1iTXM0OXZfRXU4dnkydnJzU1cxcWF2cjVzUllwd3Z2U0NuWUhIN25UTVFNMEpDc0llWGlVZWdHLTFwY0VaVUYybHp0b21CTEtidmU5aFhWQ0N4eFpCSTZBcUc?oc=5",
+   "source": "Zawya",
+   "feed": "GN via Zawya: contracts",
+   "published": "2026-11-05T12:43:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "development"
+    ]
+   },
+   "compliance": [],
+   "lead": "Emaar Development",
+   "client": "",
+   "why": "New project in UAE: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Reach Emaar Development while they are still buying."
+  },
+  {
+   "id": "82ce4f0dffbf",
+   "title": "General Manager Power List 2026: Anantara Mina Ras Al Khaimah Resort’s Ramsey Saarany",
+   "link": "https://www.hoteliermiddleeast.com/hme/general-manager-power-list-2026-anantara-mina-ras-al-khaimah-resorts-ramsey-saarany",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-05T08:20:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality",
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "resort"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach the company while they are still buying."
+  },
+  {
+   "id": "0613da4b8cc4",
+   "title": "General Manager Power List 2026: Anantara The Palm Dubai Resort’s Michael Robinson",
+   "link": "https://www.hoteliermiddleeast.com/hme/general-manager-power-list-2026-anantara-the-palm-dubai-resorts-michael-robinson",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-05T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "resort"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach the company while they are still buying."
+  },
+  {
+   "id": "84f23d80ebef",
+   "title": "General Manager Power List 2026: Marriott Resort Palm Jumeirah’s Gerrit Schmitt",
+   "link": "https://www.hoteliermiddleeast.com/hme/general-manager-power-list-2026-marriott-resort-palm-jumeirahs-gerrit-schmitt",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-05T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality",
+    "events"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "resort"
+    ]
+   },
+   "compliance": [],
+   "lead": "Marriott",
+   "client": "Jumeirah",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Marriott while they are still buying."
+  },
+  {
+   "id": "ec098bf52071",
+   "title": "KBR wins engineering design contract for major Iraq gas capture project",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbE1WZzFaNTNJNEpDMnlGc0hQdnRVNVFFX0ZpdGZYVHVRNGNCWVhqV3lNbnJnN0NrYlpDN2tiUXBNRDZDSVFKdVZuZDZ6RGFhdE15ZTBmRW9qRmxSS1FVWUpLcEZhbk5JZVMzS2NLd3h3eEY5MXZUWWNGSHIxME9BZ1R2Z1NqbkFpRUJrc0xZOGsxWUVGQ1dpaDZZSzJBMjgzUUFiNEE1VmhBZU91bzktUm1kbw?oc=5",
+   "source": "Zawya",
+   "feed": "GN via Zawya: contracts",
+   "published": "2026-11-05T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Other",
+   "sectors": [
+    "oil & gas"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "contract win"
+    ]
+   },
+   "compliance": [
+    "Iraq"
+   ],
+   "lead": "KBR",
+   "client": "",
+   "why": "KBR just won work in the region: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers."
   },
   {
    "id": "59995b843700",
@@ -900,6 +1769,106 @@
    "lead": "Overweight",
    "client": "",
    "why": "Live tender mentioning Motorola Solutions in the region - get the documents and quote before the deadline."
+  },
+  {
+   "id": "47240dc2c521",
+   "title": "SIX SENSES THE PALM, DUBAI OPENS ON PALM JUMEIRAH",
+   "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPT01yYzktazRyT0owazZGU0ZmX1lxREU5QzZqWng5QlhwbEFGX0RQWHBYYTdqYlV5ZG02YzZTdUIxb0FSYzdwSmtpMmxnN01uNjA4UFB5aUQyMnA4M21zdEJERHdncnBoY05DUkFyS2stT2pxVGVES0RXX1FuWDE1a20ybDB3NzBtS3c?oc=5",
+   "source": "Hotel & Catering",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-05T06:29:25Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opens"
+    ]
+   },
+   "compliance": [],
+   "lead": "SIX SENSES THE PALM, DUBAI",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach SIX SENSES THE PALM, DUBAI while they are still buying."
+  },
+  {
+   "id": "ce7f46dcedc7",
+   "title": "Ennismore signs first Mondrian hotel in Türkiye with 108-key Bodrum resort",
+   "link": "https://www.hoteliermiddleeast.com/news/ennismore-signs-first-mondrian-hotel-in-turkiye-with-108-key-bodrum-resort",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-04T08:31:38Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Other",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "resort"
+    ]
+   },
+   "compliance": [],
+   "lead": "Ennismore",
+   "client": "",
+   "why": "New project in the region: hotel ops, security and housekeeping teams run on two-way radios. Reach Ennismore while they are still buying."
+  },
+  {
+   "id": "9fb383392779",
+   "title": "Capella Hotel Group announces 2030 opening for Dubai hotel",
+   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbXdwdUJObHZyTFNSUjBMYmFIa3VXMlhNMXM3QmgzTjZhakZSbnNtNTlsYmNEMkh4TnI0ZFZlZ0hEWWZreG1SUThLZ2hlTzk0RHBfTnRWWTE0dDZCQldqS19XangySlRNTzRsc2Vjc0ptT0VnU0FWYkE2OVI4ZkRnb2h1NkVTdVdCTXJMMTdOMHQxWjdtOU1ySUxkMmhhVnJ0cmwzY1o5X3p1R1E?oc=5",
+   "source": "spabusiness.com",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-04T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opening"
+    ]
+   },
+   "compliance": [],
+   "lead": "Capella Hotel Group",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Capella Hotel Group while they are still buying."
+  },
+  {
+   "id": "7c4e8e325be7",
+   "title": "J1 Hotel Dubai to open in 2027 as Gran Meliá’s UAE debut",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVXZueXc0dTJVbTM4MTF5a0hWOXZkVTFSX0NGelNUQlAwZ0hreU5wV013eGlkSnJ5SE1HeU5ra1dra3dyTDJNM3NheDk1bWVPcXRLaThvdnItdXB2S1VLRjJSZHNadG9KN004T21QSE1XT0tGdkhjNXZJU3BSRXpPUlJBeDlVQVpkTzJoUUIyS29SaXF4dkpZ?oc=5",
+   "source": "Travelling for Business",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-04T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "to open"
+    ]
+   },
+   "compliance": [],
+   "lead": "J1 Hotel Dubai",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach J1 Hotel Dubai while they are still buying."
   },
   {
    "id": "75d75e9faabd",
@@ -950,29 +1919,6 @@
    "why": "Tender in the region: check if comms/radios are in scope. Ask who handles communications packages."
   },
   {
-   "id": "45cbf8651f36",
-   "title": "Oman’s MDO awards $600 million Mazoon copper contract",
-   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmRW44ZjZqcDZmQmNpYjJPd3h5bzJXWGE0SXpZMkZ5bUljWVJ2ZFFHaGhRdm9XRGd5NHQ5dWVMLU5jb1V6ekVFNEhYaV82ZWpIUzZTcW5fOEx4SVdyVUpyb2I0VG1Ecm8yYXI2aXRnRTRZazZEdm9SWHFLSDdibjA?oc=5",
-   "source": "Mining.com.au",
-   "feed": "GN: Oman contracts awarded",
-   "published": "2026-11-04T08:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "low",
-   "country": "Oman",
-   "sectors": [],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "awards $"
-    ]
-   },
-   "compliance": [],
-   "lead": "Oman’s MDO",
-   "client": "",
-   "why": "Oman’s MDO just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers."
-  },
-  {
    "id": "39b04acc93fc",
    "title": "bp Oman awards five-year contract to Truckoman for warehousing and materials management services",
    "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOajd0d0VqTE1uMHlyYUtwb0NZSGJtNzZuYXFPN1dyY2VqVUpmRWRqMGx1dGlha2xmOVo1RHBVazVyWjg2SUoxSU56TFVSVnFUT1BXZU44US1ZNjF6Tkx4OUlpdU9sOFZkVldMd1NlSE9YUW5LTWZSYV84Qng3eUptX3hNc2lFbTJZdzYtS2xxZjVlNGl2T0xocGNhQnZFbnRpV3NNdnJYcDBKMFBnTHFwNGdwNHJPZ2FSWkwxSmo5MmpGdURjTVk1Z1N3cEIyVW1D?oc=5",
@@ -996,6 +1942,75 @@
    "why": "Truckoman just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers."
   },
   {
+   "id": "3f43989a3d75",
+   "title": "Six Senses The Palm announces official opening date",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxObjYzUkRVTFBEbF91cTh6VC1ackZEWnJudUlvVTMyRTlLRHQ3cUh2Wm1NREZmQ1dmY3hUdENZNHo0aXB6a1NMaktnd1VVbzlQR3MxT0xZUjFMSC1icWkzOUs5bEdKWFpraW0zOWVJWXJrQ1VDb0JpNGxsOHNhTFpiREN3?oc=5",
+   "source": "Time Out Dubai",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-04T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "UAE",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opening"
+    ]
+   },
+   "compliance": [],
+   "lead": "Six Senses The Palm",
+   "client": "",
+   "why": "New project in UAE: a new site will need communications. Reach Six Senses The Palm while they are still buying."
+  },
+  {
+   "id": "d20708085cd4",
+   "title": "55 incredible hotels opening soon in the UAE",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01QUthTkgxeGdKUWNXZGhWdHhvdC1HbEhzZm5TSHZtS05UNHhCQ1B3VGR0Q3dYVU1BVFFab3MxM19TWUFPQUE5WHZwWEtucGtER192bW91aEt4WmtNZnNhVDUyYXZpUkhV?oc=5",
+   "source": "What's On",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-04T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "UAE",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opening"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in UAE: a new site will need communications. Reach the company while they are still buying."
+  },
+  {
+   "id": "45cbf8651f36",
+   "title": "Oman’s MDO awards $600 million Mazoon copper contract",
+   "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBmRW44ZjZqcDZmQmNpYjJPd3h5bzJXWGE0SXpZMkZ5bUljWVJ2ZFFHaGhRdm9XRGd5NHQ5dWVMLU5jb1V6ekVFNEhYaV82ZWpIUzZTcW5fOEx4SVdyVUpyb2I0VG1Ecm8yYXI2aXRnRTRZazZEdm9SWHFLSDdibjA?oc=5",
+   "source": "Mining.com.au",
+   "feed": "GN: Oman contracts awarded",
+   "published": "2026-11-04T08:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Oman",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "awards $"
+    ]
+   },
+   "compliance": [],
+   "lead": "Oman’s MDO",
+   "client": "",
+   "why": "Oman’s MDO just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers."
+  },
+  {
    "id": "f2c76ffcacfb",
    "title": "MDO awards $416mn contract for Mazoon Copper Project to China’s Hongda International",
    "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQcEVtVktnMzdObnhHMXB3UWhIQzJybzhuVVZNVzJPTEFvck9iWnhLaWlsTW9EbWtybHBKVHpxZ2hPekpLQ0RFZVhiaWhjZHJpNWZiSlgyeTBMYlNnRC1xN2V6THNubXY1N0poSkRwN28zbmQ1VkVLcVB6QXBQWWJMaXZNRElENlVFMmlIdnlpU2QxZE81bE5XRV9qclRYNXBuOGpZTW9tbUdhWU1vT3N1ekFtdGJ5X1E5M0JqNmxHSQ?oc=5",
@@ -1017,6 +2032,32 @@
    "lead": "MDO",
    "client": "",
    "why": "MDO just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers."
+  },
+  {
+   "id": "88b1854d5847",
+   "title": "LPM-Sur-Mer beach venue to open at Dubai’s Jumeirah Beach Hotel in November",
+   "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQV3dRaVRKdEgteWVEY3BKeFFXc0Y0UHJfSk9QNzZyMFBXY0tpaWZSUGZtZ2pBUm16My1TTXJjNFdBX2thczA0X2VTM2hsNXFFc1dBMkdaVkFOS2NDTmt2YU1tMWM3MVIwODR4YkZ0ZlA1VnNjQnJkWFBJa1FHU1VJOXVwZjdnS0pnMl9aSk1uanBSZS14OGNYZ0JucHBjME1Fa3d1QUVISUNqc09VNVdsTmlBcw?oc=5",
+   "source": "Caterer Middle East",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-03T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality",
+    "events"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "to open"
+    ]
+   },
+   "compliance": [],
+   "lead": "LPM-Sur-Mer beach venue",
+   "client": "Jumeirah",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach LPM-Sur-Mer beach venue while they are still buying."
   },
   {
    "id": "4ebd872c4bc3",
@@ -1044,6 +2085,31 @@
    "why": "New project in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Reach Grand Hyatt The Red Sea while they are still buying."
   },
   {
+   "id": "50cc5626d070",
+   "title": "World Cup cliff stadium update as 46,979-seater arena gets underground lake",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQamlwazdKZFZSOWFuMjUxMlVNWnhhMGpMWHJZR2ZwbENRLVdKSFFXUlNYcHVPVXVxYl8yelFFUjNIdWZMZG0tTEU2UTlCU1NRd2F1RDNobjdpVkhYUHVZODQzU0lzLU1GSEpWUnctNWNVS3RyZUZtNHBTeEY1WE8yZEpLSnNxN2NUT0hoOW5mTDhfQUMydEtIMmwzUlJhODg?oc=5",
+   "source": "The Sun",
+   "feed": "GN: Malls, stadiums, arenas",
+   "published": "2026-11-03T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Other",
+   "sectors": [
+    "events"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "stadium"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in the region: event operations, stewards and security need radio fleets (rental or purchase). Reach the company while they are still buying."
+  },
+  {
    "id": "dd9c411ce4dc",
    "title": "Oman’s MDO awards Mazoon Copper Project mining contract to China’s Hongda",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYm55UjhfVXp3UHQtUFVtM1dvVDg3bktQMnVaV0dKMGtZSGw3VDBuOWJvRVFhZFNFcVcyQkhHZEtJYTZWazJpZlJNM1BuejRyS2pneEdLcGROUTJ0a0dEVVdaS3NwRGFsdGFQUWtFNGI3UVMxcmV0Q242ekJVZ3VZRUlDS1doU081MnZjVFFrcndiN2lXSE9HVW9yUVBFejJYQlFRVTN5NDE?oc=5",
@@ -1065,6 +2131,54 @@
    "lead": "Oman’s MDO",
    "client": "",
    "why": "Oman’s MDO just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers."
+  },
+  {
+   "id": "a72601d7b11e",
+   "title": "Capella Hotel Group to Open Capella Dubai in 2030",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRzhPX0F1WXJ1QS02Y0FqR0VySkYyUFNZdHM4Ymt0aGFNekc4RVhjS2ppSER0dDQtZmhIZkd2U0gwZlBuREZFYzVUc0V5djZiNUZkaFZtQjE2cnVwRENMWmdCZFhYR0l6dEZXSEtreHpLSlRncFhMOWljM095LUU2SFVvVkFybHEtZjRJ?oc=5",
+   "source": "Hotel Online",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-02T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "to open"
+    ]
+   },
+   "compliance": [],
+   "lead": "Capella Hotel Group",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Capella Hotel Group while they are still buying."
+  },
+  {
+   "id": "e8aafded5da3",
+   "title": "Capella to open at Dubai Peninsula in 2030",
+   "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTVZpOFVyYmhQeVRGQ0lUUVRpallvSHZvZFBBVWREX2JLcmxWQWlRMm01dzVHcmNjZERwN3p0dVdWaWFXNVVVVmlnak5la3R1NTBNRTBDbkpyVDhFcmhVdU5sVHphQnd1eGZyLTRuSzVwYTRRNXd6U0NYVFJaQWdmc0dMOVpsQ3Eyak5UME9GbDhKUy1pOU9B?oc=5",
+   "source": "Sleeper Magazine",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-02T08:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "UAE",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "to open"
+    ]
+   },
+   "compliance": [],
+   "lead": "Capella",
+   "client": "",
+   "why": "New project in UAE: a new site will need communications. Reach Capella while they are still buying."
   },
   {
    "id": "f7cac5eba264",
@@ -1090,16 +2204,16 @@
    "why": "the company just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers."
   },
   {
-   "id": "4c0cc725cb35",
-   "title": "Grand Hyatt The Red Sea Opens on Shura Island",
-   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBZUnBKbWlLSWYtYVV3STlzci02UEpMUlFsajRUd3dMQ081WkJQU1g2aVdLY1lGTGF3bDlBZkZBdjY0b1EyYnRfT2hWU0ZoSFNPekIySmoyUHRsNlROenVudkVB?oc=5",
-   "source": "Hotel News Resource",
-   "feed": "GN: Hotel openings Saudi & Oman",
-   "published": "2026-11-02T08:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
+   "id": "b192bee7db45",
+   "title": "Grand Hyatt The Red Sea opens on Saudi Arabia’s Shura Island",
+   "link": "https://www.hoteliermiddleeast.com/saudi-arabia/grand-hyatt-the-red-sea-opens-on-saudi-arabias-shura-island",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-11-02T05:45:02Z",
+   "first_seen": "2026-11-24T07:49:29Z",
    "section": "awards",
-   "score": "low",
-   "country": "Other",
+   "score": "medium",
+   "country": "Saudi Arabia",
    "sectors": [
     "hospitality"
    ],
@@ -1110,9 +2224,59 @@
     ]
    },
    "compliance": [],
-   "lead": "Hyatt",
+   "lead": "Grand Hyatt The Red Sea",
    "client": "",
-   "why": "New project in the region: hotel ops, security and housekeeping teams run on two-way radios. Reach Hyatt while they are still buying."
+   "why": "New project in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Reach Grand Hyatt The Red Sea while they are still buying."
+  },
+  {
+   "id": "3e16f9247878",
+   "title": "UAE Business: Capella Hotel Group to open 115-key luxury hotel at Dubai Peninsula in 2030",
+   "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdWJ3M1VZWjNlSjdYOTNERktMZVRCVEs2anM1cU9ZMWNWSGNkcXBTMTJBZmZDN052WVExdzBRWjlCaEhnazJMY0J4Y1JmS2JXRWY3TGRkbkZSb2J0bDV0aXJ2RnVCNEcwck52cmRRcW03eXlQRlhwY2Z0cVBUbE5uX3N6QlVsYmhtQkxMdzVzUm9wdFB6RGsxR0drWkVvUkFxNTVxMzhTR1ZLcm5PT1ZDNUdBaHo4RV9a?oc=5",
+   "source": "Gulf Daily News (Bahrain)",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-11-01T07:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "to open"
+    ]
+   },
+   "compliance": [],
+   "lead": "UAE Business: Capella Hotel Group",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach UAE Business: Capella Hotel Group while they are still buying."
+  },
+  {
+   "id": "00ed99b93e92",
+   "title": "Cenomi Centers Awards $220 Million Madinah Downtown Mall and Office Contract to Lynx Contracting",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOM0ltS2lZR0hfUnpkUmJOQm0ta2dhWnJUQ3V1bTVJU2lUVmxYWUxRaGxUUzJ5WXVYeXhaR0xiQm4xN3FuNlY2YU1jWS1ZT01IWDJsaWw1Nm5wX1NfMTMwSWJXdU81YTFIR1dFRWtxSG9reVJlOHZCcU1sTi1nRk5qZzJSWkVMdXVZZHRrc0FCRXdRUHNFbnI3ZlZqaGExeFY0eVI3eld6S0dwWG4tM3puQXdwbm1OUQ?oc=5",
+   "source": "SaudiGulf Projects",
+   "feed": "GN: Malls, stadiums, arenas",
+   "published": "2026-11-01T07:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "retail"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "awards $"
+    ]
+   },
+   "compliance": [],
+   "lead": "Cenomi Centers",
+   "client": "",
+   "why": "Cenomi Centers just won work in Saudi Arabia: mall security, facilities and car-park teams use radios and bodycams. Call before they lock in suppliers."
   },
   {
    "id": "789c38cc47da",
@@ -1140,6 +2304,32 @@
    "why": "GO Telecom just won work in Saudi Arabia: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers."
   },
   {
+   "id": "053872bb1b6a",
+   "title": "Rosewood AMAALA puts landscape and wellness at the heart of resort design",
+   "link": "https://www.hoteliermiddleeast.com/saudi-arabia/rosewood-amaala-puts-landscape-and-wellness-at-the-heart-of-resort-design",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-10-31T05:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "hospitality",
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "resort"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Reach the company while they are still buying."
+  },
+  {
    "id": "d4f0fe85b8ba",
    "title": "Oman's Muscat Municipality expected to award stormwater drain works contract in Q4 2026",
    "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQUktBR3NlY2FGVHNVU0JMUVhlWHgyVEdkZjB1eG9WU1ItZWZhb2xTTnV4TVo5ZTJOdU5wZ0VoWFRHdDBQTC16aUpId3prRUVKTEJyNVotTE12UGw0RXBwS09rdmxjeHBxUVNsTW5GM3RpMWpWbWI0SkFIV3NVaUU2ck5UNWIydER6Wmk5TFNmcWluTHQ3UU1Jc1ZmRGVqVlRDTERadGQ4NXNrUXdVMzdVZTh0TEdld2pIbGFLMkdFemJxNmdlWUJaN1hyaEQ0MTUzOEF1MTdFWTU?oc=5",
@@ -1161,6 +2351,29 @@
    "lead": "Muscat Municipality",
    "client": "",
    "why": "Muscat Municipality just won work in Oman: a new contract means new teams to equip. Call before they lock in suppliers."
+  },
+  {
+   "id": "d8f9975c2236",
+   "title": "Capella Dubai set to open in 2030",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1YZTRlVFFyUU5ZeEdmbjM2dk5GVHREODNseWhRT3dSaEU0NDh0N0Q3eGM5VVRNWEFOWGQ5aDNDZ2wxYTY3Wnc3bUFUZXNWS1BYaU8tbFV0Y0ZRM21BWlpRQjdXeldXQ0dOUVFtcWVR?oc=5",
+   "source": "HOTELSMag.com",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-10-30T16:51:21Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "UAE",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "to open"
+    ]
+   },
+   "compliance": [],
+   "lead": "Capella Dubai",
+   "client": "",
+   "why": "New project in UAE: a new site will need communications. Reach Capella Dubai while they are still buying."
   },
   {
    "id": "4cf2c3e659f1",
@@ -1189,32 +2402,6 @@
    "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach the company while they are still buying."
   },
   {
-   "id": "4c84f4108547",
-   "title": "Red Sea Global announces opening of Grand Hyatt The Red Sea in Saudi Arabia",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT3JSQTE2TlBKUk9Vak4wLVIzdnJPOGJlb2VkSElJbVpES1N2RFVzQ1VrRkozQUxWd0RsMU5fdnVDM2d0Nnd3NWpWcEZZZlJidVZfcFc0ZjFTSGJMTkd0MkxKVEYtb2JES3ZMWnQ3VEk2YlFSRU1RbE1rU3AtSTdWVkFzU3ZrdlZzTkUyVXQ5VVNVZkhmSHozSUIxU01IWWhkSUx5eEZqRjl0ZFFQSWp4VzJPbEd3VnJRV1B6R2F4b0RqNE1zVEE?oc=5",
-   "source": "Prop News Time",
-   "feed": "GN: Hotel openings Saudi & Oman",
-   "published": "2026-10-30T07:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "medium",
-   "country": "Saudi Arabia",
-   "sectors": [
-    "hospitality",
-    "construction"
-   ],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "opening"
-    ]
-   },
-   "compliance": [],
-   "lead": "Red Sea Global",
-   "client": "Hyatt",
-   "why": "New project in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Reach Red Sea Global while they are still buying."
-  },
-  {
    "id": "5f107850ce9e",
    "title": "Saudi Arabia: Al Shubaily Grand Mall In Al Khobar Announces Phased Soft Opening! Details Inside",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNSE1VaVpUQ2FrRnBvWGk1Z3FPS2syNUJVbFJfVEVERWJMLXBZYm1tRUptT29oMzh5U29GZ2RrcGFiNktMcjlnZHllNUpza1FPSXFva05PTmdPQ0k3bnlGMG9leFlxUHFpUDZLbjBEWmhyVVZyLWlWMEJ1Zkt1MGhpMVJ0YWplSWhvRlFBSzNqTjl5S0pnVVg4NV9sOFVqR19oUGVWOGppSE9yN3FPLU1FWVZsb3lmSWZpSTJYcHhZTlBfaDhZU2hPZEhDSDZvQTZySmV5S9IB2gFBVV95cUxOeUc4Rk9MSzFLRDZKWHdvVjBNcFA0cGpXd2VKNWNMa2U3VnlZOGVfa1FPOGJTR0dZYlhDTzVHX09zODg2M0stMUVaWWtCdEJGOFJRX3dieGxpNWM4NXNOUzJkcmh6LU16bHFsbGtpVUNlTmVtZGV2aWI0N1ZJZzdZVUNqT3JHUHd1RFZLTnJ3VXc5QVVkTGZTUDBQdldxaVVac1FYeG1XZ25UT2FOYkNQVEJuRldWTzFjelozamZXQ1J0dnFrYkxVYThtdldvUU9tblo2NmVzZ19ZUQ?oc=5",
@@ -1239,6 +2426,32 @@
    "lead": "",
    "client": "",
    "why": "New project in Saudi Arabia: mall security, facilities and car-park teams use radios and bodycams. Reach the company while they are still buying."
+  },
+  {
+   "id": "4c84f4108547",
+   "title": "Red Sea Global announces opening of Grand Hyatt The Red Sea in Saudi Arabia",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPT3JSQTE2TlBKUk9Vak4wLVIzdnJPOGJlb2VkSElJbVpES1N2RFVzQ1VrRkozQUxWd0RsMU5fdnVDM2d0Nnd3NWpWcEZZZlJidVZfcFc0ZjFTSGJMTkd0MkxKVEYtb2JES3ZMWnQ3VEk2YlFSRU1RbE1rU3AtSTdWVkFzU3ZrdlZzTkUyVXQ5VVNVZkhmSHozSUIxU01IWWhkSUx5eEZqRjl0ZFFQSWp4VzJPbEd3VnJRV1B6R2F4b0RqNE1zVEE?oc=5",
+   "source": "Prop News Time",
+   "feed": "GN: Hotel openings Saudi & Oman",
+   "published": "2026-10-30T07:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "hospitality",
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opening"
+    ]
+   },
+   "compliance": [],
+   "lead": "Red Sea Global",
+   "client": "Hyatt",
+   "why": "New project in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Reach Red Sea Global while they are still buying."
   },
   {
    "id": "8dffcd337c43",
@@ -1267,16 +2480,16 @@
    "why": "New project in Saudi Arabia: mall security, facilities and car-park teams use radios and bodycams. Reach the company while they are still buying."
   },
   {
-   "id": "69445d7b7c84",
-   "title": "Petro Rabigh Awards Worley Engineering and Project Management Services Contract",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcGJjR2NpbW1oSG12Q181cnRoR1pzMUpoeDQxRE5VWVdZU0lfaW9hTGFlNUF2Q2VSX2taUl9qbTd3eC1QeHpfaFBnWExGX2sxSjY2clBUejRyam42U2xEeE92Zkt1eVpzNTdVV0t5VURsRnZvSzJZVXA0eDhuQmhWd2ozaFpPSWZYdUFEWjNGMWdISXlZMjNtU3VVdnpaejJq?oc=5",
-   "source": "SaudiGulf Projects",
-   "feed": "GN: Saudi EPC contracts",
-   "published": "2026-10-28T07:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
+   "id": "0d02bdf43fdb",
+   "title": "Worley wins Petro Rabigh engineering services contract in Saudi Arabia",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUEVtRU8yOTNVdUJCUlVCS2NtN3hDdno2RHdBSE11N0dnX2ZHTi04YUVmT242M1BYaWFlMjZPQWY0UHpXX3R4ZkNwSVdfT0kteDVCTW9ET0poSkJ2NTA4cXFsX21NSVhtdWdwTXB2NHhBS3UzVnJSdHp3WXBISWtaOGNxaHhuWkVlZk1veGF6eWxzbFVVbWJJTTZGN210MjJVSTVKTDh5TXRud3l6bGxuUkpB?oc=5",
+   "source": "Zawya",
+   "feed": "GN via Zawya: contracts",
+   "published": "2026-10-29T07:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
    "section": "awards",
    "score": "low",
-   "country": "Other",
+   "country": "Saudi Arabia",
    "sectors": [],
    "matched": {
     "product": [],
@@ -1285,9 +2498,9 @@
     ]
    },
    "compliance": [],
-   "lead": "Petro Rabigh Awards Worley Engineering",
+   "lead": "Worley",
    "client": "",
-   "why": "Petro Rabigh Awards Worley Engineering just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers."
+   "why": "Worley just won work in Saudi Arabia: a new contract means new teams to equip. Call before they lock in suppliers."
   },
   {
    "id": "a8ed37983a4a",
@@ -1311,6 +2524,55 @@
    "lead": "Riyadh",
    "client": "",
    "why": "Riyadh just won work in Saudi Arabia: a new contract means new teams to equip. Call before they lock in suppliers."
+  },
+  {
+   "id": "69445d7b7c84",
+   "title": "Petro Rabigh Awards Worley Engineering and Project Management Services Contract",
+   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNcGJjR2NpbW1oSG12Q181cnRoR1pzMUpoeDQxRE5VWVdZU0lfaW9hTGFlNUF2Q2VSX2taUl9qbTd3eC1QeHpfaFBnWExGX2sxSjY2clBUejRyam42U2xEeE92Zkt1eVpzNTdVV0t5VURsRnZvSzJZVXA0eDhuQmhWd2ozaFpPSWZYdUFEWjNGMWdISXlZMjNtU3VVdnpaejJq?oc=5",
+   "source": "SaudiGulf Projects",
+   "feed": "GN: Saudi EPC contracts",
+   "published": "2026-10-28T07:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Other",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "contract win"
+    ]
+   },
+   "compliance": [],
+   "lead": "Petro Rabigh Awards Worley Engineering",
+   "client": "",
+   "why": "Petro Rabigh Awards Worley Engineering just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers."
+  },
+  {
+   "id": "3211632806cf",
+   "title": "Saudi Arabia Tenders New Contract At King Salman Stadium",
+   "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5yRlZfOUNod1o2a0owejRWV3VtZ05ZclNSbjBHYS1Ic3B6MnY4VEluSGVyU3MwcVhZYl9kYlFNOGN5VDZteXh6ajU1QVR3QkY0Yk5URnQyX0RPdTlIdnQyNzZCYm9icmZ1cXJnTjYyMzVrd0YzMm15Nl8xNA?oc=5",
+   "source": "MEP Middle East",
+   "feed": "GN: Malls, stadiums, arenas",
+   "published": "2026-10-27T07:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "events"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "stadium",
+     "tenders"
+    ]
+   },
+   "compliance": [],
+   "lead": "Arabia",
+   "client": "",
+   "why": "New project in Saudi Arabia: event operations, stewards and security need radio fleets (rental or purchase). Reach Arabia while they are still buying."
   },
   {
    "id": "52cc68667e43",
@@ -1361,6 +2623,106 @@
    "why": "Live tender mentioning Motorola Solutions in the region - get the documents and quote before the deadline."
   },
   {
+   "id": "c656d4a5e36b",
+   "title": "Chadi Saloum returns to The Cove Rotana Resort as director of culinary",
+   "link": "https://www.hoteliermiddleeast.com/people/chadi-saloum-returns-to-the-cove-rotana-resort-as-director-of-culinary",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-10-27T06:12:13Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "resort"
+    ]
+   },
+   "compliance": [],
+   "lead": "Rotana",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Rotana while they are still buying."
+  },
+  {
+   "id": "e8f094e10fe9",
+   "title": "Mallside Hotel, Curio Collection by Hilton, set to open in Dubai Q1 2027",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWDlhV1ZENmdkWktQS240R3RPRGpabG5ReTM0dFY5Qm9jaklhdXhiamJpUFRQa2VRTmN0TnFzWTZqOHJuTTBuVFFKRnpzSHhQcEFHdEZ6NERfNFl6ZkhEdHgySDVqdmxZZXJPV0JHYkg1Vk4wUmVSNGhOM2JsckU2RWpIY0JxWjVrVEVrakF5RHNTN183UjBnRmx2TFR2MVBkbkpBUU9HTDVZYmdlSWw0?oc=5",
+   "source": "TradeArabia",
+   "feed": "GN: Hotel openings UAE",
+   "published": "2026-10-26T07:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "to open"
+    ]
+   },
+   "compliance": [],
+   "lead": "Mallside Hotel, Curio Collection by Hilton",
+   "client": "",
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Mallside Hotel, Curio Collection by Hilton while they are still buying."
+  },
+  {
+   "id": "075306972dd8",
+   "title": "Saudi Arabia's bold £1bn ‘Sky Stadium’ for the 2034 World Cup - is it real? Here’s what we know",
+   "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNW1nZ0VyU0MwN3hHSjZMaFNYU1ZQQ192QmEtSUZtdmxJTDlrbFIwZlJzalZUQlh3VXJweDVlMmp2aUR3c1lHVlV1czZFRGc0cl91RS1sd2plSER4RzdZU21ETzloa0NVaXJQSzA5dFQwdTZYdGN3VUxDRnliNWpqQVRwclFpZV93OWNfNGphVDNweEsteW1iUnE2Z0tsZEJFaEU5RmhIX25lNGJsQ2U4eU05SXdJMkZLczJia3dOUUhVVXh3MmxtaQ?oc=5",
+   "source": "Football Ground Guide",
+   "feed": "GN: Malls, stadiums, arenas",
+   "published": "2026-10-26T07:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "events"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "stadium"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in Saudi Arabia: event operations, stewards and security need radio fleets (rental or purchase). Reach the company while they are still buying."
+  },
+  {
+   "id": "281609e3a59d",
+   "title": "Nakheel awards over AED 950mln main construction contract for 617 homes at Bay Grove Residences on Dubai Islands",
+   "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOQ1pST0pabjRXZnQ2QWdVMFg4NG8yUG1QVE1BckpPNUx2R3dVdjhQU21oUjhXQ1ljbkNDeGgzbTczb25TUUM1VTRyeTRrbW0tU2NhMzBDVml3bUE1VGtBM28tTmlNcGl4SkpzQTEwc21KUE1aZmZSZmw3MFU5SjVqMVFMODJKdnFwSzlmVzlsdHYyM1lGbHp2bTljRGdVdXJoekhnZnZlSnU1WUFRVlNVTGMwN2szaGdUSkVSVXBOQ05wR2hYTFlLODBUazZEZF9LX1RhVkpmbVl4NktIZy15VFZoLW1hUTB6TXJqMnB0UUo?oc=5",
+   "source": "Zawya",
+   "feed": "GN via Zawya: contracts",
+   "published": "2026-10-26T07:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "UAE",
+   "sectors": [
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "contract win"
+    ]
+   },
+   "compliance": [],
+   "lead": "Nakheel",
+   "client": "",
+   "why": "Nakheel just won work in UAE: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers."
+  },
+  {
    "id": "17fa059ed581",
    "title": "$763M NMDC Energy Aramco Offshore EPC Projects, Contractor Wins Three Awards in Saudi Arabia",
    "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPN1JsWDFheDNPUkN5VXJNU1p2d0tsWVhDWG9TSDd4Z2oxNEJUNmhubDlWMkhvekRYV09SZkVVSm91RHhXOGNiaWdmblJjWDJMYXkwMnZUamlBTE5oa0pvWlFpTjNYOTVVYUJOMHdVMGdSaUpnUVFrcENqTWtQYkJwUmFGSUVRSGNqMk9oNTJfQTMzUEo3MEtQdlIzMm9KNjRvZGJBS1dpLTNlNHBMMURfT2x1M3VXRkdFeTBDdEJNQ1c5ZEtCRFlJ?oc=5",
@@ -1385,6 +2747,54 @@
    "lead": "NMDC Energy",
    "client": "Aramco",
    "why": "NMDC Energy just won work in Saudi Arabia: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers."
+  },
+  {
+   "id": "0e70324cc7aa",
+   "title": "Dubai awards $817mln in stormwater infra contracts raising Tasreef total to $1.9bln",
+   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxON0QyeEVMZHRwWVMwYktQQTN3amZ1eDZ0SThnQk1uc2w4NFhaMHV6N0dIX2dicWxkaWtXTTRhbF9GelNLVWp4aFIxYXBqWE5oRUhSWDg2Z1FnVFVuaEYyeVVaeUpCWnNwdEkxejJBSV9RQ3FaaHl1ZmpCQ1BOZ0dBSHpVMnhGb2lzeGg2cXJRcWw1ck1aUjBJbUNWd1NwQzZrOWpxR1c1R2wzaXVfV3hWa2R1MDhXcUJvbndIWnB6dmo?oc=5",
+   "source": "Zawya",
+   "feed": "GN via Zawya: contracts",
+   "published": "2026-10-26T07:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "low",
+   "country": "UAE",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "awards $"
+    ]
+   },
+   "compliance": [],
+   "lead": "Dubai",
+   "client": "",
+   "why": "Dubai just won work in UAE: a new contract means new teams to equip. Call before they lock in suppliers."
+  },
+  {
+   "id": "fad82432f576",
+   "title": "Nakheel awards over AED950mn main construction contract for Bay Grove Residences homes",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxONVFuSHdjZm5YYlFVRnJicXRHQldCUDRFUEdScDhEcmpyWjBvQTBMQzJRbnhST083QlI3bjNXX2h6NjVYYUw0MGptQTYzX0d4NFE1WlhXbVlqRDFQY3RZNk5lYTg1cmpqTG55Rk5IRkRrNVBja0VabE9ha3hLMjBrSWNVOFJ4Z1d4Y1VIRTF6dDNkV1pnVFJVR2dPaVZCX1BlYTBVWnBfSUlhcEx6MThxR1dFaGlpYUhFYVZhb0JKVUEzdDd0YWtZZVhFRF9NS0R0NnFmY0VHeGFVUFJhX1E?oc=5",
+   "source": "Construction Week Online",
+   "feed": "GN via Construction Week: awards",
+   "published": "2026-10-26T07:00:00Z",
+   "first_seen": "2026-11-24T07:49:29Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Other",
+   "sectors": [
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "contract win"
+    ]
+   },
+   "compliance": [],
+   "lead": "Nakheel",
+   "client": "",
+   "why": "Nakheel just won work in the region: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers."
   },
   {
    "id": "7fb73d41a578",
@@ -1412,27 +2822,30 @@
    "why": "New project in the region: operations and maintenance teams need radio/TETRA coverage and wireless links. Reach Airport while they are still buying."
   },
   {
-   "id": "0e70324cc7aa",
-   "title": "Dubai awards $817mln in stormwater infra contracts raising Tasreef total to $1.9bln",
-   "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxON0QyeEVMZHRwWVMwYktQQTN3amZ1eDZ0SThnQk1uc2w4NFhaMHV6N0dIX2dicWxkaWtXTTRhbF9GelNLVWp4aFIxYXBqWE5oRUhSWDg2Z1FnVFVuaEYyeVVaeUpCWnNwdEkxejJBSV9RQ3FaaHl1ZmpCQ1BOZ0dBSHpVMnhGb2lzeGg2cXJRcWw1ck1aUjBJbUNWd1NwQzZrOWpxR1c1R2wzaXVfV3hWa2R1MDhXcUJvbndIWnB6dmo?oc=5",
-   "source": "Zawya",
-   "feed": "GN via Zawya: contracts",
-   "published": "2026-10-26T07:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
+   "id": "9f8e33695b7a",
+   "title": "Al Habtoor Grand Resort appoints Dragos Paraschiv as HR director",
+   "link": "https://www.hoteliermiddleeast.com/people/al-habtoor-grand-resort-appoints-dragos-paraschiv-as-hr-director",
+   "source": "Hotelier Middle East (direct RSS)",
+   "feed": "Hotelier Middle East (direct RSS)",
+   "published": "2026-10-26T05:42:16Z",
+   "first_seen": "2026-11-24T07:49:29Z",
    "section": "awards",
-   "score": "low",
+   "score": "medium",
    "country": "UAE",
-   "sectors": [],
+   "sectors": [
+    "hospitality",
+    "construction"
+   ],
    "matched": {
     "product": [],
     "trigger": [
-     "awards $"
+     "resort"
     ]
    },
    "compliance": [],
-   "lead": "Dubai",
+   "lead": "",
    "client": "",
-   "why": "Dubai just won work in UAE: a new contract means new teams to equip. Call before they lock in suppliers."
+   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach the company while they are still buying."
   }
  ]
 }
