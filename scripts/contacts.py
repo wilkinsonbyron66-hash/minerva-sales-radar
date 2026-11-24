@@ -25,6 +25,7 @@ from datetime import datetime, timedelta, timezone
 UA = "MinervaSalesRadar/1.0 (+https://github.com/wilkinsonbyron66-hash/minerva-sales-radar; daily news digest)"
 TIMEOUT = 12
 RECHECK_DAYS = 30
+CACHE_V = 2
 
 COMPANYISH = re.compile(
     r"company|business|enterprise|firm|group|conglomerate|corporation|contractor|developer|operator|"
@@ -34,11 +35,12 @@ COMPANYISH = re.compile(
 NOT_COMPANY = re.compile(r"family name|given name|disambiguation|human|album|film|song|species|asteroid|village|scholarly article", re.I)
 
 EMAIL_RE = re.compile(r"[A-Za-z0-9._%+-]{1,64}@[A-Za-z0-9.-]+\.[A-Za-z]{2,10}")
-PHONE_RE = re.compile(r"(?:\+|00)\s?(?:971|966|968|973|974|965|20|44|1|91|33|39|49|81|82|86|90|65|61|34|31)[\s\-.()0-9]{7,18}\d")
+PHONE_RE = re.compile(r"\+\s?(?:971|966|968|973|974|965|20|44|1|91|33|39|49|81|82|86|90|65|61|34|31)[\s\-.()0-9]{7,18}\d")
 LOCAL_PHONE_RE = re.compile(r"(?<!\d)(?:800\s?\d{3,7}|0[2-9][\s\-]?\d{3}[\s\-]?\d{4}|9200\s?\d{5}|8001\s?\d{5,6})(?!\d)")
 GOOD_PREFIX = ["procurement", "purchasing", "purchase", "sales", "business", "bd", "enquiries", "enquiry",
                "inquiries", "info", "contact", "hello", "general", "reception", "reservations", "admin"]
 BAD_PREFIX = re.compile(r"^(no-?reply|donotreply|privacy|dpo|gdpr|careers?|jobs|hr|recruit|cv|resume|media|press|pr|"
+                        r"collections?|billing|accounts?|finance|legal|complaints?|feedback|unsubscribe|"
                         r"investor|ir|abuse|webmaster|example|test|name|your|email|user|support@sentry)", re.I)
 BAD_EMAIL_DOMAIN = re.compile(r"(sentry|wixpress|example|domain|email|yourcompany|godaddy|cloudflare|"
                               r"\.(png|jpg|jpeg|gif|svg|webp|css|js)$)", re.I)
@@ -162,7 +164,7 @@ def wikidata_site(web, name):
             score += 2
         elif nk in label or label in nk:
             score += 1
-        if score >= 2 and (best is None or score > best[0]):
+        if score >= 3 and (best is None or score > best[0]):
             best = (score, {"website": site, "wikidata": h["id"], "description": desc,
                             "phone": _claim(claims, "P1329"), "email": (_claim(claims, "P968") or "").replace("mailto:", "")})
     return best[1] if best else None
@@ -190,7 +192,8 @@ def guess_site(web, name):
                 continue
             title = re.search(r"<title[^>]*>(.*?)</title>", txt, re.I | re.S)
             t = norm_key(html.unescape(title.group(1))) if title else ""
-            if all(w in t for w in words[:2]):
+            gulf = re.search(r"\b(UAE|U\.A\.E|Dubai|Abu Dhabi|Sharjah|Saudi|KSA|Riyadh|Jeddah|Oman|Muscat|Middle East|GCC)\b", txt)
+            if all(w in t for w in words[:2]) and gulf:
                 return {"website": final or url, "guessed": True}
     return None
 
@@ -358,11 +361,12 @@ def enrich(items, cache_path, now, max_lookups=80, budget_s=600, fetcher=None, l
             contact["linkedin"] = linkedin_url(company, role)
             key = norm_key(company)
             entry = cache.get(key)
-            fresh = entry and entry.get("checked") and datetime.fromisoformat(entry["checked"].replace("Z", "+00:00")) > stale_before
+            fresh = entry and entry.get("v") == CACHE_V and entry.get("checked") and datetime.fromisoformat(entry["checked"].replace("Z", "+00:00")) > stale_before
             if not fresh and lookups < max_lookups and web.time_left():
                 lookups += 1
                 entry = lookup_company(web, company, it.get("country", ""))
                 entry["checked"] = now.strftime("%Y-%m-%dT%H:%M:%SZ")
+                entry["v"] = CACHE_V
                 cache[key] = entry
             if entry:
                 for k in ("website", "guessed", "phone", "phone_source", "email", "email_source", "contact_page"):
