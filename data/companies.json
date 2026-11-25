@@ -344,6 +344,11 @@
   "v": 2,
   "website": "https://www.madkour.com.eg/"
  },
+ "madkour projects": {
+  "checked": "2026-11-25T10:51:58Z",
+  "name": "Madkour Projects",
+  "v": 2
+ },
  "mallside hotel": {
   "checked": "2026-11-24T11:25:41Z",
   "name": "Mallside Hotel",
@@ -560,6 +565,17 @@
   "name": "Rotana",
   "v": 2,
   "website": "https://rotana.net/"
+ },
+ "saipem": {
+  "checked": "2026-11-25T10:51:58Z",
+  "contact_page": "https://www.saipem.com/en/offices-contacts",
+  "email": "organismodivigilanza@saipem.com",
+  "email_source": "https://www.saipem.com/en/offices-contacts",
+  "name": "Saipem",
+  "phone": "+966 )13 668 8617",
+  "phone_source": "https://www.saipem.com/en/offices-contacts",
+  "v": 2,
+  "website": "http://www.saipem.com"
  },
  "saudi aramco": {
   "checked": "2026-11-24T08:44:46Z",

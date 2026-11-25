@@ -6,7 +6,7 @@
  },
  "03dcdf6993f2": {
   "b": 1,
-  "tries": 1,
+  "tries": 2,
   "v": 2
  },
  "03ee6a753d98": {
@@ -25,15 +25,6 @@
   "url": "https://www.zawya.com/en/projects/worley-wins-petro-rabigh-engineering-services-contract-in-saudi-arabia-1856192",
   "v": 2
  },
- "0e70324cc7aa": {
-  "b": 1,
-  "d": 1,
-  "excerpt": "Phase 3 contracts involve constructing and extending about 100 km of main stormwater drainage lines",
-  "image": "",
-  "snippet": "Dubai Municipality has awarded contracts worth 3 billion UAE dirhams for four new projects under phase 3 of its ‘Tasreef’ Programme to develop the emirate’s stormwater drainage network, the Dubai ...",
-  "url": "https://www.zawya.com/en/projects/dubai-awards-817mln-in-stormwater-infra-contracts-raising-tasreef-total-to-1.9bln-1851093",
-  "v": 2
- },
  "109bdce83179": {
   "d": 1,
   "excerpt": "Fast-tracked, two-year contract builds on Mannai's FIFA World Cup Qatar 2022 technology legacy and marks a major milestone for Mannai Information Tech...",
@@ -48,11 +39,6 @@
   "image": "",
   "snippet": "The contract also covers the associated 400kV LILO from the Suwaihat - Duqm Industrial Grid Station line in Al Wusta Governorate ...",
   "url": "https://www.zawya.com/en/business/utilities/egyptian-group-madkour-wins-contract-to-build-400kv-grid-station-in-oman-2127798",
-  "v": 2
- },
- "17fa059ed581": {
-  "b": 1,
-  "tries": 2,
   "v": 2
  },
  "183cd29b1e70": {
@@ -71,16 +57,6 @@
  "27b3dd212db5": {
   "b": 1,
   "tries": 2,
-  "v": 2
- },
- "281609e3a59d": {
-  "b": 1,
-  "d": 1,
-  "excerpt": "Parkway International Contracting appointed to deliver eight buildings across two phases on Dubai Islands",
-  "image": "https://media.zawya.com/prod/images/gm_preview/f0f8b91df910-bay-grove-residences.jpg",
-  "snippet": "Dubai, UAE – Nakheel, a member of Dubai Holding Real Estate, has awarded Parkway International Contracting LLC a construction contract valued at more than AED 950 million for Phases 2 and 4 of Bay ...",
-  "thumb": "https://www.bing.com/th?id=ONUT.RahF926pYyAtPThbVKpgJw&w=640&h=360&c=7&rs=1&pid=News",
-  "url": "https://www.zawya.com/en/press-release/nakheel-awards-over-aed-950mln-main-construction-contract-for-617-homes-at-bay-grove-residences-on-dubai-islands-1850867",
   "v": 2
  },
  "2c1537f25299": {
@@ -130,6 +106,13 @@
   "d": 1,
   "tries": 1,
   "url": "https://www.constructionweekonline.com/projects-tenders/nakheel-breaks-ground-on-jamaa-al-anwar-mosque-at-palm-jebel-ali",
+  "v": 2
+ },
+ "3f09de6aa716": {
+  "b": 1,
+  "d": 1,
+  "snippet": "Saipem has been awarded two offshore contracts in Saudi Arabia, known as Contract Release Purchase Orders, under its existing Long-Term Agreement with Aramco.",
+  "url": "https://ocean-energyresources.com/2026/11/25/saipem-secures-contracts-with-aramco-in-saudi-arabia/",
   "v": 2
  },
  "4593a518610c": {
@@ -195,15 +178,6 @@
   "tries": 2,
   "v": 2
  },
- "5cf68414677f": {
-  "b": 1,
-  "d": 1,
-  "excerpt": "The local assembly programme is intended to strengthen the domestic supply chain by combining equipment investment with technical capability developme...",
-  "image": "",
-  "snippet": "The local assembly programme is intended to strengthen the domestic supply chain by combining equipment investment with technical capability development MUSCAT - Petroleum Development Oman (PDO) has ...",
-  "url": "https://www.zawya.com/en/business/commodities/oman-pdo-awards-five-year-hoist-contracts-1853028",
-  "v": 2
- },
  "5f107850ce9e": {
   "b": 1,
   "tries": 2,
@@ -228,6 +202,16 @@
   "url": "https://www.zawya.com/en/world/middle-east/tivoli-opens-la-vie-hotel-residences-in-muscat-351199",
   "v": 2
  },
+ "64d282ee88f5": {
+  "b": 1,
+  "d": 1,
+  "excerpt": "Power Line - News",
+  "image": "https://img-cdn.publive.online/fit-in/1200x675/powerline/media/media_files/2026/09/22/ais-switchyard-substation-2026-09-22-19-51-14.jpg",
+  "snippet": "Egyptian engineering group, Madkour Projects, has secured a contract from Oman Electricity Transmission Company (OETC), a member of Nama Group, to build a 400 kV grid station at Sadaf in Al Wusta ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.3EGLIjceGLNE6fTBgF0Ftg&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://powerline.net.in/news/omans-madkour-projects-wins-contract-to-build-400-kv-grid-station-at-sadaf-12839438",
+  "v": 2
+ },
  "69ec4f9159d8": {
   "b": 1,
   "d": 1,
@@ -240,11 +224,6 @@
  "6acbf89bb187": {
   "b": 1,
   "tries": 2,
-  "v": 2
- },
- "7578ab548ddb": {
-  "b": 1,
-  "tries": 1,
   "v": 2
  },
  "75d75e9faabd": {
@@ -275,6 +254,11 @@
   "d": 1,
   "tries": 1,
   "url": "https://www.hoteliermiddleeast.com/news/marriott-signs-deal-for-first-fairfield-hotel-in-the-uae",
+  "v": 2
+ },
+ "7ce553cf3449": {
+  "b": 1,
+  "tries": 1,
   "v": 2
  },
  "880654255e65": {
@@ -319,7 +303,7 @@
  },
  "a82438c067e6": {
   "b": 1,
-  "tries": 1,
+  "tries": 2,
   "v": 2
  },
  "a8ed37983a4a": {
@@ -360,14 +344,18 @@
   "url": "https://www.zawya.com/en/projects/belt-road-initiative-bri/omans-mdo-awards-416mn-contract-for-mazoon-copper-project-to-chinas-hongda-international-1985298",
   "v": 2
  },
+ "c0f77ba56e83": {
+  "b": 1,
+  "d": 1,
+  "excerpt": "The local assembly programme is intended to strengthen the domestic supply chain by combining equipment investment with technical capability developme...",
+  "image": "",
+  "snippet": "The local assembly programme is intended to strengthen the domestic supply chain by combining equipment investment with technical capability development MUSCAT - Petroleum Development Oman (PDO) has ...",
+  "url": "https://www.zawya.com/en/business/commodities/oman-pdo-awards-five-year-hoist-contracts-1853028",
+  "v": 2
+ },
  "c53819c701b3": {
   "b": 1,
   "tries": 2,
-  "v": 2
- },
- "cf04ea48870c": {
-  "b": 1,
-  "tries": 1,
   "v": 2
  },
  "d20708085cd4": {
@@ -390,6 +378,15 @@
   "url": "https://www.constructionweekonline.com/projects-tenders/dubai-metro-to-extend-to-al-maktoum-international-airport-city-by-2031",
   "v": 2
  },
+ "d4f0fe85b8ba": {
+  "b": 1,
+  "d": 1,
+  "excerpt": "Five contractors are competing for the design-and-build contract",
+  "image": "",
+  "snippet": "Oman's Muscat Municipality is evaluating bids for a design-and-build contract to develop and rehabilitate stormwater drainage infrastructure at multiple locations in Wilayat Seeb, Muscat Governorate.",
+  "url": "https://www.zawya.com/en/projects/construction/omans-muscat-municipality-expected-to-award-stormwater-drain-works-contract-in-q4-2026-1858414",
+  "v": 2
+ },
  "d5b69f4a9432": {
   "b": 1,
   "tries": 2,
@@ -407,15 +404,6 @@
   "excerpt": "Dutch Foundation & Concrete Processing appointed to deliver enabling works across the entire AED 3 billion master-planned community in DHCC Phase 2",
   "image": "https://media.zawya.com/prod/images/gm_preview/adcb41535d82-mirage-dcg-003-masterplan-aerial-copyright-plomp-large.jpeg",
   "url": "https://www.zawya.com/en/press-release/companies-news/global-partners-awards-aed-100mln-contract-as-dubai-creek-gardens-moves-into-construction-2395330",
-  "v": 2
- },
- "e8f094e10fe9": {
-  "b": 1,
-  "d": 1,
-  "excerpt": "Conceived as an integrated hospitality and residential destination, Mallside Hotel is designed to complement the ongoing development of Dubai Hills Es...",
-  "image": "",
-  "snippet": "Conceived as an integrated hospitality and residential destination, Mallside Hotel is designed to complement the ongoing development of Dubai Hills Estate Royal Development Holding, a boutique premium ...",
-  "url": "https://www.zawya.com/en/business/uae-realty-market/mallside-hotel-curio-collection-by-hilton-set-to-open-in-dubai-q1-2027-1851083",
   "v": 2
  },
  "eb637c194a1d": {
