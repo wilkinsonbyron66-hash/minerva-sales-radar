@@ -82,11 +82,6 @@
   "tries": 2,
   "v": 2
  },
- "3211632806cf": {
-  "b": 1,
-  "tries": 2,
-  "v": 2
- },
  "337c3d1bdc70": {
   "d": 1,
   "tries": 1,
@@ -106,13 +101,6 @@
   "d": 1,
   "tries": 1,
   "url": "https://www.constructionweekonline.com/projects-tenders/nakheel-breaks-ground-on-jamaa-al-anwar-mosque-at-palm-jebel-ali",
-  "v": 2
- },
- "3f09de6aa716": {
-  "b": 1,
-  "d": 1,
-  "snippet": "Saipem has been awarded two offshore contracts in Saudi Arabia, known as Contract Release Purchase Orders, under its existing Long-Term Agreement with Aramco.",
-  "url": "https://ocean-energyresources.com/2026/11/25/saipem-secures-contracts-with-aramco-in-saudi-arabia/",
   "v": 2
  },
  "4593a518610c": {
@@ -226,6 +214,11 @@
   "tries": 2,
   "v": 2
  },
+ "6da148cbcb3a": {
+  "b": 1,
+  "tries": 1,
+  "v": 2
+ },
  "75d75e9faabd": {
   "b": 1,
   "tries": 2,
@@ -254,11 +247,6 @@
   "d": 1,
   "tries": 1,
   "url": "https://www.hoteliermiddleeast.com/news/marriott-signs-deal-for-first-fairfield-hotel-in-the-uae",
-  "v": 2
- },
- "7ce553cf3449": {
-  "b": 1,
-  "tries": 1,
   "v": 2
  },
  "880654255e65": {
@@ -324,6 +312,16 @@
   "d": 1,
   "tries": 1,
   "url": "https://www.constructionweekonline.com/projects-tenders/dubai-opens-110-metre-pedestrian-bridge-linking-metro-station-to-coca-cola-arena",
+  "v": 2
+ },
+ "b09b47b602b4": {
+  "b": 1,
+  "d": 1,
+  "excerpt": "Sheikh Hamdan made the announcement, saying this brings the total value of contracts awarded for the project to more than Dh80 billion",
+  "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-01-20/7w2m5w8q/al-maktoum2.jpg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=crop&rect=99,0,1745,1163",
+  "snippet": "Sheikh Hamdan made the announcement, bringing the total value of contracts awarded for the project to more than Dh80 billion ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.HrKvPsjjft8OmQJtqPHqOw&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.khaleejtimes.com/business/aviation/dubai-new-contracts-al-maktoum-airport-expansion",
   "v": 2
  },
  "b8c5448cb68a": {
@@ -426,6 +424,21 @@
   "snippet": "Petroleum Development Oman plans to build a gas-oil gravity drainage facility to handle increased oil output from the Al-Ghubar field in Qarn Alam, within its Block 6 concession area in the sultanate ...",
   "thumb": "https://www.bing.com/th?id=ONUT.v6ZzIzkg7FEpoa_ZjEC0_g&w=640&h=360&c=7&rs=1&pid=News",
   "url": "https://www.meed.com/pdo-awards-contract-for-al-ghubar-oil-field-project",
+  "v": 2
+ },
+ "f4dc7ce55e78": {
+  "b": 1,
+  "d": 1,
+  "excerpt": "Several major contracts have been awarded for packages under the project’s first phase",
+  "image": "https://www.meed.com//Uploads/NewsArticle/21854532/main.jpg",
+  "snippet": "Subscribe or upgrade your current MEED.com package to support your strategic planning with the MENA region’s best source of business information. Proceed to our online shop below to find out more ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.0AJIdVP7fncKQlgGNgLcYg&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.meed.com/dubai-awards-15bn-al-maktoum-airport-contracts",
+  "v": 2
+ },
+ "f6f6ed689d19": {
+  "b": 1,
+  "tries": 1,
   "v": 2
  },
  "f87e82d2c5f6": {
