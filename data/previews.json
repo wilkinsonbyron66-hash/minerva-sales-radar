@@ -32,6 +32,11 @@
   "url": "https://www.zawya.com/en/press-release/companies-news/mannai-awarded-major-mep-and-technology-contract-for-landmark-riyadh-giga-project-development-2153752",
   "v": 2
  },
+ "16bbf7c4b4bd": {
+  "b": 1,
+  "tries": 1,
+  "v": 2
+ },
  "17d11c119d39": {
   "b": 1,
   "d": 1,
@@ -95,12 +100,6 @@
   "image": "https://shabiba.eu-central-1.linodeobjects.com/2026/11/1793767508-1793767506-ikl8u0bj3knx-700x400.jpg",
   "snippet": "As part of its efforts to support the sustainable development of Oman’s economy, foster local business growth and develop national capabilities, bp Oman has awarded Truckoman a five-year contract for ...",
   "url": "https://timesofoman.com/article/178757-bp-oman-awards-five-year-contract-to-truckoman-for-warehousing-and-materials-management-services",
-  "v": 2
- },
- "3efe5c66bd4d": {
-  "d": 1,
-  "tries": 1,
-  "url": "https://www.constructionweekonline.com/projects-tenders/nakheel-breaks-ground-on-jamaa-al-anwar-mosque-at-palm-jebel-ali",
   "v": 2
  },
  "4593a518610c": {
@@ -216,7 +215,7 @@
  },
  "6da148cbcb3a": {
   "b": 1,
-  "tries": 1,
+  "tries": 2,
   "v": 2
  },
  "75d75e9faabd": {
@@ -261,6 +260,13 @@
   "tries": 2,
   "v": 2
  },
+ "895e499c6c77": {
+  "d": 1,
+  "excerpt": "The new centre brings together specialist care, advanced diabetes management technologies and podiatry services to support early diagnosis, treatment and long-term patient wellbeing",
+  "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-11-26/azestmp9/Imageal-Zahra.jpeg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=fill&fill=blur",
+  "url": "https://www.khaleejtimes.com/kt-network/al-zahra-hospital-dubai-opens-integrated-diabetes-and-endocrinology-centre",
+  "v": 2
+ },
  "8e514c870cb6": {
   "d": 1,
   "tries": 1,
@@ -270,6 +276,22 @@
  "9744a416a7e7": {
   "b": 1,
   "tries": 2,
+  "v": 2
+ },
+ "989257e15b8d": {
+  "b": 1,
+  "d": 1,
+  "excerpt": "",
+  "image": "",
+  "snippet": "The latest awards bring the total value of contracts for the strategic aviation project to more than Dhs80bn ...",
+  "url": "https://www.msn.com/en-ae/money/news/dubai-awards-dhs565bn-in-new-contracts-for-al-maktoum-international-airport/ar-AA2igs31",
+  "v": 2
+ },
+ "9eeea2430d14": {
+  "d": 1,
+  "excerpt": "The contract covers 128 Beach Villas and 48 Coral Villas on Fronds A, B, C and D",
+  "image": "https://media.zawya.com/prod/images/gm_preview/0252347a788d-palm-springs-community.jpg",
+  "url": "https://www.zawya.com/en/business/uae-realty-market/nakheel-awards-381mln-palm-jebel-ali-villa-contract-to-ginco-2559544",
   "v": 2
  },
  "9fb383392779": {
@@ -283,6 +305,16 @@
   "url": "https://www.constructionweekonline.com/projects-tenders/palma-development-unveils-phase-ii-of-serenia-district-in-jumeirah-islands",
   "v": 2
  },
+ "a42ebead2ed0": {
+  "b": 1,
+  "d": 1,
+  "excerpt": "UNIQUBE to construct staff accommodation and spa buildings for the prestigious island development led by Nadia Zaal",
+  "image": "https://media.zawya.com/prod/images/gm_preview/a7a7036a5bec-image-4.jpeg",
+  "snippet": "UNIQUBE to construct staff accommodation and spa buildings for the prestigious island development led by Nadia Zaal ...",
+  "thumb": "https://www.bing.com/th?id=ONUT.NwDwaOWpcrEHKkk8aCiCEA&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://www.zawya.com/en/press-release/companies-news/mulk-international-signs-multimillion-dollar-contract-for-zuha-island-2518293",
+  "v": 2
+ },
  "a4d4a2cde9c6": {
   "d": 1,
   "tries": 1,
@@ -292,15 +324,6 @@
  "a82438c067e6": {
   "b": 1,
   "tries": 2,
-  "v": 2
- },
- "a8ed37983a4a": {
-  "b": 1,
-  "d": 1,
-  "excerpt": "The Saudi group said the project marks its first venture into the alternative mobility sector",
-  "image": "https://media.zawya.com/prod/images/gm_preview/6c969f072ab0-2026-10-11t113610z1499269554rc2v0oal4m4srtrmadp3iran-crisis-saudi-riyadh.jpg",
-  "snippet": "Remat Al-Riyadh Development Company, the development arm of Riyadh Municipality, has signed a contract with International Modern Industries Company for the development and operation of the first phase ...",
-  "url": "https://www.zawya.com/en/business/robust-project-partnerships/riyadh-awards-contract-for-first-alternative-mobility-network-phase-1855278",
   "v": 2
  },
  "aa4975e59211": {
@@ -333,22 +356,9 @@
   "url": "https://www.zawya.com/en/projects/construction/dubais-emaar-development-awards-nearly-5bln-in-construction-infrastructure-contracts-in-9m-2026-2018062",
   "v": 2
  },
- "beff1e76224e": {
+ "bb882615b6a3": {
   "b": 1,
-  "d": 1,
-  "excerpt": "The contract covers copper ore extraction, waste rock removal, ore handling and transportation to the concentrator plan",
-  "image": "",
-  "snippet": "Muscat – Minerals Development Oman (MDO) has awarded a $416mn contract to China’s Hongda International to manage mining operations at the Mazoon Copper Project under a 10-year agreement, marking a key ...",
-  "url": "https://www.zawya.com/en/projects/belt-road-initiative-bri/omans-mdo-awards-416mn-contract-for-mazoon-copper-project-to-chinas-hongda-international-1985298",
-  "v": 2
- },
- "c0f77ba56e83": {
-  "b": 1,
-  "d": 1,
-  "excerpt": "The local assembly programme is intended to strengthen the domestic supply chain by combining equipment investment with technical capability developme...",
-  "image": "",
-  "snippet": "The local assembly programme is intended to strengthen the domestic supply chain by combining equipment investment with technical capability development MUSCAT - Petroleum Development Oman (PDO) has ...",
-  "url": "https://www.zawya.com/en/business/commodities/oman-pdo-awards-five-year-hoist-contracts-1853028",
+  "tries": 1,
   "v": 2
  },
  "c53819c701b3": {
@@ -426,19 +436,14 @@
   "url": "https://www.meed.com/pdo-awards-contract-for-al-ghubar-oil-field-project",
   "v": 2
  },
- "f4dc7ce55e78": {
-  "b": 1,
-  "d": 1,
-  "excerpt": "Several major contracts have been awarded for packages under the project’s first phase",
-  "image": "https://www.meed.com//Uploads/NewsArticle/21854532/main.jpg",
-  "snippet": "Subscribe or upgrade your current MEED.com package to support your strategic planning with the MENA region’s best source of business information. Proceed to our online shop below to find out more ...",
-  "thumb": "https://www.bing.com/th?id=ONUT.0AJIdVP7fncKQlgGNgLcYg&w=640&h=360&c=7&rs=1&pid=News",
-  "url": "https://www.meed.com/dubai-awards-15bn-al-maktoum-airport-contracts",
-  "v": 2
- },
  "f6f6ed689d19": {
   "b": 1,
-  "tries": 1,
+  "d": 1,
+  "excerpt": "Six Senses opens Six Senses The Palm, Dubai on Palm Jumeirah, its first UAE property, with 61 suites, 172 private residences, and a 5,500 sqm spa and Longevity Clinic.",
+  "image": "https://i0.wp.com/ouispeakfashion.com/wp-content/uploads/2026/11/six-senses-the-palm-dubai-pool.jpg",
+  "snippet": "Six Senses opens Six Senses The Palm, Dubai on Palm Jumeirah, its first UAE property, with 61 suites, 172 private residences, and a 5,500 sqm spa and Longevity Clinic.",
+  "thumb": "https://www.bing.com/th?id=ONUT.YyObOyvFrXKJ8BplV5k6hA&w=640&h=360&c=7&rs=1&pid=News",
+  "url": "https://ouispeakfashion.com/six-senses-the-palm-dubai-opening-2026/",
   "v": 2
  },
  "f87e82d2c5f6": {

@@ -24,6 +24,11 @@
   "name": "Al Shubaily Grand Mall In Al Khobar",
   "v": 2
  },
+ "al zahra hospital dubai": {
+  "checked": "2026-11-27T10:30:59Z",
+  "name": "Al Zahra Hospital Dubai",
+  "v": 2
+ },
  "altec": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "Altec",
@@ -238,6 +243,18 @@
   "v": 2,
   "website": "https://www.gasarabian.com/"
  },
+ "ginco": {
+  "checked": "2026-11-27T10:30:59Z",
+  "contact_page": "https://ginco.ae/contact-us/",
+  "email": "info@ginco.ae",
+  "email_source": "https://ginco.ae/",
+  "guessed": true,
+  "name": "Ginco",
+  "phone": "+971 4 320 6777",
+  "phone_source": "https://ginco.ae/",
+  "v": 2,
+  "website": "https://ginco.ae/"
+ },
  "global": {
   "checked": "2026-11-24T08:44:46Z",
   "name": "Global",
@@ -302,6 +319,12 @@
   "phone_source": "https://www.jumeirah.com/en",
   "v": 2,
   "website": "http://www.jumeirah.com/"
+ },
+ "kahramaa": {
+  "checked": "2026-11-27T10:30:59Z",
+  "name": "KAHRAMAA",
+  "v": 2,
+  "website": "http://www.kahramaa.com.qa"
  },
  "kbr": {
   "checked": "2026-11-24T08:44:46Z",
@@ -411,6 +434,14 @@
   "checked": "2026-11-24T08:44:46Z",
   "name": "Muharraq City Development",
   "v": 2
+ },
+ "mulk": {
+  "checked": "2026-11-27T10:30:59Z",
+  "contact_page": "https://mulk.ae/contact-us.html",
+  "guessed": true,
+  "name": "Mulk",
+  "v": 2,
+  "website": "https://mulk.ae/"
  },
  "municipality": {
   "checked": "2026-11-24T11:33:05Z",
