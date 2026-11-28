@@ -51,6 +51,11 @@
   "name": "Arabian Pipes",
   "v": 2
  },
+ "armani": {
+  "checked": "2026-11-28T09:47:36Z",
+  "name": "Armani",
+  "v": 2
+ },
  "armani hotels": {
   "checked": "2026-11-24T08:44:46Z",
   "guessed": true,
@@ -198,6 +203,11 @@
   "name": "Emiratisation",
   "v": 2
  },
+ "energy": {
+  "checked": "2026-11-28T09:47:36Z",
+  "name": "Energy",
+  "v": 2
+ },
  "energy oman": {
   "checked": "2026-11-24T08:44:46Z",
   "contact_page": "https://energyoman.com/index.php/contact/",
@@ -303,6 +313,11 @@
   "phone_source": "https://www.hytera.com/en/about-hytera/contact-us.html",
   "v": 2,
   "website": "https://www.hytera.com/"
+ },
+ "italian": {
+  "checked": "2026-11-28T09:47:36Z",
+  "name": "Italian",
+  "v": 2
  },
  "j1 hotel dubai": {
   "checked": "2026-11-24T08:44:46Z",

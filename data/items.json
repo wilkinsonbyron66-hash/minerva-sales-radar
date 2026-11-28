@@ -1,8 +1,150 @@
 {
- "generated": "2026-11-27T10:30:59Z",
- "count": 68,
- "feeds_checked": 40,
+ "generated": "2026-11-28T09:47:36Z",
+ "count": 72,
+ "feeds_checked": 42,
  "items": [
+  {
+   "id": "2b4811f37af2",
+   "title": "Italian company wins $650m Aramco contract",
+   "link": "https://www.arabianbusiness.com/business/energy/italian-company-wins-650m-aramco-contract",
+   "source": "Arabian Business",
+   "feed": "Bing: Saudi EPC contracts",
+   "summary": "Italian engineering construction company Saipem has won the offshore contracts in Saudi Arabia. Aramco have confirmed that Saipem have won the offshore contracts for five oil fields in Saudi Arabia.",
+   "image": "https://www.bing.com/th?id=ONUT.BRfKE6S0j76bwL5YhanLVQ&w=640&h=360&c=7&rs=1&pid=News",
+   "published": "2026-11-28T01:32:00Z",
+   "first_seen": "2026-11-28T09:47:36Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "oil & gas",
+    "construction"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "contract win"
+    ]
+   },
+   "compliance": [],
+   "lead": "Italian",
+   "client": "Aramco",
+   "why": "Italian just won work in Saudi Arabia: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers.",
+   "also": 1,
+   "preview": {
+    "url": "https://www.arabianbusiness.com/business/energy/italian-company-wins-650m-aramco-contract",
+    "image": "https://www.bing.com/th?id=ONUT.BRfKE6S0j76bwL5YhanLVQ&w=640&h=360&c=7&rs=1&pid=News",
+    "excerpt": "Italian engineering construction company Saipem has won the offshore contracts in Saudi Arabia. Aramco have confirmed that Saipem have won the offshore contracts for five oil fields in Saudi Arabia."
+   },
+   "contact": {
+    "ask_for": "Procurement Manager or Project Manager (site communications)",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Italian%20Procurement%20Manager"
+   }
+  },
+  {
+   "id": "dfed0c518b2c",
+   "title": "Armani to Open New Hotels in Egypt and Saudi Arabia: Where Exactly Will the Resorts Be Located?",
+   "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPNmlnZU5fLUxIeVlXVzQ0UHF1NmhJX0RSZnN2QkRxRjcya0Q5LXBUeEsxR3dGa2NlRXA1RHhaMlhaeUNlYTVPaGQxdXpEUkFzTFhaek1PazR4WmVSOXJDYmpQOWFwYzhPRFJfNjduT3lta19jbm5tbkhTcjFJdWowTDJmZ0FLV0pwb1g2aS1UcDJfbmctcFN2bnRqYUk0WU0?oc=5",
+   "source": "www.unian.info",
+   "feed": "GN: Hotel openings Saudi & Oman",
+   "summary": "",
+   "published": "2026-11-27T19:11:00Z",
+   "first_seen": "2026-11-28T09:47:36Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Saudi Arabia",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "to open"
+    ]
+   },
+   "compliance": [],
+   "lead": "Armani",
+   "client": "",
+   "why": "New project in Saudi Arabia: a new site will need communications. Reach Armani while they are still buying.",
+   "contact": {
+    "ask_for": "Procurement Manager or Operations Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Armani%20Procurement%20Manager"
+   }
+  },
+  {
+   "id": "3eb1d87cce53",
+   "title": "Oman breaks ground on 500 MW Al Kamil Solar IPP",
+   "link": "https://www.omanobserver.om/article/1200296/business/oman-breaks-ground-on-500-mw-al-kamil-solar-ipp",
+   "source": "Oman Observer",
+   "feed": "Bing: Oman contracts awarded",
+   "summary": "MUSCAT: Development of Oman’s 500 MW Al Kamil I Solar Independent Power Project (IPP) has entered a new phase with the commencement of ...",
+   "published": "2026-11-27T13:00:00Z",
+   "first_seen": "2026-11-28T09:47:36Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Oman",
+   "sectors": [
+    "utilities"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "breaks ground"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in Oman: field crews and plants need radio coverage and wireless backhaul. Reach the company while they are still buying.",
+   "preview": {
+    "url": "https://www.omanobserver.om/article/1200296/business/oman-breaks-ground-on-500-mw-al-kamil-solar-ipp",
+    "image": "https://www.omanobserver.om/omanobserver/uploads/images/2026/11/27/thumbs/600x600/3592878.jpg",
+    "excerpt": "MUSCAT: Development of Oman’s 500 MW Al Kamil I Solar Independent Power Project (IPP) has entered a new phase with the commencement of site..."
+   },
+   "contact": {
+    "ask_for": "Procurement Manager or Operations / Maintenance Manager"
+   }
+  },
+  {
+   "id": "8a31683de365",
+   "title": "Saipem secures deals worth US$650M from Aramco",
+   "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNNmpTTVE1aFVrTlh3T3pQcFBRTlJmLUpvVF8tdWhQN1FVS1ZwQVZxRnZpWkQ4emlYeHB0SVdLNWIxaEp2QmltOTFkMG1WakpXcHQ2VWpxN0VELUcxN1NwLU01djlyN2NxRWhOeVJLd3hFTC10YjBKLXpTTExxcFFxeGFiUlpRc2F0R0prYUJxRWJjVjE3STN6NzN3?oc=5",
+   "source": "Riviera Maritime Media",
+   "feed": "GN: Saudi EPC contracts",
+   "summary": "",
+   "published": "2026-11-27T12:02:06Z",
+   "first_seen": "2026-11-25T10:51:58Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "oil & gas"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "contract win"
+    ]
+   },
+   "compliance": [],
+   "lead": "Saipem",
+   "client": "Aramco",
+   "why": "Saipem just won work in Saudi Arabia: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers.",
+   "also": 5,
+   "preview": {
+    "url": "https://www.rivieramm.com/news-content-hub/saipem-secures-deals-worth-us650m-from-aramco-90707",
+    "image": "https://dvzpv6x5302g1.cloudfront.net/AcuCustom/Sitename/DAM/191/Saipem_Milan_HQ_WhatsApp_Image_2024-04-16_at_12.18.111_0_Thumb.png",
+    "excerpt": "CRPOs were issued under a long-term agreement with the Saudi oil company"
+   },
+   "contact": {
+    "ask_for": "Procurement Manager or Project Manager (site communications)",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Saipem%20Procurement%20Manager",
+    "website": "http://www.saipem.com",
+    "phone": "+966 )13 668 8617",
+    "phone_source": "https://www.saipem.com/en/offices-contacts",
+    "email": "organismodivigilanza@saipem.com",
+    "email_source": "https://www.saipem.com/en/offices-contacts",
+    "contact_page": "https://www.saipem.com/en/offices-contacts"
+   }
+  },
   {
    "id": "989257e15b8d",
    "title": "Dubai awards $15.4bln in new contracts for Al Maktoum International Airport",
@@ -30,8 +172,8 @@
    "why": "Al Maktoum International Airport just won work in UAE: operations and maintenance teams need radio/TETRA coverage and wireless links. Call before they lock in suppliers.",
    "also": 2,
    "preview": {
-    "url": "https://www.msn.com/en-ae/money/news/dubai-awards-dhs565bn-in-new-contracts-for-al-maktoum-international-airport/ar-AA2igs31",
-    "excerpt": "The latest awards bring the total value of contracts for the strategic aviation project to more than Dhs80bn ..."
+    "excerpt": "The latest awards bring the total value of contracts for the strategic aviation project to more than Dhs80bn ...",
+    "url": "https://www.msn.com/en-ae/money/news/dubai-awards-dhs565bn-in-new-contracts-for-al-maktoum-international-airport/ar-AA2igs31"
    },
    "contact": {
     "ask_for": "Operations Manager or Procurement Manager",
@@ -64,11 +206,11 @@
    "lead": "Ginco",
    "client": "Nakheel",
    "why": "Ginco just won work in UAE: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers.",
-   "also": 5,
+   "also": 4,
    "preview": {
-    "url": "https://www.zawya.com/en/business/uae-realty-market/nakheel-awards-381mln-palm-jebel-ali-villa-contract-to-ginco-2559544",
+    "excerpt": "The contract covers 128 Beach Villas and 48 Coral Villas on Fronds A, B, C and D",
     "image": "https://media.zawya.com/prod/images/gm_preview/0252347a788d-palm-springs-community.jpg",
-    "excerpt": "The contract covers 128 Beach Villas and 48 Coral Villas on Fronds A, B, C and D"
+    "url": "https://www.zawya.com/en/business/uae-realty-market/nakheel-awards-381mln-palm-jebel-ali-villa-contract-to-ginco-2559544"
    },
    "contact": {
     "ask_for": "Procurement Manager or Project Manager",
@@ -176,9 +318,9 @@
    "client": "",
    "why": "New project in UAE: hospital security, porters and facilities teams use radios. Reach Al Zahra Hospital Dubai while they are still buying.",
    "preview": {
-    "url": "https://www.khaleejtimes.com/kt-network/al-zahra-hospital-dubai-opens-integrated-diabetes-and-endocrinology-centre",
+    "excerpt": "The new centre brings together specialist care, advanced diabetes management technologies and podiatry services to support early diagnosis, treatment and long-term patient wellbeing",
     "image": "https://imgengine.khaleejtimes.com/khaleejtimes-english/2026-11-26/azestmp9/Imageal-Zahra.jpeg?width=1200&height=630&q=60&format=auto&ogImage=true&mode=fill&fill=blur",
-    "excerpt": "The new centre brings together specialist care, advanced diabetes management technologies and podiatry services to support early diagnosis, treatment and long-term patient wellbeing"
+    "url": "https://www.khaleejtimes.com/kt-network/al-zahra-hospital-dubai-opens-integrated-diabetes-and-endocrinology-centre"
    },
    "contact": {
     "ask_for": "Facilities Manager or Security Manager",
@@ -209,9 +351,9 @@
    "client": "",
    "why": "Mulk just won work in the region: a new contract means new teams to equip. Call before they lock in suppliers.",
    "preview": {
-    "url": "https://www.zawya.com/en/press-release/companies-news/mulk-international-signs-multimillion-dollar-contract-for-zuha-island-2518293",
+    "excerpt": "UNIQUBE to construct staff accommodation and spa buildings for the prestigious island development led by Nadia Zaal",
     "image": "https://media.zawya.com/prod/images/gm_preview/a7a7036a5bec-image-4.jpeg",
-    "excerpt": "UNIQUBE to construct staff accommodation and spa buildings for the prestigious island development led by Nadia Zaal"
+    "url": "https://www.zawya.com/en/press-release/companies-news/mulk-international-signs-multimillion-dollar-contract-for-zuha-island-2518293"
    },
    "contact": {
     "ask_for": "Procurement Manager or Operations Manager",
@@ -219,42 +361,6 @@
     "website": "https://mulk.ae/",
     "guessed": true,
     "contact_page": "https://mulk.ae/contact-us.html"
-   }
-  },
-  {
-   "id": "6da148cbcb3a",
-   "title": "Aramco awards offshore contracts to Saipem worth US$650M",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE4tVlNvSmtjV0pzZ0NCZnQ4ZmZwZEFDem5KR09xamRRalNJNUd4ODRKX0NwbXA3YndVMUhySEQ1WFlFSVYtTkdpQUpUUU9WNmgtUW8ySnh1RFZkRHB5NHNIMlNPeGNjNUxfVzVtbUhuSQ?oc=5",
-   "source": "Inspenet",
-   "feed": "GN: Utilities projects",
-   "summary": "",
-   "published": "2026-11-25T15:32:00Z",
-   "first_seen": "2026-11-25T10:51:58Z",
-   "section": "awards",
-   "score": "medium",
-   "country": "Saudi Arabia",
-   "sectors": [
-    "oil & gas"
-   ],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "contract win"
-    ]
-   },
-   "compliance": [],
-   "lead": "Saipem",
-   "client": "Aramco",
-   "why": "Saipem just won work in Saudi Arabia: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers.",
-   "contact": {
-    "ask_for": "Procurement Manager or Project Manager (site communications)",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Saipem%20Procurement%20Manager",
-    "website": "http://www.saipem.com",
-    "phone": "+966 )13 668 8617",
-    "phone_source": "https://www.saipem.com/en/offices-contacts",
-    "email": "organismodivigilanza@saipem.com",
-    "email_source": "https://www.saipem.com/en/offices-contacts",
-    "contact_page": "https://www.saipem.com/en/offices-contacts"
    }
   },
   {
@@ -282,11 +388,10 @@
    "lead": "Six Senses",
    "client": "Jumeirah",
    "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Six Senses while they are still buying.",
-   "also": 1,
    "preview": {
-    "url": "https://ouispeakfashion.com/six-senses-the-palm-dubai-opening-2026/",
+    "excerpt": "Six Senses opens Six Senses The Palm, Dubai on Palm Jumeirah, its first UAE property, with 61 suites, 172 private residences, and a 5,500 sqm spa and Longevity Clinic.",
     "image": "https://i0.wp.com/ouispeakfashion.com/wp-content/uploads/2026/11/six-senses-the-palm-dubai-pool.jpg",
-    "excerpt": "Six Senses opens Six Senses The Palm, Dubai on Palm Jumeirah, its first UAE property, with 61 suites, 172 private residences, and a 5,500 sqm spa and Longevity Clinic."
+    "url": "https://ouispeakfashion.com/six-senses-the-palm-dubai-opening-2026/"
    },
    "contact": {
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
@@ -330,6 +435,39 @@
    }
   },
   {
+   "id": "d55800b7c892",
+   "title": "Oman's new financial centre registers first companies as it prepares to open",
+   "link": "https://www.thenationalnews.com/business/economy/2026/11/24/omans-new-financial-centre-registers-first-companies-as-it-prepares-to-open/",
+   "source": "The National",
+   "feed": "Bing: Oman contracts awarded",
+   "summary": "Oman's new International Financial Centre (IFC Oman) has registered its first companies as it prepares to officially open next year. The first 13 companies were registered and presented with their ...",
+   "image": "https://www.bing.com/th?id=ONUT.iibgxzra-Vx_RKdnYcy3jw&w=640&h=360&c=7&rs=1&pid=News",
+   "published": "2026-11-24T12:54:00Z",
+   "first_seen": "2026-11-28T09:47:36Z",
+   "section": "awards",
+   "score": "low",
+   "country": "Oman",
+   "sectors": [],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "to open"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in Oman: a new site will need communications. Reach the company while they are still buying.",
+   "preview": {
+    "url": "https://www.thenationalnews.com/business/economy/2026/11/24/omans-new-financial-centre-registers-first-companies-as-it-prepares-to-open/",
+    "image": "https://www.thenationalnews.com/resizer/v2/NH2XQQV7SNHA3CQNVPGZNWEIDE.jpg?auth=c3acd1fc898be90d28454bfa4474326e2cb79de2559094a887bb522ea59c10bd&focal=1125%2C571&width=1200&height=630",
+    "excerpt": "Financial services licensing expected in early 2027"
+   },
+   "contact": {
+    "ask_for": "Procurement Manager or Operations Manager"
+   }
+  },
+  {
    "id": "a4d4a2cde9c6",
    "title": "The Ritz-Carlton opens at AMAALA on Saudi Arabia’s Red Sea coast",
    "link": "https://www.hoteliermiddleeast.com/news/the-ritz-carlton-opens-at-amaala-on-saudi-arabias-red-sea-coast",
@@ -355,7 +493,6 @@
    "lead": "Ritz-Carlton",
    "client": "",
    "why": "New project in Saudi Arabia: hotel ops, security and housekeeping teams run on two-way radios. Reach Ritz-Carlton while they are still buying.",
-   "also": 1,
    "preview": {
     "url": "https://www.hoteliermiddleeast.com/news/the-ritz-carlton-opens-at-amaala-on-saudi-arabias-red-sea-coast",
     "image": "https://www.bing.com/th?id=ONUT.mfDp4JEP5mUE64N1EeZRmw&w=640&h=360&c=7&rs=1&pid=News",
@@ -448,7 +585,8 @@
     "email": "sales@gasarabian.com",
     "email_source": "https://www.gasarabian.com/",
     "contact_page": "https://www.gasarabian.com/contact-us.html"
-   }
+   },
+   "also": 2
   },
   {
    "id": "7c6ee651e477",
@@ -477,6 +615,7 @@
    "lead": "Marriott",
    "client": "",
    "why": "Marriott just won work in UAE: hotel ops, security and housekeeping teams run on two-way radios. Call before they lock in suppliers.",
+   "also": 1,
    "preview": {
     "url": "https://www.hoteliermiddleeast.com/news/marriott-signs-deal-for-first-fairfield-hotel-in-the-uae",
     "image": "https://www.bing.com/th?id=ONUT.60u-6EvsvDwe9PTX0ySfhw&w=640&h=360&c=7&rs=1&pid=News",
@@ -528,11 +667,9 @@
    "published": "2026-11-20T08:26:01Z",
    "first_seen": "2026-11-24T07:49:29Z",
    "section": "awards",
-   "score": "medium",
+   "score": "low",
    "country": "UAE",
-   "sectors": [
-    "hospitality"
-   ],
+   "sectors": [],
    "matched": {
     "product": [],
     "trigger": [
@@ -542,15 +679,15 @@
    "compliance": [],
    "lead": "ROCAMBOLESCO",
    "client": "",
-   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach ROCAMBOLESCO while they are still buying.",
+   "why": "New project in UAE: a new site will need communications. Reach ROCAMBOLESCO while they are still buying.",
    "preview": {
     "excerpt": "On Friday, 23rd October 2026, Rocambolesco’s first floor officially opened as the Piano Room. Part of the Rocambolesco experience, the",
     "image": "https://hotelandcatering.com/wp-content/uploads/2026/11/Piano-Room-Interiors-5-1-1-1024x678-1.jpg",
     "url": "https://hotelandcatering.com/news/rocambolesco-opens-the-piano-room-its-after-dark-hideaway-in-uptown-dubai"
    },
    "contact": {
-    "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=ROCAMBOLESCO%20Pre-opening%20General%20Manager"
+    "ask_for": "Procurement Manager or Operations Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=ROCAMBOLESCO%20Procurement%20Manager"
    }
   },
   {
@@ -764,6 +901,42 @@
    }
   },
   {
+   "id": "983390b635ed",
+   "title": "Oman signs $400m gas deal with Energy Oman, ExxonMobil, paving way for multibillion-dollar project",
+   "link": "https://www.arabnews.com/business/oman-signs-400m-gas-deal-with-energy-oman-exxonmobil-paving-way-for-multibillion-dollar-project-3012958",
+   "source": "Arab News",
+   "feed": "Bing: Oman contracts awarded",
+   "summary": "RIYADH: Oman has signed a concession agreement with Energy Oman and ExxonMobil to assess and develop gas resources in Greater Makarem, with initial investment expected to exceed $400 million. The deal ...",
+   "image": "https://www.bing.com/th?id=ONUT.hYBAAnV2sHOiaeCLeF2eUQ&w=640&h=360&c=7&rs=1&pid=News",
+   "published": "2026-11-18T22:30:00Z",
+   "first_seen": "2026-11-28T09:47:36Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Saudi Arabia",
+   "sectors": [
+    "oil & gas"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "contract win"
+    ]
+   },
+   "compliance": [],
+   "lead": "Energy",
+   "client": "",
+   "why": "Energy just won work in Saudi Arabia: site crews need ATEX/intrinsically safe radios and PTP links for remote sites. Call before they lock in suppliers.",
+   "preview": {
+    "url": "https://www.arabnews.com/business/oman-signs-400m-gas-deal-with-energy-oman-exxonmobil-paving-way-for-multibillion-dollar-project-3012958",
+    "image": "https://www.bing.com/th?id=ONUT.hYBAAnV2sHOiaeCLeF2eUQ&w=640&h=360&c=7&rs=1&pid=News",
+    "excerpt": "RIYADH: Oman has signed a concession agreement with Energy Oman and ExxonMobil to assess and develop gas resources in Greater Makarem, with initial investment expected to exceed $400 million. The…"
+   },
+   "contact": {
+    "ask_for": "Procurement Manager or Project Manager (site communications)",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Energy%20Procurement%20Manager"
+   }
+  },
+  {
    "id": "d225ef9c8bbc",
    "title": "Capella to open Dubai hotel",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZ1dPYlFGYm1saHc1c3I3QzZBLUZTWjJQTzA0eEluRjNRd01heDVVZ012V0lFaFZhV054cDNITlZ4bUVqRE56ZFRxS3VIQklzckhDSURUN2lXWkw0aGJlZ2VfbnpYdk1XT0dQWU9pMzdxVC11cXZFTGRTXzVNdHhBdkZUbUN2Y01oTnNtLXN4SV9mTWxVSWpTbWNvYzE4MGQ2QVN2cGRxeEZFTVE?oc=5",
@@ -825,7 +998,6 @@
    "lead": "Global Partners",
    "client": "",
    "why": "Global Partners just won work in UAE: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers.",
-   "also": 1,
    "preview": {
     "excerpt": "Dutch Foundation & Concrete Processing appointed to deliver enabling works across the entire AED 3 billion master-planned community in DHCC Phase 2",
     "image": "https://media.zawya.com/prod/images/gm_preview/adcb41535d82-mirage-dcg-003-masterplan-aerial-copyright-plomp-large.jpeg",
@@ -936,7 +1108,7 @@
    "contact": {
     "ask_for": "Procurement Manager or Project Manager (site communications)"
    },
-   "also": 2
+   "also": 1
   },
   {
    "id": "56a773f312e8",
@@ -998,7 +1170,6 @@
    "lead": "American Hospital Dubai",
    "client": "",
    "why": "New project in UAE: hospital security, porters and facilities teams use radios. Reach American Hospital Dubai while they are still buying.",
-   "also": 1,
    "preview": {
     "excerpt": "New facilities are a Women & Children’s Hospital, an Outpatient & Day Case Centre, and an Orthopedic & Sports Medicine Hospital near American Hospital at Dubai Science Park",
     "image": "https://media.assettype.com/gulfnews%2F2026-11-16%2Feesut5yo%2FLead-AHD.jpg?rect=0%2C22%2C1110%2C583&w=1200&ar=40%3A21&auto=format%2Ccompress&ogImage=true&mode=crop&enlarge=true&overlay=false&overlay_position=bottom&overlay_width=100",
@@ -1009,7 +1180,8 @@
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=American%20Hospital%20Dubai%20Facilities%20Manager",
     "website": "https://patientportal.ahdubai.com/",
     "guessed": true
-   }
+   },
+   "also": 1
   },
   {
    "id": "46d7985584bd",
@@ -1358,12 +1530,12 @@
    "lead": "MDO",
    "client": "",
    "why": "the company just won work in Oman: site teams need radios, repeaters for coverage and PTP links for site offices/CCTV. Call before they lock in suppliers.",
-   "also": 1,
    "contact": {
     "ask_for": "Procurement Manager or Project Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=MDO%20Procurement%20Manager",
     "website": "http://www.mcgillismusic.com"
-   }
+   },
+   "also": 1
   },
   {
    "id": "627c61e4f3f4",
@@ -1559,11 +1731,9 @@
    "published": "2026-11-11T08:00:00Z",
    "first_seen": "2026-11-24T07:49:29Z",
    "section": "awards",
-   "score": "medium",
+   "score": "low",
    "country": "UAE",
-   "sectors": [
-    "hospitality"
-   ],
+   "sectors": [],
    "matched": {
     "product": [],
     "trigger": [
@@ -1574,15 +1744,15 @@
    "compliance": [],
    "lead": "Cheval South Bay",
    "client": "",
-   "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Cheval South Bay while they are still buying.",
+   "why": "New project in UAE: a new site will need communications. Reach Cheval South Bay while they are still buying.",
    "preview": {
     "excerpt": "Cheval South Bay is scheduled to open in 2030 and will include 98 serviced hotel apartments and 95 branded residences in Dubai South’s Residential District.",
     "image": "https://www.hotelnewsresource.com/ul/4/2026/11/11/tn_1794419174.webp",
     "url": "https://www.hotelnewsresource.com/article143725.html"
    },
    "contact": {
-    "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Cheval%20South%20Bay%20Pre-opening%20General%20Manager",
+    "ask_for": "Procurement Manager or Operations Manager",
+    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Cheval%20South%20Bay%20Procurement%20Manager",
     "website": "https://www.chevalsouthbay.ae/",
     "guessed": true
    }
@@ -1843,7 +2013,8 @@
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Hyatt%20Pre-opening%20General%20Manager",
     "website": "https://www.hyatt.com/"
-   }
+   },
+   "also": 4
   },
   {
    "id": "8e514c870cb6",
@@ -1879,8 +2050,7 @@
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Six%20Senses%20Pre-opening%20General%20Manager",
     "website": "https://www.sixsenses.com"
-   },
-   "also": 2
+   }
   },
   {
    "id": "b8c5448cb68a",
@@ -1958,7 +2128,7 @@
    "source": "The Manila Times",
    "feed": "GN: UAE oil & gas contracts",
    "summary": "",
-   "published": "2026-11-04T10:48:59Z",
+   "published": "2026-11-04T08:00:00Z",
    "first_seen": "2026-11-24T11:25:41Z",
    "section": "awards",
    "score": "medium",
@@ -1986,6 +2156,35 @@
    }
   },
   {
+   "id": "75d75e9faabd",
+   "title": "News | Europe, Middle East and Africa hotel deals, developments: Tivoli opens 100-room hotel in Muscat, Oman",
+   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeGxENWtxcVZQNmhkRV9uMm40UlMtbWpNRnliMVFKbmphRWpJdE9EMHZyd0ZKakE2RDJsaXpEQVpHLWFUYUdwMzh4WmltdU9GY1lzeWF3cnZ2bnBOZlhiMk1OQ25Hd2NmaGxjcUU3R1FkRlktVFd6alJYNm1ubm5pR001cE16LWdOaDhpSm1QcjQxUlczYlYzRzdpS1BKanhMMXpGVEgxQUVuTi1BeElSTU5obktXSlZxcC1ZaVRqVFp3TWVLcU15WC1ybzRLanh1MGt3NQ?oc=5",
+   "source": "CoStar",
+   "feed": "GN: Hotel openings Saudi & Oman",
+   "summary": "",
+   "published": "2026-11-04T08:00:00Z",
+   "first_seen": "2026-11-24T07:45:27Z",
+   "section": "awards",
+   "score": "medium",
+   "country": "Oman",
+   "sectors": [
+    "hospitality"
+   ],
+   "matched": {
+    "product": [],
+    "trigger": [
+     "opens"
+    ]
+   },
+   "compliance": [],
+   "lead": "",
+   "client": "",
+   "why": "New project in Oman: hotel ops, security and housekeeping teams run on two-way radios. Reach the company while they are still buying.",
+   "contact": {
+    "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager"
+   }
+  },
+  {
    "id": "9fb383392779",
    "title": "Capella Hotel Group announces 2030 opening for Dubai hotel",
    "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNbXdwdUJObHZyTFNSUjBMYmFIa3VXMlhNMXM3QmgzTjZhakZSbnNtNTlsYmNEMkh4TnI0ZFZlZ0hEWWZreG1SUThLZ2hlTzk0RHBfTnRWWTE0dDZCQldqS19XangySlRNTzRsc2Vjc0ptT0VnU0FWYkE2OVI4ZkRnb2h1NkVTdVdCTXJMMTdOMHQxWjdtOU1ySUxkMmhhVnJ0cmwzY1o5X3p1R1E?oc=5",
@@ -2010,11 +2209,11 @@
    "lead": "Capella Hotel Group",
    "client": "",
    "why": "New project in UAE: hotel ops, security and housekeeping teams run on two-way radios. Reach Capella Hotel Group while they are still buying.",
-   "also": 5,
    "contact": {
     "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Capella%20Hotel%20Group%20Pre-opening%20General%20Manager"
-   }
+   },
+   "also": 1
   },
   {
    "id": "7c4e8e325be7",
@@ -2047,32 +2246,34 @@
    }
   },
   {
-   "id": "75d75e9faabd",
-   "title": "News | Europe, Middle East and Africa hotel deals, developments: Tivoli opens 100-room hotel in Muscat, Oman",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeGxENWtxcVZQNmhkRV9uMm40UlMtbWpNRnliMVFKbmphRWpJdE9EMHZyd0ZKakE2RDJsaXpEQVpHLWFUYUdwMzh4WmltdU9GY1lzeWF3cnZ2bnBOZlhiMk1OQ25Hd2NmaGxjcUU3R1FkRlktVFd6alJYNm1ubm5pR001cE16LWdOaDhpSm1QcjQxUlczYlYzRzdpS1BKanhMMXpGVEgxQUVuTi1BeElSTU5obktXSlZxcC1ZaVRqVFp3TWVLcU15WC1ybzRLanh1MGt3NQ?oc=5",
-   "source": "CoStar",
-   "feed": "GN: Hotel openings Saudi & Oman",
+   "id": "d20708085cd4",
+   "title": "55 incredible hotels opening soon in the UAE",
+   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01QUthTkgxeGdKUWNXZGhWdHhvdC1HbEhzZm5TSHZtS05UNHhCQ1B3VGR0Q3dYVU1BVFFab3MxM19TWUFPQUE5WHZwWEtucGtER192bW91aEt4WmtNZnNhVDUyYXZpUkhV?oc=5",
+   "source": "What's On",
+   "feed": "GN: Hotel openings UAE",
    "summary": "",
    "published": "2026-11-04T08:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
+   "first_seen": "2026-11-24T07:49:29Z",
    "section": "awards",
-   "score": "medium",
-   "country": "Oman",
-   "sectors": [
-    "hospitality"
-   ],
+   "score": "low",
+   "country": "UAE",
+   "sectors": [],
    "matched": {
     "product": [],
     "trigger": [
-     "opens"
+     "opening"
     ]
    },
    "compliance": [],
    "lead": "",
    "client": "",
-   "why": "New project in Oman: hotel ops, security and housekeeping teams run on two-way radios. Reach the company while they are still buying.",
+   "why": "New project in UAE: a new site will need communications. Reach the company while they are still buying.",
+   "preview": {
+    "excerpt": "There’s an exciting line-up of new properties set to open in the UAE in the coming years. Among them are a seriously wow-worthy array of luxury hotels, complete with a range of exciting dining ...",
+    "url": "https://www.msn.com/en-ae/lifestyle/other/55-incredible-hotels-opening-soon-in-the-uae/ar-AA1WSaC6"
+   },
    "contact": {
-    "ask_for": "Pre-opening General Manager, Director of Engineering or IT Manager"
+    "ask_for": "Procurement Manager or Operations Manager"
    }
   },
   {
@@ -2135,37 +2336,6 @@
    "contact": {
     "ask_for": "Procurement Manager or Operations Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Truckoman%20Procurement%20Manager"
-   }
-  },
-  {
-   "id": "d20708085cd4",
-   "title": "55 incredible hotels opening soon in the UAE",
-   "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE01QUthTkgxeGdKUWNXZGhWdHhvdC1HbEhzZm5TSHZtS05UNHhCQ1B3VGR0Q3dYVU1BVFFab3MxM19TWUFPQUE5WHZwWEtucGtER192bW91aEt4WmtNZnNhVDUyYXZpUkhV?oc=5",
-   "source": "What's On",
-   "feed": "GN: Hotel openings UAE",
-   "summary": "",
-   "published": "2026-11-04T08:00:00Z",
-   "first_seen": "2026-11-24T07:49:29Z",
-   "section": "awards",
-   "score": "low",
-   "country": "UAE",
-   "sectors": [],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "opening"
-    ]
-   },
-   "compliance": [],
-   "lead": "",
-   "client": "",
-   "why": "New project in UAE: a new site will need communications. Reach the company while they are still buying.",
-   "preview": {
-    "excerpt": "There’s an exciting line-up of new properties set to open in the UAE in the coming years. Among them are a seriously wow-worthy array of luxury hotels, complete with a range of exciting dining ...",
-    "url": "https://www.msn.com/en-ae/lifestyle/other/55-incredible-hotels-opening-soon-in-the-uae/ar-AA1WSaC6"
-   },
-   "contact": {
-    "ask_for": "Procurement Manager or Operations Manager"
    }
   },
   {
@@ -2318,46 +2488,9 @@
    "lead": "Al Shubaily Grand Mall In Al Khobar",
    "client": "",
    "why": "New project in Saudi Arabia: mall security, facilities and car-park teams use radios and bodycams. Reach Al Shubaily Grand Mall In Al Khobar while they are still buying.",
-   "also": 1,
    "contact": {
     "ask_for": "Facilities Manager or Security Manager",
     "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Al%20Shubaily%20Grand%20Mall%20In%20Al%20Khobar%20Facilities%20Manager"
-   }
-  },
-  {
-   "id": "0d02bdf43fdb",
-   "title": "Worley wins Petro Rabigh engineering services contract in Saudi Arabia",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPUEVtRU8yOTNVdUJCUlVCS2NtN3hDdno2RHdBSE11N0dnX2ZHTi04YUVmT242M1BYaWFlMjZPQWY0UHpXX3R4ZkNwSVdfT0kteDVCTW9ET0poSkJ2NTA4cXFsX21NSVhtdWdwTXB2NHhBS3UzVnJSdHp3WXBISWtaOGNxaHhuWkVlZk1veGF6eWxzbFVVbWJJTTZGN210MjJVSTVKTDh5TXRud3l6bGxuUkpB?oc=5",
-   "source": "Zawya",
-   "feed": "GN via Zawya: contracts",
-   "summary": "",
-   "published": "2026-10-29T07:00:00Z",
-   "first_seen": "2026-11-24T07:45:27Z",
-   "section": "awards",
-   "score": "low",
-   "country": "Saudi Arabia",
-   "sectors": [],
-   "matched": {
-    "product": [],
-    "trigger": [
-     "contract win"
-    ]
-   },
-   "compliance": [],
-   "lead": "Worley",
-   "client": "",
-   "why": "Worley just won work in Saudi Arabia: a new contract means new teams to equip. Call before they lock in suppliers.",
-   "preview": {
-    "excerpt": "The scope covers potential new process units, utilities, sulfur recovery facilities and associated infrastructure",
-    "url": "https://www.zawya.com/en/projects/worley-wins-petro-rabigh-engineering-services-contract-in-saudi-arabia-1856192"
-   },
-   "contact": {
-    "ask_for": "Procurement Manager or Operations Manager",
-    "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Worley%20Procurement%20Manager",
-    "website": "https://www.worley.com/",
-    "phone": "+61 2 8923 6866",
-    "phone_source": "https://www.worley.com/en/investor-relations/ir-contacts",
-    "contact_page": "https://www.worley.com/en/contact-us"
    }
   }
  ]
